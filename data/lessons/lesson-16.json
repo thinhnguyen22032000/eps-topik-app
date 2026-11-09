@@ -1,0 +1,250 @@
+{
+  "id": "L16",
+  "number": 16,
+  "book": 1,
+  "topic": "agriculture",
+  "title": {
+    "ko": "농업",
+    "vi": "Nông nghiệp"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L16-V001",
+      "group": 1,
+      "ko": "농장",
+      "pos": "Danh từ",
+      "viPhonetic": "nông-chang",
+      "meaning": "Nông trại",
+      "field": "agriculture",
+      "example": {
+        "ko": "저는 농장에서 일합니다.",
+        "vi": "Tôi làm việc ở nông trại."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V002",
+      "group": 1,
+      "ko": "밭",
+      "pos": "Danh từ",
+      "viPhonetic": "bát",
+      "meaning": "Ruộng (khô), vườn",
+      "field": "agriculture",
+      "example": {
+        "ko": "밭에서 채소를 키웁니다.",
+        "vi": "Tôi trồng rau ở ruộng."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V003",
+      "group": 1,
+      "ko": "논",
+      "pos": "Danh từ",
+      "viPhonetic": "nôn",
+      "meaning": "Ruộng lúa",
+      "field": "agriculture",
+      "example": {
+        "ko": "논에서 벼를 심습니다.",
+        "vi": "Tôi cấy lúa ở ruộng."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V004",
+      "group": 1,
+      "ko": "비닐하우스",
+      "pos": "Danh từ",
+      "viPhonetic": "bi-nil-ha-u-xư",
+      "meaning": "Nhà kính (nhà màng)",
+      "field": "agriculture",
+      "example": {
+        "ko": "비닐하우스 안은 덥습니다.",
+        "vi": "Trong nhà kính nóng."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V005",
+      "group": 1,
+      "ko": "씨앗",
+      "pos": "Danh từ",
+      "viPhonetic": "xi-át",
+      "meaning": "Hạt giống",
+      "field": "agriculture",
+      "example": {
+        "ko": "봄에 씨앗을 뿌립니다.",
+        "vi": "Mùa xuân gieo hạt giống."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V006",
+      "group": 2,
+      "ko": "심다",
+      "pos": "Động từ",
+      "viPhonetic": "xim-tà",
+      "meaning": "Trồng, cấy",
+      "field": "agriculture",
+      "example": {
+        "ko": "나무를 심었습니다.",
+        "vi": "Tôi đã trồng cây."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V007",
+      "group": 2,
+      "ko": "물을 주다",
+      "pos": "Động từ",
+      "viPhonetic": "mu-rưl chu-tà",
+      "meaning": "Tưới nước",
+      "field": "agriculture",
+      "example": {
+        "ko": "아침마다 채소에 물을 줍니다.",
+        "vi": "Sáng nào tôi cũng tưới nước cho rau."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V008",
+      "group": 2,
+      "ko": "수확",
+      "pos": "Danh từ",
+      "viPhonetic": "xu-hoác",
+      "meaning": "Thu hoạch",
+      "field": "agriculture",
+      "example": {
+        "ko": "가을에 수확을 합니다.",
+        "vi": "Mùa thu thu hoạch."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V009",
+      "group": 2,
+      "ko": "비료",
+      "pos": "Danh từ",
+      "viPhonetic": "bi-ryô",
+      "meaning": "Phân bón",
+      "field": "agriculture",
+      "example": {
+        "ko": "밭에 비료를 줍니다.",
+        "vi": "Tôi bón phân cho ruộng."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "L16-V010",
+      "group": 2,
+      "ko": "소",
+      "pos": "Danh từ",
+      "viPhonetic": "xô",
+      "meaning": "Con bò",
+      "field": "agriculture",
+      "example": {
+        "ko": "축사에서 소를 키웁니다.",
+        "vi": "Tôi nuôi bò ở chuồng."
+      },
+      "tags": [
+        "agriculture"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L16-G001",
+      "pattern": "-마다",
+      "meaning": "Mỗi… / cứ…",
+      "explanation": "Chỉ sự lặp lại đều đặn.",
+      "formation": "Danh từ + 마다",
+      "examples": [
+        {
+          "ko": "아침마다 밭에 갑니다.",
+          "vi": "Sáng nào tôi cũng ra ruộng."
+        },
+        {
+          "ko": "일요일마다 쉽니다.",
+          "vi": "Chủ nhật nào tôi cũng nghỉ."
+        }
+      ]
+    },
+    {
+      "id": "L16-G002",
+      "pattern": "-(으)러 가다/오다",
+      "meaning": "Đi/đến để…",
+      "explanation": "Chỉ mục đích của việc đi hoặc đến.",
+      "formation": "Có patchim: -으러 · Không: -러",
+      "examples": [
+        {
+          "ko": "채소를 사러 시장에 갑니다.",
+          "vi": "Tôi đi chợ để mua rau."
+        },
+        {
+          "ko": "일하러 한국에 왔습니다.",
+          "vi": "Tôi đến Hàn Quốc để làm việc."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L16-D001",
+      "title": "Việc ở nông trại",
+      "situation": "Chủ nông trại giao việc buổi sáng.",
+      "lines": [
+        {
+          "speaker": "주인",
+          "ko": "아침마다 채소에 물을 주세요.",
+          "vi": "Sáng nào cũng hãy tưới nước cho rau."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네. 비료도 줄까요?",
+          "vi": "Vâng. Có cần bón phân không?"
+        },
+        {
+          "speaker": "주인",
+          "ko": "오늘은 비닐하우스에 가서 씨앗을 심으세요.",
+          "vi": "Hôm nay hãy vào nhà kính gieo hạt."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "알겠습니다. 가을에 수확해요?",
+          "vi": "Tôi hiểu. Mùa thu thì thu hoạch ạ?"
+        }
+      ]
+    }
+  ]
+}

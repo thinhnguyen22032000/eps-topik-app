@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EPS-TOPIK · Ôn thi XKLĐ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-slate-100 min-h-screen text-slate-800">
+  <!-- Thanh trên cùng (chỉ hiện trên mobile): nút hamburger góc trái -->
+  <header id="topbar" class="sticky top-0 z-30 h-12 bg-white shadow flex items-center px-2 gap-2 lg:hidden">
+    <button id="side-open" class="w-10 h-10 grid place-items-center rounded-lg hover:bg-slate-100 text-xl" aria-label="Mở menu" aria-controls="sidebar" aria-expanded="false">☰</button>
+    <span class="font-extrabold text-blue-700 whitespace-nowrap">🐯 EPS-TOPIK</span>
+    <span id="nav-current" class="ml-auto mr-1 text-sm text-slate-500 truncate"></span>
+  </header>
+  <div id="overlay" class="hidden fixed inset-0 bg-slate-900/40 z-30 lg:hidden"></div>
+
+  <!-- SIDEBAR TRÁI -->
+  <aside id="sidebar" aria-label="Điều hướng chính">
+    <div class="flex items-center gap-3 px-4 pt-5 pb-4">
+      <div class="mascot" aria-hidden="true">🐯</div>
+      <div class="leading-tight">
+        <p class="font-extrabold text-lg text-blue-700">KR EPS-TOPIK</p>
+        <p class="text-xs text-slate-400">Ôn thi XKLĐ · 화이팅!</p>
+      </div>
+      <button id="side-close" class="lg:hidden ml-auto w-9 h-9 rounded-lg hover:bg-slate-100" aria-label="Đóng menu">✕</button>
+    </div>
+    <nav id="nav-links" class="flex-1 overflow-y-auto px-3 space-y-1">
+      <button class="side-btn" data-tab="home"><span class="ico">🏠</span>Tổng quan</button>
+      <button class="side-btn" data-tab="hangeul"><span class="ico">🔤</span>Nhập môn (Hangeul)</button>
+      <button class="side-btn" data-tab="lesson"><span class="ico">📚</span>Bài học</button>
+      <button class="side-btn" data-tab="flash"><span class="ico">🃏</span>Flashcard</button>
+      <button class="side-btn" data-tab="grammar"><span class="ico">📖</span>Ngữ pháp</button>
+      <button class="side-btn" data-tab="safety"><span class="ico">🚧</span>Biển báo</button>
+      <button class="side-btn" data-tab="mock"><span class="ico">📝</span>Thi thử</button>
+    </nav>
+    <div class="p-3 border-t border-slate-200">
+      <div id="side-stats" class="flex gap-2 text-sm mb-2"></div>
+      <button id="open-settings" class="side-btn"><span class="ico">⚙️</span>Cài đặt</button>
+    </div>
+  </aside>
+
+  <!-- Hộp thoại cài đặt -->
+  <div id="settings" class="hidden fixed inset-0 z-50 bg-slate-900/50 grid place-items-center p-4">
+    <div class="bg-white rounded-2xl shadow-xl w-full max-w-sm p-6" role="dialog" aria-modal="true" aria-label="Cài đặt">
+      <h2 class="text-lg font-bold mb-3">⚙️ Cài đặt</h2>
+      <div id="settings-info" class="text-sm text-slate-600 space-y-1 mb-4"></div>
+      <button id="reset-all" class="w-full rounded-xl border border-red-300 text-red-600 py-2 mb-2 hover:bg-red-50">Xóa toàn bộ tiến trình</button>
+      <button id="close-settings" class="w-full rounded-xl bg-blue-700 text-white py-2 font-semibold">Đóng</button>
+    </div>
+  </div>
+
+  <div id="content">
+
+  <!-- TAB 0: TỔNG QUAN -->
+  <main id="tab-home" class="tab max-w-4xl mx-auto px-4 py-6"></main>
+
+  <!-- TAB: NHẬP MÔN HANGEUL -->
+  <main id="tab-hangeul" class="tab hidden max-w-4xl mx-auto px-4 py-6"></main>
+
+  <!-- TAB: BÀI HỌC -->
+  <main id="tab-lesson" class="tab hidden max-w-4xl mx-auto px-4 py-6"></main>
+
+  <!-- TAB 1: FLASHCARD -->
+  <main id="tab-flash" class="tab hidden max-w-xl mx-auto px-4 py-6">
+    <header class="mb-4 flex items-center justify-between gap-3">
+      <div class="min-w-0">
+        <select id="lesson-select" class="text-lg font-bold bg-transparent border rounded-lg px-2 py-1 max-w-full" aria-label="Chọn bài"></select>
+        <p id="lesson-sub" class="text-sm text-slate-500 mt-1"></p>
+      </div>
+      <span id="counter" class="text-sm text-slate-500 shrink-0"></span>
+    </header>
+    <div class="h-2 bg-slate-200 rounded-full mb-6 overflow-hidden">
+      <div id="progress" class="h-full bg-blue-600 transition-all" style="width:0"></div>
+    </div>
+    <section id="study">
+      <div class="scene">
+        <div id="card" class="cursor-pointer select-none">
+          <div id="card-inner">
+            <div class="face front bg-white rounded-2xl shadow-lg flex flex-col items-center justify-center p-6">
+              <span id="field" class="absolute top-4 left-4 text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full"></span>
+              <p id="ko" class="text-6xl font-bold mb-6 text-center"></p>
+              <button id="speak" class="w-14 h-14 rounded-full bg-blue-600 text-white text-2xl hover:bg-blue-700" aria-label="Phát âm">🔊</button>
+              <p class="absolute bottom-4 text-xs text-slate-300">Bấm vào thẻ để lật</p>
+            </div>
+            <div class="face back bg-white rounded-2xl shadow-lg flex flex-col items-center justify-center p-6 text-center">
+              <p id="meaning" class="text-3xl font-bold text-blue-700"></p>
+              <p id="vi-phonetic" class="text-slate-500 italic mt-1"></p>
+              <div class="mt-6 w-full bg-amber-50 border border-amber-200 rounded-xl p-4">
+                <p class="text-xs uppercase text-amber-700 mb-1">Câu ví dụ nơi làm việc</p>
+                <p id="ex-ko" class="text-lg font-medium"></p>
+                <p id="ex-ph" class="text-sm text-slate-500 italic"></p>
+                <p id="ex-vi" class="text-sm mt-1"></p>
+                <button id="speak-ex" class="mt-2 text-sm text-blue-600 hover:underline">🔊 Nghe câu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="flip-btn" class="mt-4 w-full rounded-xl bg-blue-700 text-white font-bold py-3 hover:bg-blue-800">Lật thẻ <span class="text-xs font-normal opacity-70">(Space)</span></button>
+      <div id="rate-bar" class="hidden grid grid-cols-2 gap-3 mt-4">
+        <button id="btn-unknown" class="rounded-xl py-3 bg-white border-2 border-orange-400 text-orange-600 font-bold hover:bg-orange-50">✗ Chưa thuộc<br><span class="text-[11px] font-normal opacity-70">ôn lại sau · ←</span></button>
+        <button id="btn-known" class="rounded-xl py-3 bg-green-600 text-white font-bold hover:bg-green-700">✓ Đã thuộc<br><span class="text-[11px] font-normal opacity-80">từ tiếp theo · →</span></button>
+      </div>
+    </section>
+    <section id="finished" class="hidden text-center bg-white rounded-2xl shadow p-10">
+      <p class="text-4xl mb-2">🎉</p>
+      <h2 id="fin-title" class="text-xl font-bold">Hoàn thành bài này!</h2>
+      <p id="fin-sub" class="text-slate-500 mt-1"></p>
+      <div class="flex flex-col sm:flex-row gap-2 justify-center mt-6">
+        <button id="fin-again" class="px-5 py-2.5 rounded-xl border-2 border-blue-600 text-blue-700 font-semibold hover:bg-blue-50">🔁 Ôn lại cả bài</button>
+        <button id="fin-next" class="px-5 py-2.5 rounded-xl bg-blue-700 text-white font-semibold hover:bg-blue-800">Bài tiếp theo →</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- TAB 2: NGỮ PHÁP -->
+  <main id="tab-grammar" class="tab hidden max-w-4xl mx-auto px-4 py-6"></main>
+
+  <!-- TAB 3: BIỂN BÁO -->
+  <main id="tab-safety" class="tab hidden max-w-4xl mx-auto px-4 py-6"></main>
+
+  <!-- TAB 4: THI THỬ -->
+  <main id="tab-mock" class="tab hidden"></main>
+  </div><!-- /#content -->
+
+  <script type="module">
+    import { init as initFlash, setLesson } from "./js/flashcard.js";
+    import { initGrammar } from "./js/grammar.js";
+    import { initSafety } from "./js/safety.js";
+    import { initMock, leaveMock } from "./js/mocktest.js";
+    import { initDashboard } from "./js/dashboard.js";
+    import { initLesson, leaveLesson } from "./js/lesson.js";
+    import { initHangeul } from "./js/hangeul.js";
+    import { streak, totalDays, bestMock, resetAll } from "./js/progress.js";
+    import { loadState } from "./js/srs.js";
+
+    const inits = { hangeul: initHangeul, home: (el) => initDashboard(el, { go: show }), lesson: (el, id) => initLesson(el, { id, go: show }), flash: () => {}, grammar: initGrammar, safety: initSafety, mock: initMock };
+    const loaded = {};
+    function show(tab, arg) {
+      if (tab !== "mock") leaveMock();
+      document.querySelectorAll(".tab").forEach((t) => t.classList.toggle("hidden", t.id !== "tab-" + tab));
+      document.querySelectorAll(".side-btn[data-tab]").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
+      if (tab !== "lesson") leaveLesson();
+      // Tổng quan và Bài học luôn vẽ lại (số liệu mới / bài được chọn); các tab khác chỉ khởi tạo một lần
+      if (tab === "home" || tab === "lesson" || !loaded[tab]) { loaded[tab] = true; inits[tab](document.getElementById("tab-" + tab), arg); }
+      if (tab === "flash" && arg) setLesson(arg);
+      try { history.replaceState(null, "", "#" + tab); } catch {}
+      const act = document.querySelector(".side-btn.active");
+      document.getElementById("nav-current").textContent = act ? act.textContent : "";
+      setMenu(false);
+      updateStats();
+      window.scrollTo(0, 0);
+    }
+
+    // Drawer trên mobile (< 1024px)
+    const sidebar = document.getElementById("sidebar"), overlay = document.getElementById("overlay"), opener = document.getElementById("side-open");
+    function setMenu(open) {
+      sidebar.classList.toggle("open", open);
+      overlay.classList.toggle("hidden", !open);
+      opener.setAttribute("aria-expanded", String(open));
+    }
+    opener.addEventListener("click", () => setMenu(true));
+    document.getElementById("side-close").addEventListener("click", () => setMenu(false));
+    overlay.addEventListener("click", () => setMenu(false));
+    document.querySelectorAll(".side-btn[data-tab]").forEach((b) => b.addEventListener("click", () => show(b.dataset.tab)));
+
+    // Thông tin tiến trình ngắn ở đáy sidebar + hộp thoại cài đặt
+    const settings = document.getElementById("settings");
+    function updateStats() {
+      const learned = Object.keys(loadState()).length;
+      document.getElementById("side-stats").innerHTML =
+        `<span class="stat-pill" title="Chuỗi ngày học">🔥 ${streak()} ngày</span><span class="stat-pill" title="Từ đã học">📚 ${learned} từ</span>`;
+    }
+    const openSettings = (open) => {
+      settings.classList.toggle("hidden", !open);
+      if (open) document.getElementById("settings-info").innerHTML =
+        `<p>🔥 Chuỗi ngày học: <b>${streak()}</b> (tổng ${totalDays()} ngày)</p><p>📚 Từ đã học: <b>${Object.keys(loadState()).length}</b></p><p>📝 Điểm thi cao nhất: <b>${bestMock() ?? "—"}</b>/200</p>`;
+    };
+    document.getElementById("open-settings").addEventListener("click", () => openSettings(true));
+    document.getElementById("close-settings").addEventListener("click", () => openSettings(false));
+    settings.addEventListener("click", (e) => { if (e.target === settings) openSettings(false); });
+    document.getElementById("reset-all").addEventListener("click", () => {
+      if (confirm("Xóa toàn bộ tiến trình học và điểm thi? Không thể hoàn tác.")) { resetAll(); location.reload(); }
+    });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") { setMenu(false); openSettings(false); } });
+    initFlash().then(() => {
+      const start = location.hash.slice(1);
+      show(inits[start] ? start : "home");
+    });
+  </script>
+</body>
+</html>

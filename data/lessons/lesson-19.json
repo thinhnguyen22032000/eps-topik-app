@@ -1,0 +1,250 @@
+{
+  "id": "L19",
+  "number": 19,
+  "book": 1,
+  "topic": "fishery",
+  "title": {
+    "ko": "수산업",
+    "vi": "Thủy sản"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L19-V001",
+      "group": 1,
+      "ko": "바다",
+      "pos": "Động từ",
+      "viPhonetic": "ba-đa",
+      "meaning": "Biển",
+      "field": "fishery",
+      "example": {
+        "ko": "바다에서 일합니다.",
+        "vi": "Tôi làm việc trên biển."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V002",
+      "group": 1,
+      "ko": "배",
+      "pos": "Danh từ",
+      "viPhonetic": "be",
+      "meaning": "Tàu thuyền",
+      "field": "fishery",
+      "example": {
+        "ko": "배를 타고 고기를 잡습니다.",
+        "vi": "Tôi đi tàu đánh cá."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V003",
+      "group": 1,
+      "ko": "물고기",
+      "pos": "Danh từ",
+      "viPhonetic": "mul-kô-ki",
+      "meaning": "Cá",
+      "field": "fishery",
+      "example": {
+        "ko": "물고기를 잡습니다.",
+        "vi": "Tôi bắt cá."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V004",
+      "group": 1,
+      "ko": "어부",
+      "pos": "Danh từ",
+      "viPhonetic": "o-bu",
+      "meaning": "Ngư dân",
+      "field": "fishery",
+      "example": {
+        "ko": "아버지는 어부입니다.",
+        "vi": "Bố tôi là ngư dân."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V005",
+      "group": 1,
+      "ko": "그물",
+      "pos": "Danh từ",
+      "viPhonetic": "kư-mul",
+      "meaning": "Lưới",
+      "field": "fishery",
+      "example": {
+        "ko": "그물을 던집니다.",
+        "vi": "Tôi thả lưới."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V006",
+      "group": 2,
+      "ko": "어시장",
+      "pos": "Danh từ",
+      "viPhonetic": "o-xi-chang",
+      "meaning": "Chợ cá",
+      "field": "fishery",
+      "example": {
+        "ko": "어시장에서 생선을 팝니다.",
+        "vi": "Bán cá ở chợ cá."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V007",
+      "group": 2,
+      "ko": "양식장",
+      "pos": "Danh từ",
+      "viPhonetic": "yang-xik-chang",
+      "meaning": "Trại nuôi trồng thủy sản",
+      "field": "fishery",
+      "example": {
+        "ko": "양식장에서 새우를 키웁니다.",
+        "vi": "Nuôi tôm ở trại nuôi trồng."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V008",
+      "group": 2,
+      "ko": "구명조끼",
+      "pos": "Danh từ",
+      "viPhonetic": "ku-myong-chô-ki",
+      "meaning": "Áo phao",
+      "field": "safety",
+      "example": {
+        "ko": "배에서는 구명조끼를 입으세요.",
+        "vi": "Hãy mặc áo phao trên tàu."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V009",
+      "group": 2,
+      "ko": "파도",
+      "pos": "Danh từ",
+      "viPhonetic": "pha-đô",
+      "meaning": "Sóng",
+      "field": "fishery",
+      "example": {
+        "ko": "파도가 높으면 출항하지 않습니다.",
+        "vi": "Nếu sóng cao thì không ra khơi."
+      },
+      "tags": [
+        "fishery"
+      ]
+    },
+    {
+      "id": "L19-V010",
+      "group": 2,
+      "ko": "얼음",
+      "pos": "Danh từ",
+      "viPhonetic": "o-rưm",
+      "meaning": "Đá lạnh",
+      "field": "fishery",
+      "example": {
+        "ko": "생선에 얼음을 넣습니다.",
+        "vi": "Cho đá vào cá."
+      },
+      "tags": [
+        "fishery"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L19-G001",
+      "pattern": "-기 때문에",
+      "meaning": "Vì… nên…",
+      "explanation": "Nêu nguyên nhân khách quan, dùng được với danh từ (-이기 때문에).",
+      "formation": "Gốc động từ + -기 때문에",
+      "examples": [
+        {
+          "ko": "파도가 높기 때문에 배가 못 나갑니다.",
+          "vi": "Vì sóng cao nên tàu không ra khơi được."
+        },
+        {
+          "ko": "비 때문에 일을 못 했어요.",
+          "vi": "Vì mưa nên tôi không làm việc được."
+        }
+      ]
+    },
+    {
+      "id": "L19-G002",
+      "pattern": "-(으)려고 하다",
+      "meaning": "Định… / dự định…",
+      "explanation": "Diễn tả ý định.",
+      "formation": "Có patchim: -으려고 하다 · Không: -려고 하다",
+      "examples": [
+        {
+          "ko": "다음 달에 고향에 가려고 해요.",
+          "vi": "Tháng sau tôi định về quê."
+        },
+        {
+          "ko": "한국어를 더 배우려고 합니다.",
+          "vi": "Tôi định học tiếng Hàn nhiều hơn."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L19-D001",
+      "title": "Sóng cao, tàu không ra khơi",
+      "situation": "Thuyền trưởng giao việc khi thời tiết xấu.",
+      "lines": [
+        {
+          "speaker": "선장",
+          "ko": "오늘 파도가 높기 때문에 배가 못 나갑니다.",
+          "vi": "Hôm nay sóng cao nên tàu không ra khơi được."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "그럼 무엇을 할까요?",
+          "vi": "Vậy tôi làm gì ạ?"
+        },
+        {
+          "speaker": "선장",
+          "ko": "그물을 고치세요. 배에서는 구명조끼를 입어야 합니다.",
+          "vi": "Hãy sửa lưới. Trên tàu phải mặc áo phao."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네, 알겠습니다. 내일은 출항하려고 해요?",
+          "vi": "Vâng. Ngày mai định ra khơi ạ?"
+        }
+      ]
+    }
+  ]
+}

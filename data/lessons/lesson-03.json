@@ -1,0 +1,485 @@
+{
+  "id": "L03",
+  "number": 3,
+  "book": 1,
+  "topic": "places",
+  "title": {
+    "ko": "장소",
+    "vi": "Địa điểm"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L03-V001",
+      "group": 1,
+      "ko": "집",
+      "pos": "Danh từ",
+      "viPhonetic": "chíp",
+      "meaning": "Nhà",
+      "field": "general",
+      "example": {
+        "ko": "집에서 쉽니다.",
+        "vi": "Tôi nghỉ ở nhà."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V002",
+      "group": 1,
+      "ko": "학교",
+      "pos": "Danh từ",
+      "viPhonetic": "hak-kyô",
+      "meaning": "Trường học",
+      "field": "general",
+      "example": {
+        "ko": "학교에서 한국어를 공부합니다.",
+        "vi": "Tôi học tiếng Hàn ở trường."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V003",
+      "group": 1,
+      "ko": "병원",
+      "pos": "Danh từ",
+      "viPhonetic": "byong-uôn",
+      "meaning": "Bệnh viện",
+      "field": "general",
+      "example": {
+        "ko": "아파서 병원에 갑니다.",
+        "vi": "Vì đau nên tôi đi bệnh viện."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V004",
+      "group": 1,
+      "ko": "은행",
+      "pos": "Danh từ",
+      "viPhonetic": "ưn-heng",
+      "meaning": "Ngân hàng",
+      "field": "general",
+      "example": {
+        "ko": "은행에서 돈을 보냅니다.",
+        "vi": "Tôi gửi tiền ở ngân hàng."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V005",
+      "group": 1,
+      "ko": "식당",
+      "pos": "Danh từ",
+      "viPhonetic": "xik-tang",
+      "meaning": "Nhà ăn, quán ăn",
+      "field": "general",
+      "example": {
+        "ko": "공장 식당에서 점심을 먹습니다.",
+        "vi": "Tôi ăn trưa ở nhà ăn của nhà máy."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V006",
+      "group": 1,
+      "ko": "공원",
+      "pos": "Danh từ",
+      "viPhonetic": "kông-uôn",
+      "meaning": "Công viên",
+      "field": "general",
+      "example": {
+        "ko": "공원에서 산책합니다.",
+        "vi": "Tôi đi dạo ở công viên."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V007",
+      "group": 1,
+      "ko": "편의점",
+      "pos": "Danh từ",
+      "viPhonetic": "phyo-ni-chom",
+      "meaning": "Cửa hàng tiện lợi",
+      "field": "general",
+      "example": {
+        "ko": "편의점에서 물을 샀어요.",
+        "vi": "Tôi mua nước ở cửa hàng tiện lợi."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V008",
+      "group": 1,
+      "ko": "약국",
+      "pos": "Danh từ",
+      "viPhonetic": "yak-guk",
+      "meaning": "Hiệu thuốc",
+      "field": "general",
+      "example": {
+        "ko": "약국에서 약을 삽니다.",
+        "vi": "Tôi mua thuốc ở hiệu thuốc."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V009",
+      "group": 1,
+      "ko": "역",
+      "pos": "Danh từ",
+      "viPhonetic": "yok",
+      "meaning": "Ga, trạm",
+      "field": "general",
+      "example": {
+        "ko": "역은 공장 근처에 있습니다.",
+        "vi": "Ga ở gần nhà máy."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V010",
+      "group": 1,
+      "ko": "근처",
+      "pos": "Danh từ",
+      "viPhonetic": "kưn-chơ",
+      "meaning": "Gần đây, khu vực lân cận",
+      "field": "general",
+      "example": {
+        "ko": "공장 근처에 식당이 있어요.",
+        "vi": "Gần nhà máy có nhà ăn."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V011",
+      "group": 2,
+      "ko": "화장실",
+      "pos": "Danh từ",
+      "viPhonetic": "hoa-chang-xil",
+      "meaning": "Nhà vệ sinh",
+      "field": "general",
+      "example": {
+        "ko": "화장실이 어디예요?",
+        "vi": "Nhà vệ sinh ở đâu?"
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V012",
+      "group": 2,
+      "ko": "기숙사",
+      "pos": "Danh từ",
+      "viPhonetic": "ki-xúc-xa",
+      "meaning": "Ký túc xá",
+      "field": "general",
+      "example": {
+        "ko": "기숙사는 공장 옆에 있습니다.",
+        "vi": "Ký túc xá ở cạnh nhà máy."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V013",
+      "group": 2,
+      "ko": "사무실",
+      "pos": "Danh từ",
+      "viPhonetic": "xa-mu-xil",
+      "meaning": "Văn phòng",
+      "field": "general",
+      "example": {
+        "ko": "사장님은 사무실에 계십니다.",
+        "vi": "Giám đốc đang ở văn phòng."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V014",
+      "group": 2,
+      "ko": "우체국",
+      "pos": "Danh từ",
+      "viPhonetic": "u-chê-guk",
+      "meaning": "Bưu điện",
+      "field": "general",
+      "example": {
+        "ko": "우체국에서 편지를 보냅니다.",
+        "vi": "Tôi gửi thư ở bưu điện."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V015",
+      "group": 2,
+      "ko": "시장",
+      "pos": "Danh từ",
+      "viPhonetic": "xi-chang",
+      "meaning": "Chợ",
+      "field": "general",
+      "example": {
+        "ko": "시장에서 과일을 삽니다.",
+        "vi": "Tôi mua hoa quả ở chợ."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V016",
+      "group": 2,
+      "ko": "창고",
+      "pos": "Danh từ",
+      "viPhonetic": "chang-gô",
+      "meaning": "Kho",
+      "field": "manufacturing",
+      "example": {
+        "ko": "창고에 부품이 있습니다.",
+        "vi": "Trong kho có linh kiện."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V017",
+      "group": 2,
+      "ko": "휴게실",
+      "pos": "Danh từ",
+      "viPhonetic": "hyu-ghê-xil",
+      "meaning": "Phòng nghỉ",
+      "field": "general",
+      "example": {
+        "ko": "휴게실에서 쉽니다.",
+        "vi": "Tôi nghỉ ở phòng nghỉ."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V018",
+      "group": 2,
+      "ko": "출입구",
+      "pos": "Danh từ",
+      "viPhonetic": "chul-íp-ku",
+      "meaning": "Cửa ra vào",
+      "field": "safety",
+      "example": {
+        "ko": "출입구 앞에 서 있지 마세요.",
+        "vi": "Đừng đứng trước cửa ra vào."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V019",
+      "group": 2,
+      "ko": "계단",
+      "pos": "Danh từ",
+      "viPhonetic": "kyê-tan",
+      "meaning": "Cầu thang",
+      "field": "safety",
+      "example": {
+        "ko": "계단에서 뛰지 마세요.",
+        "vi": "Đừng chạy trên cầu thang."
+      },
+      "tags": [
+        "places"
+      ]
+    },
+    {
+      "id": "L03-V020",
+      "group": 2,
+      "ko": "앞",
+      "pos": "Danh từ",
+      "viPhonetic": "áp",
+      "meaning": "Phía trước",
+      "field": "general",
+      "example": {
+        "ko": "공장 앞에 버스가 있어요.",
+        "vi": "Có xe buýt ở trước nhà máy."
+      },
+      "tags": [
+        "places"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L03-G001",
+      "pattern": "-에 있습니다 / 없습니다",
+      "meaning": "Ở / có / không có",
+      "explanation": "Chỉ vị trí tồn tại của người, vật. Với người lớn tuổi dùng 계십니다.",
+      "formation": "Nơi chốn + 에 + 있습니다",
+      "examples": [
+        {
+          "ko": "기숙사는 공장 옆에 있습니다.",
+          "vi": "Ký túc xá ở cạnh nhà máy."
+        },
+        {
+          "ko": "사장님은 사무실에 계십니다.",
+          "vi": "Giám đốc ở văn phòng."
+        }
+      ]
+    },
+    {
+      "id": "L03-G002",
+      "pattern": "-에서",
+      "meaning": "Tại (nơi diễn ra hành động)",
+      "explanation": "Đi với động từ hành động như 일하다, 먹다, 공부하다.",
+      "formation": "Nơi chốn + 에서",
+      "examples": [
+        {
+          "ko": "식당에서 밥을 먹습니다.",
+          "vi": "Tôi ăn cơm ở nhà ăn."
+        },
+        {
+          "ko": "공장에서 일합니다.",
+          "vi": "Tôi làm việc ở nhà máy."
+        }
+      ]
+    },
+    {
+      "id": "L03-G003",
+      "pattern": "위 · 아래 · 앞 · 뒤 · 옆",
+      "meaning": "Từ chỉ vị trí",
+      "explanation": "Đặt sau danh từ để chỉ vị trí tương đối, thường đi với -에 있다/없다.",
+      "formation": "Danh từ + 위/아래/앞/뒤/옆 + 에 있다",
+      "examples": [
+        {
+          "ko": "책상 위에 책이 있습니다.",
+          "vi": "Có sách ở trên bàn."
+        },
+        {
+          "ko": "공장 옆에 기숙사가 있어요.",
+          "vi": "Ký túc xá ở cạnh nhà máy."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L03-D001",
+      "title": "Hỏi đường trong nhà máy",
+      "situation": "Người mới hỏi vị trí nhà vệ sinh và ký túc xá.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "실례합니다. 화장실이 어디예요?",
+          "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "저기 사무실 옆에 있어요.",
+          "vi": "Ở kia, cạnh văn phòng."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "기숙사는 어디에 있어요?",
+          "vi": "Ký túc xá ở đâu ạ?"
+        },
+        {
+          "speaker": "직원",
+          "ko": "기숙사는 공장 뒤에 있습니다.",
+          "vi": "Ký túc xá ở phía sau nhà máy."
+        }
+      ]
+    },
+    {
+      "id": "L03-D002",
+      "title": "Hỏi đường đến hiệu thuốc",
+      "situation": "Anh Nguyễn bị đau đầu và hỏi người qua đường.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "실례합니다. 이 근처에 약국이 있어요?",
+          "vi": "Xin lỗi, gần đây có hiệu thuốc không?"
+        },
+        {
+          "speaker": "행인",
+          "ko": "네, 편의점 옆에 있어요.",
+          "vi": "Có, ở cạnh cửa hàng tiện lợi."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "편의점은 어디에 있어요?",
+          "vi": "Cửa hàng tiện lợi ở đâu ạ?"
+        },
+        {
+          "speaker": "행인",
+          "ko": "저기 역 앞에 있어요. 이 길로 쭉 가세요.",
+          "vi": "Ở trước ga kia. Hãy đi thẳng con đường này."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "멀어요?",
+          "vi": "Có xa không?"
+        },
+        {
+          "speaker": "행인",
+          "ko": "아니요, 가까워요. 걸어서 오 분 걸려요.",
+          "vi": "Không, gần thôi. Đi bộ mất 5 phút."
+        }
+      ]
+    }
+  ],
+  "culture": {
+    "title": "Nơi cần biết và số khẩn cấp",
+    "items": [
+      {
+        "h": "Số khẩn cấp",
+        "body": "119: cứu hỏa và cấp cứu; 112: cảnh sát. Hãy lưu sẵn trong điện thoại."
+      },
+      {
+        "h": "Hiệu thuốc và bệnh viện",
+        "body": "약국 bán thuốc, một số thuốc cần đơn của bác sĩ. Khi đi khám nên mang giấy tờ tùy thân và thẻ bảo hiểm nếu có."
+      },
+      {
+        "h": "Trung tâm hỗ trợ lao động nước ngoài",
+        "body": "Nhiều địa phương có trung tâm hỗ trợ lao động nước ngoài, tư vấn bằng nhiều ngôn ngữ về hợp đồng, lương, thủ tục. Hãy hỏi công ty hoặc tra cứu số điện thoại hiện hành."
+      },
+      {
+        "h": "Biết lối thoát hiểm ngay ngày đầu",
+        "body": "Hãy xem vị trí 비상구 (lối thoát hiểm) và 소화기 (bình chữa cháy) ở nơi làm việc và ký túc xá ngay từ ngày đầu."
+      }
+    ]
+  }
+}

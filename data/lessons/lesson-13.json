@@ -1,0 +1,250 @@
+{
+  "id": "L13",
+  "number": 13,
+  "book": 1,
+  "topic": "housing",
+  "title": {
+    "ko": "집과 생활",
+    "vi": "Nhà ở và sinh hoạt"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L13-V001",
+      "group": 1,
+      "ko": "방",
+      "pos": "Danh từ",
+      "viPhonetic": "bang",
+      "meaning": "Phòng",
+      "field": "general",
+      "example": {
+        "ko": "방이 깨끗합니다.",
+        "vi": "Phòng sạch sẽ."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V002",
+      "group": 1,
+      "ko": "문",
+      "pos": "Danh từ",
+      "viPhonetic": "mun",
+      "meaning": "Cửa",
+      "field": "general",
+      "example": {
+        "ko": "문을 닫아 주세요.",
+        "vi": "Hãy đóng cửa giúp tôi."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V003",
+      "group": 1,
+      "ko": "창문",
+      "pos": "Danh từ",
+      "viPhonetic": "chang-mun",
+      "meaning": "Cửa sổ",
+      "field": "general",
+      "example": {
+        "ko": "창문을 열면 시원합니다.",
+        "vi": "Mở cửa sổ thì mát."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V004",
+      "group": 1,
+      "ko": "침대",
+      "pos": "Danh từ",
+      "viPhonetic": "chim-đê",
+      "meaning": "Giường",
+      "field": "general",
+      "example": {
+        "ko": "기숙사에는 침대가 두 개 있어요.",
+        "vi": "Ký túc xá có hai cái giường."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V005",
+      "group": 1,
+      "ko": "부엌",
+      "pos": "Danh từ",
+      "viPhonetic": "bu-ok",
+      "meaning": "Bếp",
+      "field": "general",
+      "example": {
+        "ko": "부엌에서 요리합니다.",
+        "vi": "Tôi nấu ăn ở bếp."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V006",
+      "group": 2,
+      "ko": "세탁기",
+      "pos": "Danh từ",
+      "viPhonetic": "xê-thak-ki",
+      "meaning": "Máy giặt",
+      "field": "general",
+      "example": {
+        "ko": "세탁기로 작업복을 빨아요.",
+        "vi": "Tôi giặt đồ bảo hộ bằng máy giặt."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V007",
+      "group": 2,
+      "ko": "냉장고",
+      "pos": "Danh từ",
+      "viPhonetic": "neng-chang-gô",
+      "meaning": "Tủ lạnh",
+      "field": "general",
+      "example": {
+        "ko": "음식을 냉장고에 넣으세요.",
+        "vi": "Hãy cho đồ ăn vào tủ lạnh."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V008",
+      "group": 2,
+      "ko": "전기",
+      "pos": "Danh từ",
+      "viPhonetic": "chon-ki",
+      "meaning": "Điện",
+      "field": "safety",
+      "example": {
+        "ko": "전기를 끄고 나가세요.",
+        "vi": "Hãy tắt điện rồi đi ra."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V009",
+      "group": 2,
+      "ko": "청소하다",
+      "pos": "Động từ",
+      "viPhonetic": "chong-xô-ha-tà",
+      "meaning": "Dọn dẹp",
+      "field": "general",
+      "example": {
+        "ko": "주말에 방을 청소합니다.",
+        "vi": "Cuối tuần tôi dọn phòng."
+      },
+      "tags": [
+        "housing"
+      ]
+    },
+    {
+      "id": "L13-V010",
+      "group": 2,
+      "ko": "빌리다",
+      "pos": "Động từ",
+      "viPhonetic": "bil-li-tà",
+      "meaning": "Mượn, thuê",
+      "field": "general",
+      "example": {
+        "ko": "친구에게 사전을 빌렸어요.",
+        "vi": "Tôi mượn từ điển của bạn."
+      },
+      "tags": [
+        "housing"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L13-G001",
+      "pattern": "-아/어 주세요",
+      "meaning": "Xin hãy… giúp tôi",
+      "explanation": "Nhờ ai làm gì cho mình.",
+      "formation": "Gốc động từ + 아/어 주세요",
+      "examples": [
+        {
+          "ko": "문을 열어 주세요.",
+          "vi": "Xin hãy mở cửa giúp tôi."
+        },
+        {
+          "ko": "천천히 말해 주세요.",
+          "vi": "Xin hãy nói chậm lại."
+        }
+      ]
+    },
+    {
+      "id": "L13-G002",
+      "pattern": "-고 있다",
+      "meaning": "Đang…",
+      "explanation": "Hành động đang diễn ra.",
+      "formation": "Gốc động từ + -고 있다",
+      "examples": [
+        {
+          "ko": "지금 청소하고 있어요.",
+          "vi": "Bây giờ tôi đang dọn dẹp."
+        },
+        {
+          "ko": "사장님이 기다리고 계십니다.",
+          "vi": "Giám đốc đang đợi."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L13-D001",
+      "title": "Trong ký túc xá",
+      "situation": "Hai bạn cùng phòng nói chuyện buổi tối.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "방이 좀 추워요. 창문을 닫아 주세요.",
+          "vi": "Phòng hơi lạnh. Làm ơn đóng cửa sổ giúp."
+        },
+        {
+          "speaker": "룸메이트",
+          "ko": "네, 닫을게요. 지금 뭐 하고 있어요?",
+          "vi": "Vâng, tôi sẽ đóng. Bây giờ bạn đang làm gì?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "세탁기로 작업복을 빨고 있어요.",
+          "vi": "Tôi đang giặt đồ bảo hộ bằng máy giặt."
+        },
+        {
+          "speaker": "룸메이트",
+          "ko": "나갈 때 전기를 꺼 주세요.",
+          "vi": "Khi ra ngoài làm ơn tắt điện."
+        }
+      ]
+    }
+  ]
+}

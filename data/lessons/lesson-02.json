@@ -1,0 +1,485 @@
+{
+  "id": "L02",
+  "number": 2,
+  "book": 1,
+  "topic": "identity",
+  "title": {
+    "ko": "국적과 직업",
+    "vi": "Quốc tịch và nghề nghiệp"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L02-V001",
+      "group": 1,
+      "ko": "한국",
+      "pos": "Danh từ",
+      "viPhonetic": "han-guk",
+      "meaning": "Hàn Quốc",
+      "field": "general",
+      "example": {
+        "ko": "저는 한국에서 일합니다.",
+        "vi": "Tôi làm việc ở Hàn Quốc."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V002",
+      "group": 1,
+      "ko": "베트남",
+      "pos": "Danh từ",
+      "viPhonetic": "bê-thư-nam",
+      "meaning": "Việt Nam",
+      "field": "general",
+      "example": {
+        "ko": "저는 베트남 사람입니다.",
+        "vi": "Tôi là người Việt Nam."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V003",
+      "group": 1,
+      "ko": "사람",
+      "pos": "Danh từ",
+      "viPhonetic": "sa-ram",
+      "meaning": "Người",
+      "field": "general",
+      "example": {
+        "ko": "저 사람은 우리 사장님입니다.",
+        "vi": "Người kia là giám đốc của chúng tôi."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V004",
+      "group": 1,
+      "ko": "학생",
+      "pos": "Danh từ",
+      "viPhonetic": "hak-xeng",
+      "meaning": "Học sinh, sinh viên",
+      "field": "general",
+      "example": {
+        "ko": "동생은 학생입니다.",
+        "vi": "Em tôi là học sinh."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V005",
+      "group": 1,
+      "ko": "회사원",
+      "pos": "Danh từ",
+      "viPhonetic": "huê-sa-uôn",
+      "meaning": "Nhân viên công ty",
+      "field": "general",
+      "example": {
+        "ko": "형은 회사원입니다.",
+        "vi": "Anh tôi là nhân viên công ty."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V006",
+      "group": 1,
+      "ko": "외국",
+      "pos": "Danh từ",
+      "viPhonetic": "uê-guk",
+      "meaning": "Nước ngoài",
+      "field": "general",
+      "example": {
+        "ko": "외국에서 일하고 싶어요.",
+        "vi": "Tôi muốn làm việc ở nước ngoài."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V007",
+      "group": 1,
+      "ko": "나라",
+      "pos": "Danh từ",
+      "viPhonetic": "na-ra",
+      "meaning": "Đất nước",
+      "field": "general",
+      "example": {
+        "ko": "어느 나라 사람이에요?",
+        "vi": "Bạn là người nước nào?"
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V008",
+      "group": 1,
+      "ko": "일본",
+      "pos": "Danh từ",
+      "viPhonetic": "il-bôn",
+      "meaning": "Nhật Bản",
+      "field": "general",
+      "example": {
+        "ko": "일본 사람도 이 공장에서 일해요.",
+        "vi": "Người Nhật cũng làm ở nhà máy này."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V009",
+      "group": 1,
+      "ko": "중국",
+      "pos": "Danh từ",
+      "viPhonetic": "chung-guk",
+      "meaning": "Trung Quốc",
+      "field": "general",
+      "example": {
+        "ko": "중국 기계를 사용합니다.",
+        "vi": "Tôi dùng máy của Trung Quốc."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V010",
+      "group": 1,
+      "ko": "기술자",
+      "pos": "Danh từ",
+      "viPhonetic": "ki-xul-cha",
+      "meaning": "Kỹ thuật viên",
+      "field": "manufacturing",
+      "example": {
+        "ko": "기술자가 기계를 고칩니다.",
+        "vi": "Kỹ thuật viên sửa máy."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V011",
+      "group": 2,
+      "ko": "농부",
+      "pos": "Danh từ",
+      "viPhonetic": "nông-bu",
+      "meaning": "Nông dân",
+      "field": "agriculture",
+      "example": {
+        "ko": "아버지는 농부입니다.",
+        "vi": "Bố tôi là nông dân."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V012",
+      "group": 2,
+      "ko": "근로자",
+      "pos": "Danh từ",
+      "viPhonetic": "kưn-lô-cha",
+      "meaning": "Người lao động",
+      "field": "general",
+      "example": {
+        "ko": "저는 외국인 근로자입니다.",
+        "vi": "Tôi là lao động nước ngoài."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V013",
+      "group": 2,
+      "ko": "선생님",
+      "pos": "Danh từ",
+      "viPhonetic": "xon-seng-nim",
+      "meaning": "Giáo viên",
+      "field": "general",
+      "example": {
+        "ko": "한국어 선생님이 오셨습니다.",
+        "vi": "Cô giáo tiếng Hàn đã đến."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V014",
+      "group": 2,
+      "ko": "친구",
+      "pos": "Danh từ",
+      "viPhonetic": "chin-gu",
+      "meaning": "Bạn bè",
+      "field": "general",
+      "example": {
+        "ko": "친구는 공장에서 일합니다.",
+        "vi": "Bạn tôi làm ở nhà máy."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V015",
+      "group": 2,
+      "ko": "가족",
+      "pos": "Danh từ",
+      "viPhonetic": "ka-chôk",
+      "meaning": "Gia đình",
+      "field": "general",
+      "example": {
+        "ko": "가족이 베트남에 있습니다.",
+        "vi": "Gia đình tôi ở Việt Nam."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V016",
+      "group": 2,
+      "ko": "요리사",
+      "pos": "Danh từ",
+      "viPhonetic": "yô-ri-xa",
+      "meaning": "Đầu bếp",
+      "field": "general",
+      "example": {
+        "ko": "요리사가 식당에서 일합니다.",
+        "vi": "Đầu bếp làm việc ở nhà ăn."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V017",
+      "group": 2,
+      "ko": "운전기사",
+      "pos": "Danh từ",
+      "viPhonetic": "un-chon-ki-xa",
+      "meaning": "Tài xế",
+      "field": "general",
+      "example": {
+        "ko": "운전기사가 트럭을 운전합니다.",
+        "vi": "Tài xế lái xe tải."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V018",
+      "group": 2,
+      "ko": "의사",
+      "pos": "Danh từ",
+      "viPhonetic": "ưi-xa",
+      "meaning": "Bác sĩ",
+      "field": "general",
+      "example": {
+        "ko": "의사가 병원에 있습니다.",
+        "vi": "Bác sĩ đang ở bệnh viện."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V019",
+      "group": 2,
+      "ko": "어머니",
+      "pos": "Danh từ",
+      "viPhonetic": "o-mo-ni",
+      "meaning": "Mẹ",
+      "field": "general",
+      "example": {
+        "ko": "어머니는 베트남에 계십니다.",
+        "vi": "Mẹ tôi ở Việt Nam."
+      },
+      "tags": [
+        "identity"
+      ]
+    },
+    {
+      "id": "L02-V020",
+      "group": 2,
+      "ko": "아버지",
+      "pos": "Danh từ",
+      "viPhonetic": "a-bo-chi",
+      "meaning": "Bố",
+      "field": "general",
+      "example": {
+        "ko": "아버지는 고향에서 일하십니다.",
+        "vi": "Bố tôi làm việc ở quê."
+      },
+      "tags": [
+        "identity"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L02-G001",
+      "pattern": "-이/가",
+      "meaning": "Trợ từ chủ ngữ",
+      "explanation": "Chỉ chủ thể của hành động/trạng thái, nhấn thông tin mới.",
+      "formation": "Có patchim: 이 · Không patchim: 가",
+      "examples": [
+        {
+          "ko": "기계가 고장 났습니다.",
+          "vi": "Máy bị hỏng rồi."
+        },
+        {
+          "ko": "친구가 옵니다.",
+          "vi": "Bạn tôi đến."
+        }
+      ]
+    },
+    {
+      "id": "L02-G002",
+      "pattern": "-이/가 아닙니다",
+      "meaning": "Không phải là…",
+      "explanation": "Phủ định của '-입니다'.",
+      "formation": "Danh từ + 이/가 아닙니다",
+      "examples": [
+        {
+          "ko": "저는 학생이 아닙니다.",
+          "vi": "Tôi không phải là học sinh."
+        },
+        {
+          "ko": "이것은 안전모가 아닙니다.",
+          "vi": "Đây không phải là mũ bảo hộ."
+        }
+      ]
+    },
+    {
+      "id": "L02-G003",
+      "pattern": "-와/과",
+      "meaning": "Và, cùng với",
+      "explanation": "Nối hai danh từ, hoặc chỉ 'cùng với ai'.",
+      "formation": "Có patchim: 과 · Không patchim: 와",
+      "examples": [
+        {
+          "ko": "책과 연필이 있습니다.",
+          "vi": "Có sách và bút chì."
+        },
+        {
+          "ko": "친구와 같이 일합니다.",
+          "vi": "Tôi làm cùng bạn."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L02-D001",
+      "title": "Hỏi quốc tịch, nghề nghiệp",
+      "situation": "Hai đồng nghiệp làm quen trong giờ nghỉ.",
+      "lines": [
+        {
+          "speaker": "민수",
+          "ko": "저는 한국 사람입니다. 응우옌 씨는 어느 나라 사람이에요?",
+          "vi": "Tôi là người Hàn. Anh Nguyễn là người nước nào?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "저는 베트남 사람입니다. 민수 씨는 회사원이에요?",
+          "vi": "Tôi là người Việt Nam. Anh Minsu là nhân viên công ty à?"
+        },
+        {
+          "speaker": "민수",
+          "ko": "네, 회사원입니다. 응우옌 씨는 학생이에요?",
+          "vi": "Vâng. Anh Nguyễn là sinh viên à?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "아니요, 학생이 아닙니다. 근로자입니다.",
+          "vi": "Không, tôi không phải sinh viên. Tôi là người lao động."
+        }
+      ]
+    },
+    {
+      "id": "L02-D002",
+      "title": "Nói chuyện về gia đình",
+      "situation": "Giờ nghỉ trưa, hai đồng nghiệp hỏi nhau về gia đình.",
+      "lines": [
+        {
+          "speaker": "동료",
+          "ko": "응우옌 씨, 가족이 몇 명이에요?",
+          "vi": "Anh Nguyễn, gia đình anh có mấy người?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "다섯 명이에요. 어머니, 아버지, 동생 두 명과 저입니다.",
+          "vi": "Năm người. Mẹ, bố, hai em và tôi."
+        },
+        {
+          "speaker": "동료",
+          "ko": "아버지는 무슨 일을 하세요?",
+          "vi": "Bố anh làm nghề gì?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "농부입니다. 베트남에서 쌀을 키웁니다.",
+          "vi": "Là nông dân. Bố trồng lúa ở Việt Nam."
+        },
+        {
+          "speaker": "동료",
+          "ko": "그래요? 저도 고향에서 농사를 지었어요.",
+          "vi": "Vậy à? Tôi cũng từng làm nông ở quê."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "정말요? 우리 이야기를 더 해요.",
+          "vi": "Thật sao? Chúng ta nói chuyện thêm đi."
+        }
+      ]
+    }
+  ],
+  "culture": {
+    "title": "Cách xưng hô và kính ngữ nơi làm việc",
+    "items": [
+      {
+        "h": "Tên + 씨 và chức danh + 님",
+        "body": "Đồng nghiệp ngang cấp thường gọi nhau bằng tên + 씨. Với cấp trên, gọi theo chức danh + 님 (사장님, 반장님), không gọi tên trống không."
+      },
+      {
+        "h": "Thứ bậc và tuổi tác",
+        "body": "Người Hàn coi trọng thứ bậc. Hãy dùng thể trang trọng hoặc -(으)세요 với cấp trên và người lớn tuổi."
+      },
+      {
+        "h": "Hỏi chuyện gia đình",
+        "body": "Hỏi về gia đình, quê quán là cách làm quen thông thường, không phải tò mò quá mức. Bạn cũng có thể hỏi lại như vậy."
+      },
+      {
+        "h": "Đúng giờ",
+        "body": "Đến sớm vài phút trước giờ làm thường được xem là lịch sự. Nếu đến muộn, hãy báo và xin lỗi (죄송합니다)."
+      }
+    ]
+  }
+}

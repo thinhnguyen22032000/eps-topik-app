@@ -1,0 +1,108 @@
+{
+  "points": [
+    {
+      "id": "G01",
+      "pattern": "-은/는  vs  -이/가",
+      "meaning": "Trợ từ chủ đề / trợ từ chủ ngữ",
+      "explanation": "-은/는 nêu chủ đề hoặc so sánh, đối chiếu. -이/가 chỉ ra chủ ngữ mới hoặc chủ thể cần nhấn mạnh (thường đi với câu hỏi 누가, 뭐가).",
+      "formation": "Có patchim: 은 / 이  ·  Không patchim: 는 / 가",
+      "examples": [
+        { "ko": "저는 베트남 사람입니다.", "vi": "Tôi là người Việt Nam. (giới thiệu bản thân)" },
+        { "ko": "기계가 고장 났습니다.", "vi": "Máy bị hỏng rồi. (thông tin mới)" }
+      ]
+    },
+    {
+      "id": "G02",
+      "pattern": "-에  vs  -에서",
+      "meaning": "Địa điểm: đích đến/tồn tại  vs  nơi diễn ra hành động",
+      "explanation": "-에 đi với động từ di chuyển (가다, 오다) và tồn tại (있다, 없다). -에서 đi với hành động diễn ra tại nơi đó (일하다, 먹다, 만나다).",
+      "formation": "Danh từ chỉ nơi chốn + 에 / 에서",
+      "examples": [
+        { "ko": "내일 공장에 갑니다.", "vi": "Ngày mai tôi đến nhà máy." },
+        { "ko": "공장에서 일합니다.", "vi": "Tôi làm việc ở nhà máy." }
+      ]
+    },
+    {
+      "id": "G03",
+      "pattern": "안  vs  못",
+      "meaning": "Phủ định ý chí  vs  phủ định khả năng",
+      "explanation": "안 = không làm (do không muốn/không có). 못 = không thể làm (do không đủ khả năng hoặc hoàn cảnh).",
+      "formation": "안/못 + động từ  ·  hoặc  -지 않다 / -지 못하다",
+      "examples": [
+        { "ko": "저는 술을 안 마십니다.", "vi": "Tôi không uống rượu. (không muốn)" },
+        { "ko": "아파서 일을 못 합니다.", "vi": "Vì ốm nên tôi không thể làm việc." }
+      ]
+    },
+    {
+      "id": "G04",
+      "pattern": "-지 마세요  vs  -지 않아요",
+      "meaning": "Cấm đoán/yêu cầu đừng làm  vs  phủ định thông thường",
+      "explanation": "-지 마세요 là mệnh lệnh \"đừng…\", xuất hiện nhiều trong biển báo và lời dặn an toàn. -지 않아요 chỉ là câu trần thuật phủ định.",
+      "formation": "Gốc động từ + -지 마세요 / -지 않아요",
+      "examples": [
+        { "ko": "기계를 만지지 마세요.", "vi": "Đừng chạm vào máy." },
+        { "ko": "기계를 만지지 않아요.", "vi": "Tôi không chạm vào máy." }
+      ]
+    },
+    {
+      "id": "G05",
+      "pattern": "-아/어서  vs  -(으)니까",
+      "meaning": "Vì… nên… (hai cách nói nguyên nhân)",
+      "explanation": "-아/어서: nguyên nhân khách quan; KHÔNG dùng với mệnh lệnh -(으)세요 / đề nghị -(으)ㅂ시다 ở vế sau. -(으)니까: dùng khi vế sau là mệnh lệnh, đề nghị.",
+      "formation": "-아/어서  ·  -(으)니까",
+      "examples": [
+        { "ko": "아파서 병원에 갔습니다.", "vi": "Vì đau nên tôi đã đi bệnh viện." },
+        { "ko": "위험하니까 만지지 마세요.", "vi": "Vì nguy hiểm nên đừng chạm vào." }
+      ]
+    },
+    {
+      "id": "G06",
+      "pattern": "-(으)ㄹ 때",
+      "meaning": "Khi… / lúc…",
+      "explanation": "Chỉ thời điểm xảy ra hành động hoặc trạng thái. Rất hay gặp trong câu dặn an toàn lao động.",
+      "formation": "Có patchim: -을 때  ·  Không patchim: -ㄹ 때",
+      "examples": [
+        { "ko": "용접할 때 보안경을 쓰세요.", "vi": "Khi hàn hãy đeo kính bảo hộ." },
+        { "ko": "작업을 시작할 때 안전모를 쓰세요.", "vi": "Khi bắt đầu làm việc hãy đội mũ bảo hộ." }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "id": "P01",
+      "a": { "label": "-입니다", "use": "Trang trọng (với giám đốc, phỏng vấn)", "example": "저는 학생입니다." },
+      "b": { "label": "-이에요/예요", "use": "Thân mật lịch sự (đồng nghiệp)", "example": "저는 학생이에요." },
+      "tip": "Nghĩa giống nhau, khác mức độ lịch sự. Đề nghe thường dùng cả hai."
+    },
+    {
+      "id": "P02",
+      "a": { "label": "-에", "use": "Đích đến, thời gian, nơi tồn tại", "example": "7시에 공장에 갑니다." },
+      "b": { "label": "-에서", "use": "Nơi diễn ra hành động / xuất phát", "example": "공장에서 일합니다." },
+      "tip": "Nhìn động từ: 가다/오다/있다 → 에 ; 일하다/먹다/만나다 → 에서."
+    },
+    {
+      "id": "P03",
+      "a": { "label": "안", "use": "Không muốn / không làm", "example": "술을 안 마셔요." },
+      "b": { "label": "못", "use": "Không thể (thiếu khả năng/hoàn cảnh)", "example": "바빠서 못 가요." },
+      "tip": "Có lý do bất khả kháng (bận, ốm) → 못."
+    },
+    {
+      "id": "P04",
+      "a": { "label": "-아/어서", "use": "Nguyên nhân; vế sau KHÔNG là mệnh lệnh", "example": "피곤해서 쉬었어요." },
+      "b": { "label": "-(으)니까", "use": "Nguyên nhân; vế sau được là mệnh lệnh/đề nghị", "example": "피곤하니까 쉬세요." },
+      "tip": "Thấy -(으)세요 hoặc -(으)ㅂ시다 ở vế sau → chọn -(으)니까."
+    },
+    {
+      "id": "P05",
+      "a": { "label": "-고 싶다", "use": "Muốn làm (chủ ngữ ngôi 1, 2)", "example": "한국에서 일하고 싶어요." },
+      "b": { "label": "-(으)세요", "use": "Mời / yêu cầu làm", "example": "여기에 앉으세요." },
+      "tip": "싶다 nói về mong muốn của mình; -(으)세요 hướng tới người nghe."
+    },
+    {
+      "id": "P06",
+      "a": { "label": "있다 / 없다", "use": "Có / không có (đồ vật, người)", "example": "공장에 기계가 있어요." },
+      "b": { "label": "계시다", "use": "Kính ngữ của 있다 (người trên)", "example": "사장님이 계십니다." },
+      "tip": "Với giám đốc, người lớn tuổi dùng 계시다, không dùng 있다."
+    }
+  ]
+}

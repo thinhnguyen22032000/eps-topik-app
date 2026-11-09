@@ -1,0 +1,250 @@
+{
+  "id": "L20",
+  "number": 20,
+  "book": 1,
+  "topic": "work-life",
+  "title": {
+    "ko": "직장 생활",
+    "vi": "Cuộc sống nơi làm việc"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L20-V001",
+      "group": 1,
+      "ko": "보고",
+      "pos": "Danh từ",
+      "viPhonetic": "bô-gô",
+      "meaning": "Báo cáo",
+      "field": "general",
+      "example": {
+        "ko": "사장님께 보고하세요.",
+        "vi": "Hãy báo cáo với giám đốc."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V002",
+      "group": 1,
+      "ko": "지시",
+      "pos": "Danh từ",
+      "viPhonetic": "chi-xi",
+      "meaning": "Chỉ thị",
+      "field": "general",
+      "example": {
+        "ko": "사장님의 지시를 듣습니다.",
+        "vi": "Tôi nghe chỉ thị của giám đốc."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V003",
+      "group": 1,
+      "ko": "회의",
+      "pos": "Danh từ",
+      "viPhonetic": "huê-ưi",
+      "meaning": "Cuộc họp",
+      "field": "general",
+      "example": {
+        "ko": "아침에 회의가 있습니다.",
+        "vi": "Buổi sáng có cuộc họp."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V004",
+      "group": 1,
+      "ko": "계약",
+      "pos": "Danh từ",
+      "viPhonetic": "kyê-yak",
+      "meaning": "Hợp đồng",
+      "field": "general",
+      "example": {
+        "ko": "근로 계약서를 읽어 보세요.",
+        "vi": "Hãy đọc hợp đồng lao động."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V005",
+      "group": 1,
+      "ko": "휴게시간",
+      "pos": "Danh từ",
+      "viPhonetic": "hyu-ghê-xi-gan",
+      "meaning": "Giờ nghỉ giải lao",
+      "field": "general",
+      "example": {
+        "ko": "휴게시간에 커피를 마십니다.",
+        "vi": "Tôi uống cà phê vào giờ giải lao."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V006",
+      "group": 2,
+      "ko": "급여",
+      "pos": "Danh từ",
+      "viPhonetic": "kưp-yo",
+      "meaning": "Tiền lương",
+      "field": "general",
+      "example": {
+        "ko": "급여는 은행 계좌로 받습니다.",
+        "vi": "Nhận lương qua tài khoản ngân hàng."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V007",
+      "group": 2,
+      "ko": "보험",
+      "pos": "Danh từ",
+      "viPhonetic": "bô-hom",
+      "meaning": "Bảo hiểm",
+      "field": "general",
+      "example": {
+        "ko": "건강 보험에 가입했습니다.",
+        "vi": "Tôi đã tham gia bảo hiểm y tế."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V008",
+      "group": 2,
+      "ko": "동료",
+      "pos": "Danh từ",
+      "viPhonetic": "tông-ryô",
+      "meaning": "Đồng nghiệp",
+      "field": "general",
+      "example": {
+        "ko": "동료와 같이 일합니다.",
+        "vi": "Tôi làm cùng đồng nghiệp."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V009",
+      "group": 2,
+      "ko": "질문",
+      "pos": "Danh từ",
+      "viPhonetic": "chil-mun",
+      "meaning": "Câu hỏi",
+      "field": "general",
+      "example": {
+        "ko": "질문이 있으면 말씀하세요.",
+        "vi": "Nếu có câu hỏi hãy nói."
+      },
+      "tags": [
+        "work-life"
+      ]
+    },
+    {
+      "id": "L20-V010",
+      "group": 2,
+      "ko": "도와주다",
+      "pos": "Động từ",
+      "viPhonetic": "tô-oa-chu-tà",
+      "meaning": "Giúp đỡ",
+      "field": "general",
+      "example": {
+        "ko": "동료를 도와줍니다.",
+        "vi": "Tôi giúp đồng nghiệp."
+      },
+      "tags": [
+        "work-life"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L20-G001",
+      "pattern": "-(으)ㄹ게요",
+      "meaning": "Tôi sẽ… (hứa, quyết định tại chỗ)",
+      "explanation": "Người nói hứa hoặc quyết định làm gì với người nghe.",
+      "formation": "Có patchim: -을게요 · Không: -ㄹ게요",
+      "examples": [
+        {
+          "ko": "제가 도와줄게요.",
+          "vi": "Để tôi giúp cho."
+        },
+        {
+          "ko": "내일 일찍 올게요.",
+          "vi": "Ngày mai tôi sẽ đến sớm."
+        }
+      ]
+    },
+    {
+      "id": "L20-G002",
+      "pattern": "-(으)시-",
+      "meaning": "Kính ngữ",
+      "explanation": "Thêm vào động từ khi chủ ngữ là người cần tôn trọng.",
+      "formation": "Có patchim: -으시- · Không: -시-",
+      "examples": [
+        {
+          "ko": "사장님이 오십니다.",
+          "vi": "Giám đốc đến."
+        },
+        {
+          "ko": "선생님께서 말씀하셨습니다.",
+          "vi": "Thầy đã nói."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L20-D001",
+      "title": "Hỏi giám đốc về lương, bảo hiểm",
+      "situation": "Người lao động hỏi về quyền lợi.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "사장님, 질문이 있어요.",
+          "vi": "Giám đốc, tôi có câu hỏi."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "네, 말씀하세요.",
+          "vi": "Vâng, cứ nói."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "급여는 어디로 받습니까? 보험도 있어요?",
+          "vi": "Tôi nhận lương qua đâu? Có bảo hiểm không?"
+        },
+        {
+          "speaker": "사장님",
+          "ko": "은행 계좌로 받습니다. 보험은 제가 설명해 줄게요.",
+          "vi": "Nhận qua tài khoản ngân hàng. Bảo hiểm tôi sẽ giải thích."
+        }
+      ]
+    }
+  ]
+}

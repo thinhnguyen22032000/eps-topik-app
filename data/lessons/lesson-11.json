@@ -1,0 +1,250 @@
+{
+  "id": "L11",
+  "number": 11,
+  "book": 1,
+  "topic": "health",
+  "title": {
+    "ko": "신체와 건강",
+    "vi": "Cơ thể và sức khỏe"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L11-V001",
+      "group": 1,
+      "ko": "머리",
+      "pos": "Danh từ",
+      "viPhonetic": "mo-ri",
+      "meaning": "Đầu",
+      "field": "general",
+      "example": {
+        "ko": "머리가 아파요.",
+        "vi": "Tôi đau đầu."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V002",
+      "group": 1,
+      "ko": "눈",
+      "pos": "Danh từ",
+      "viPhonetic": "nun",
+      "meaning": "Mắt",
+      "field": "safety",
+      "example": {
+        "ko": "눈에 먼지가 들어갔어요.",
+        "vi": "Bụi bay vào mắt tôi."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V003",
+      "group": 1,
+      "ko": "손",
+      "pos": "Danh từ",
+      "viPhonetic": "xôn",
+      "meaning": "Tay (bàn tay)",
+      "field": "general",
+      "example": {
+        "ko": "손을 다쳤습니다.",
+        "vi": "Tôi bị thương ở tay."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V004",
+      "group": 1,
+      "ko": "발",
+      "pos": "Danh từ",
+      "viPhonetic": "bal",
+      "meaning": "Chân (bàn chân)",
+      "field": "general",
+      "example": {
+        "ko": "발이 아파서 쉬고 싶어요.",
+        "vi": "Chân đau nên tôi muốn nghỉ."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V005",
+      "group": 1,
+      "ko": "허리",
+      "pos": "Danh từ",
+      "viPhonetic": "ho-ri",
+      "meaning": "Thắt lưng",
+      "field": "general",
+      "example": {
+        "ko": "무거운 물건을 들어서 허리가 아파요.",
+        "vi": "Vì nâng đồ nặng nên tôi đau lưng."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V006",
+      "group": 2,
+      "ko": "감기",
+      "pos": "Danh từ",
+      "viPhonetic": "kam-ki",
+      "meaning": "Cảm cúm",
+      "field": "general",
+      "example": {
+        "ko": "감기에 걸려서 약을 먹었습니다.",
+        "vi": "Tôi bị cảm nên đã uống thuốc."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V007",
+      "group": 2,
+      "ko": "약",
+      "pos": "Danh từ",
+      "viPhonetic": "yak",
+      "meaning": "Thuốc",
+      "field": "general",
+      "example": {
+        "ko": "식사 후에 약을 드세요.",
+        "vi": "Hãy uống thuốc sau bữa ăn."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V008",
+      "group": 2,
+      "ko": "다치다",
+      "pos": "Động từ",
+      "viPhonetic": "ta-chi-tà",
+      "meaning": "Bị thương",
+      "field": "safety",
+      "example": {
+        "ko": "작업 중에 다쳤습니다.",
+        "vi": "Tôi bị thương trong lúc làm việc."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V009",
+      "group": 2,
+      "ko": "아프다",
+      "pos": "Tính từ",
+      "viPhonetic": "a-pư-tà",
+      "meaning": "Đau, ốm",
+      "field": "general",
+      "example": {
+        "ko": "배가 아파서 병원에 갔어요.",
+        "vi": "Tôi đau bụng nên đã đến bệnh viện."
+      },
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "L11-V010",
+      "group": 2,
+      "ko": "건강",
+      "pos": "Danh từ",
+      "viPhonetic": "kon-gang",
+      "meaning": "Sức khỏe",
+      "field": "general",
+      "example": {
+        "ko": "건강이 제일 중요합니다.",
+        "vi": "Sức khỏe là quan trọng nhất."
+      },
+      "tags": [
+        "health"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L11-G001",
+      "pattern": "-아/어도 되다",
+      "meaning": "Được phép…",
+      "explanation": "Hỏi/cho phép làm gì: '…cũng được'.",
+      "formation": "ㅏ,ㅗ + 아도 · còn lại + 어도 · 하다 → 해도 되다",
+      "examples": [
+        {
+          "ko": "오늘 쉬어도 돼요?",
+          "vi": "Hôm nay tôi nghỉ được không?"
+        },
+        {
+          "ko": "여기에 앉아도 됩니다.",
+          "vi": "Ngồi ở đây cũng được."
+        }
+      ]
+    },
+    {
+      "id": "L11-G002",
+      "pattern": "-(으)면 안 되다",
+      "meaning": "Không được…",
+      "explanation": "Cấm đoán, không cho phép.",
+      "formation": "Có patchim: -으면 안 되다 · Không: -면 안 되다",
+      "examples": [
+        {
+          "ko": "기계를 만지면 안 됩니다.",
+          "vi": "Không được chạm vào máy."
+        },
+        {
+          "ko": "여기에서 담배를 피우면 안 돼요.",
+          "vi": "Không được hút thuốc ở đây."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L11-D001",
+      "title": "Xin nghỉ vì ốm",
+      "situation": "Anh Nguyễn báo với giám đốc là mình bị ốm.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "사장님, 머리가 아파서 일할 수 없어요.",
+          "vi": "Giám đốc, tôi đau đầu nên không làm việc được."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "감기에 걸렸어요? 병원에 가세요.",
+          "vi": "Anh bị cảm à? Hãy đi bệnh viện."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "오늘 쉬어도 돼요?",
+          "vi": "Hôm nay tôi nghỉ được không?"
+        },
+        {
+          "speaker": "사장님",
+          "ko": "네, 쉬세요. 약을 꼭 드세요.",
+          "vi": "Được, nghỉ đi. Nhớ uống thuốc nhé."
+        }
+      ]
+    }
+  ]
+}

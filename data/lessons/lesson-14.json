@@ -1,0 +1,255 @@
+{
+  "id": "L14",
+  "number": 14,
+  "book": 1,
+  "topic": "safety",
+  "title": {
+    "ko": "안전과 규칙",
+    "vi": "An toàn và quy tắc"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L14-V001",
+      "group": 1,
+      "ko": "안전",
+      "pos": "Danh từ",
+      "viPhonetic": "an-chon",
+      "meaning": "An toàn",
+      "field": "safety",
+      "example": {
+        "ko": "안전이 제일 중요합니다.",
+        "vi": "An toàn là quan trọng nhất."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V002",
+      "group": 1,
+      "ko": "위험",
+      "pos": "Danh từ",
+      "viPhonetic": "uy-hom",
+      "meaning": "Nguy hiểm",
+      "field": "safety",
+      "example": {
+        "ko": "이곳은 위험합니다.",
+        "vi": "Chỗ này nguy hiểm."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V003",
+      "group": 1,
+      "ko": "조심하다",
+      "pos": "Động từ",
+      "viPhonetic": "chô-xim-ha-tà",
+      "meaning": "Cẩn thận",
+      "field": "safety",
+      "example": {
+        "ko": "바닥이 미끄러우니까 조심하세요.",
+        "vi": "Sàn trơn nên hãy cẩn thận."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V004",
+      "group": 1,
+      "ko": "규칙",
+      "pos": "Danh từ",
+      "viPhonetic": "kyu-chik",
+      "meaning": "Quy tắc",
+      "field": "general",
+      "example": {
+        "ko": "공장 규칙을 지키세요.",
+        "vi": "Hãy tuân thủ quy tắc nhà máy."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V005",
+      "group": 1,
+      "ko": "지키다",
+      "pos": "Động từ",
+      "viPhonetic": "chi-khi-tà",
+      "meaning": "Giữ, tuân thủ",
+      "field": "safety",
+      "example": {
+        "ko": "안전 규칙을 지켜야 합니다.",
+        "vi": "Phải tuân thủ quy tắc an toàn."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V006",
+      "group": 2,
+      "ko": "사고",
+      "pos": "Danh từ",
+      "viPhonetic": "xa-gô",
+      "meaning": "Tai nạn",
+      "field": "safety",
+      "example": {
+        "ko": "사고가 나면 바로 말하세요.",
+        "vi": "Nếu có tai nạn hãy báo ngay."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V007",
+      "group": 2,
+      "ko": "불",
+      "pos": "Danh từ",
+      "viPhonetic": "bul",
+      "meaning": "Lửa",
+      "field": "safety",
+      "example": {
+        "ko": "불이 나면 비상구로 나가세요.",
+        "vi": "Nếu có cháy hãy ra lối thoát hiểm."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V008",
+      "group": 2,
+      "ko": "소화기",
+      "pos": "Danh từ",
+      "viPhonetic": "xô-hoa-ki",
+      "meaning": "Bình chữa cháy",
+      "field": "safety",
+      "example": {
+        "ko": "소화기는 문 옆에 있습니다.",
+        "vi": "Bình chữa cháy ở cạnh cửa."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V009",
+      "group": 2,
+      "ko": "보호구",
+      "pos": "Danh từ",
+      "viPhonetic": "bô-hô-gu",
+      "meaning": "Đồ bảo hộ",
+      "field": "safety",
+      "example": {
+        "ko": "보호구를 꼭 착용하세요.",
+        "vi": "Nhất định phải mang đồ bảo hộ."
+      },
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "id": "L14-V010",
+      "group": 2,
+      "ko": "금지",
+      "pos": "Danh từ",
+      "viPhonetic": "kưm-chi",
+      "meaning": "Cấm",
+      "field": "safety",
+      "example": {
+        "ko": "여기는 흡연 금지입니다.",
+        "vi": "Ở đây cấm hút thuốc."
+      },
+      "tags": [
+        "safety"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L14-G001",
+      "pattern": "-아/어야 하다",
+      "meaning": "Phải…",
+      "explanation": "Diễn tả nghĩa vụ, điều bắt buộc.",
+      "formation": "Gốc động từ + 아/어야 하다 (되다)",
+      "examples": [
+        {
+          "ko": "안전모를 써야 합니다.",
+          "vi": "Phải đội mũ bảo hộ."
+        },
+        {
+          "ko": "일하기 전에 기계를 확인해야 해요.",
+          "vi": "Trước khi làm việc phải kiểm tra máy."
+        }
+      ]
+    },
+    {
+      "id": "L14-G002",
+      "pattern": "-(으)니까",
+      "meaning": "Vì… nên… (vế sau là mệnh lệnh)",
+      "explanation": "Lý do chủ quan; vế sau có thể là -(으)세요, -(으)ㅂ시다.",
+      "formation": "Có patchim: -으니까 · Không: -니까",
+      "examples": [
+        {
+          "ko": "위험하니까 조심하세요.",
+          "vi": "Vì nguy hiểm nên hãy cẩn thận."
+        },
+        {
+          "ko": "바닥이 미끄러우니까 천천히 걸으세요.",
+          "vi": "Sàn trơn nên hãy đi chậm."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L14-D001",
+      "title": "Quy tắc an toàn",
+      "situation": "Tổ trưởng hướng dẫn an toàn cho công nhân mới.",
+      "lines": [
+        {
+          "speaker": "반장",
+          "ko": "여기는 위험하니까 조심하세요.",
+          "vi": "Chỗ này nguy hiểm nên hãy cẩn thận."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "보호구를 꼭 착용해야 해요?",
+          "vi": "Có nhất định phải mang đồ bảo hộ không?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "네, 안전 규칙을 지켜야 합니다. 사고가 나면 바로 말하세요.",
+          "vi": "Có, phải tuân thủ quy tắc an toàn. Nếu có tai nạn hãy báo ngay."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "알겠습니다. 소화기는 어디에 있어요?",
+          "vi": "Tôi hiểu. Bình chữa cháy ở đâu?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "문 옆에 있습니다.",
+          "vi": "Ở cạnh cửa."
+        }
+      ]
+    }
+  ]
+}

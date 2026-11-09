@@ -1,0 +1,250 @@
+{
+  "id": "L04",
+  "number": 4,
+  "book": 1,
+  "topic": "objects",
+  "title": {
+    "ko": "사물",
+    "vi": "Đồ vật"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L04-V001",
+      "group": 1,
+      "ko": "책",
+      "pos": "Danh từ",
+      "viPhonetic": "chéc",
+      "meaning": "Sách",
+      "field": "general",
+      "example": {
+        "ko": "책이 책상 위에 있습니다.",
+        "vi": "Sách ở trên bàn."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V002",
+      "group": 1,
+      "ko": "가방",
+      "pos": "Danh từ",
+      "viPhonetic": "ka-bang",
+      "meaning": "Cặp, túi",
+      "field": "general",
+      "example": {
+        "ko": "가방 안에 휴대폰이 있습니다.",
+        "vi": "Trong túi có điện thoại."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V003",
+      "group": 1,
+      "ko": "휴대폰",
+      "pos": "Danh từ",
+      "viPhonetic": "hyu-đe-pon",
+      "meaning": "Điện thoại di động",
+      "field": "general",
+      "example": {
+        "ko": "휴대폰을 사무실에 두었습니다.",
+        "vi": "Tôi để điện thoại ở văn phòng."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V004",
+      "group": 1,
+      "ko": "연필",
+      "pos": "Danh từ",
+      "viPhonetic": "yon-pil",
+      "meaning": "Bút chì",
+      "field": "general",
+      "example": {
+        "ko": "연필로 쓰세요.",
+        "vi": "Hãy viết bằng bút chì."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V005",
+      "group": 1,
+      "ko": "의자",
+      "pos": "Danh từ",
+      "viPhonetic": "ưi-cha",
+      "meaning": "Ghế",
+      "field": "general",
+      "example": {
+        "ko": "의자에 앉으세요.",
+        "vi": "Mời ngồi ghế."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V006",
+      "group": 2,
+      "ko": "책상",
+      "pos": "Danh từ",
+      "viPhonetic": "chéc-xang",
+      "meaning": "Bàn học",
+      "field": "general",
+      "example": {
+        "ko": "책상이 큽니다.",
+        "vi": "Cái bàn to."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V007",
+      "group": 2,
+      "ko": "컴퓨터",
+      "pos": "Danh từ",
+      "viPhonetic": "kom-piu-thơ",
+      "meaning": "Máy tính",
+      "field": "general",
+      "example": {
+        "ko": "컴퓨터로 서류를 만듭니다.",
+        "vi": "Làm hồ sơ bằng máy tính."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V008",
+      "group": 2,
+      "ko": "시계",
+      "pos": "Danh từ",
+      "viPhonetic": "xi-ghê",
+      "meaning": "Đồng hồ",
+      "field": "general",
+      "example": {
+        "ko": "시계가 벽에 있습니다.",
+        "vi": "Đồng hồ ở trên tường."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V009",
+      "group": 2,
+      "ko": "우산",
+      "pos": "Danh từ",
+      "viPhonetic": "u-xan",
+      "meaning": "Ô, dù",
+      "field": "general",
+      "example": {
+        "ko": "비가 와서 우산을 씁니다.",
+        "vi": "Vì mưa nên tôi che ô."
+      },
+      "tags": [
+        "objects"
+      ]
+    },
+    {
+      "id": "L04-V010",
+      "group": 2,
+      "ko": "신발",
+      "pos": "Danh từ",
+      "viPhonetic": "xin-bal",
+      "meaning": "Giày dép",
+      "field": "general",
+      "example": {
+        "ko": "안전화는 일할 때 신는 신발입니다.",
+        "vi": "Giày bảo hộ là giày đi khi làm việc."
+      },
+      "tags": [
+        "objects"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L04-G001",
+      "pattern": "이 / 그 / 저",
+      "meaning": "Này / đó / kia",
+      "explanation": "이: gần người nói; 그: gần người nghe; 저: xa cả hai.",
+      "formation": "이/그/저 + danh từ",
+      "examples": [
+        {
+          "ko": "이 기계는 위험합니다.",
+          "vi": "Cái máy này nguy hiểm."
+        },
+        {
+          "ko": "저 사람은 사장님입니다.",
+          "vi": "Người kia là giám đốc."
+        }
+      ]
+    },
+    {
+      "id": "L04-G002",
+      "pattern": "-도",
+      "meaning": "Cũng",
+      "explanation": "Thay cho -은/는, -이/가, -을/를 khi muốn nói 'cũng'.",
+      "formation": "Danh từ + 도",
+      "examples": [
+        {
+          "ko": "저도 근로자입니다.",
+          "vi": "Tôi cũng là người lao động."
+        },
+        {
+          "ko": "친구도 공장에서 일합니다.",
+          "vi": "Bạn tôi cũng làm ở nhà máy."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L04-D001",
+      "title": "Đồ vật của ai?",
+      "situation": "Giám đốc hỏi về đồ đạc để quên ở văn phòng.",
+      "lines": [
+        {
+          "speaker": "사장님",
+          "ko": "응우옌 씨, 그 가방 안에 무엇이 있어요?",
+          "vi": "Anh Nguyễn, trong cái túi đó có gì?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "책하고 휴대폰이 있어요.",
+          "vi": "Có sách và điện thoại."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "이 휴대폰도 응우옌 씨 거예요?",
+          "vi": "Cái điện thoại này cũng của anh à?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "아니요, 그것은 제 것이 아닙니다. 친구 거예요.",
+          "vi": "Không, đó không phải của tôi. Của bạn tôi."
+        }
+      ]
+    }
+  ]
+}

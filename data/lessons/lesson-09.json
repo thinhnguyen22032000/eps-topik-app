@@ -1,0 +1,250 @@
+{
+  "id": "L09",
+  "number": 9,
+  "book": 1,
+  "topic": "transport",
+  "title": {
+    "ko": "교통",
+    "vi": "Giao thông"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L09-V001",
+      "group": 1,
+      "ko": "버스",
+      "pos": "Danh từ",
+      "viPhonetic": "bo-xư",
+      "meaning": "Xe buýt",
+      "field": "general",
+      "example": {
+        "ko": "버스를 타고 출근합니다.",
+        "vi": "Tôi đi làm bằng xe buýt."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V002",
+      "group": 1,
+      "ko": "지하철",
+      "pos": "Danh từ",
+      "viPhonetic": "chi-ha-chol",
+      "meaning": "Tàu điện ngầm",
+      "field": "general",
+      "example": {
+        "ko": "지하철이 빠릅니다.",
+        "vi": "Tàu điện ngầm nhanh."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V003",
+      "group": 1,
+      "ko": "택시",
+      "pos": "Danh từ",
+      "viPhonetic": "thek-xi",
+      "meaning": "Taxi",
+      "field": "general",
+      "example": {
+        "ko": "늦어서 택시를 탔습니다.",
+        "vi": "Vì trễ nên tôi bắt taxi."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V004",
+      "group": 1,
+      "ko": "기차",
+      "pos": "Danh từ",
+      "viPhonetic": "ki-cha",
+      "meaning": "Tàu hỏa",
+      "field": "general",
+      "example": {
+        "ko": "기차로 부산에 갑니다.",
+        "vi": "Tôi đi Busan bằng tàu hỏa."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V005",
+      "group": 1,
+      "ko": "길",
+      "pos": "Danh từ",
+      "viPhonetic": "kil",
+      "meaning": "Đường",
+      "field": "general",
+      "example": {
+        "ko": "길이 미끄럽습니다.",
+        "vi": "Đường trơn."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V006",
+      "group": 2,
+      "ko": "타다",
+      "pos": "Động từ",
+      "viPhonetic": "tha-tà",
+      "meaning": "Đi, lên (xe)",
+      "field": "general",
+      "example": {
+        "ko": "버스를 타세요.",
+        "vi": "Hãy lên xe buýt."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V007",
+      "group": 2,
+      "ko": "내리다",
+      "pos": "Động từ",
+      "viPhonetic": "nê-ri-tà",
+      "meaning": "Xuống (xe)",
+      "field": "general",
+      "example": {
+        "ko": "다음 정류장에서 내립니다.",
+        "vi": "Tôi xuống ở trạm tiếp theo."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V008",
+      "group": 2,
+      "ko": "걷다",
+      "pos": "Động từ",
+      "viPhonetic": "kot-tà",
+      "meaning": "Đi bộ",
+      "field": "general",
+      "example": {
+        "ko": "공장까지 걸어서 갑니다.",
+        "vi": "Tôi đi bộ đến nhà máy."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V009",
+      "group": 2,
+      "ko": "멀다",
+      "pos": "Tính từ",
+      "viPhonetic": "mol-tà",
+      "meaning": "Xa",
+      "field": "general",
+      "example": {
+        "ko": "기숙사에서 공장까지 멉니다.",
+        "vi": "Từ ký túc xá đến nhà máy xa."
+      },
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "L09-V010",
+      "group": 2,
+      "ko": "가깝다",
+      "pos": "Tính từ",
+      "viPhonetic": "ka-kap-tà",
+      "meaning": "Gần",
+      "field": "general",
+      "example": {
+        "ko": "식당이 가깝습니다.",
+        "vi": "Nhà ăn gần."
+      },
+      "tags": [
+        "transport"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L09-G001",
+      "pattern": "-(으)로",
+      "meaning": "Bằng (phương tiện) / về hướng",
+      "explanation": "Chỉ phương tiện, công cụ hoặc hướng đi.",
+      "formation": "Có patchim: 으로 · Không (hoặc ㄹ): 로",
+      "examples": [
+        {
+          "ko": "지하철로 출근합니다.",
+          "vi": "Tôi đi làm bằng tàu điện ngầm."
+        },
+        {
+          "ko": "비상구로 나가세요.",
+          "vi": "Hãy ra bằng lối thoát hiểm."
+        }
+      ]
+    },
+    {
+      "id": "L09-G002",
+      "pattern": "-(으)ㄹ 수 있다/없다",
+      "meaning": "Có thể / không thể",
+      "explanation": "Diễn tả khả năng hoặc sự cho phép.",
+      "formation": "Có patchim: -을 수 있다 · Không: -ㄹ 수 있다",
+      "examples": [
+        {
+          "ko": "기계를 사용할 수 있어요.",
+          "vi": "Tôi có thể dùng máy."
+        },
+        {
+          "ko": "오늘은 쉴 수 없어요.",
+          "vi": "Hôm nay tôi không thể nghỉ."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L09-D001",
+      "title": "Đi làm bằng gì?",
+      "situation": "Hỏi đồng nghiệp cách đến nhà máy.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "공장까지 어떻게 가요?",
+          "vi": "Đi đến nhà máy bằng cách nào?"
+        },
+        {
+          "speaker": "동료",
+          "ko": "버스로 갈 수 있어요. 삼십 분 걸려요.",
+          "vi": "Đi bằng xe buýt được. Mất 30 phút."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "지하철은 멀어요?",
+          "vi": "Tàu điện ngầm có xa không?"
+        },
+        {
+          "speaker": "동료",
+          "ko": "아니요, 가까워요. 지하철이 더 빨라요.",
+          "vi": "Không, gần. Tàu điện ngầm nhanh hơn."
+        }
+      ]
+    }
+  ]
+}

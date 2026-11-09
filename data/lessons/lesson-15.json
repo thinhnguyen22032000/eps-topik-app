@@ -1,0 +1,250 @@
+{
+  "id": "L15",
+  "number": 15,
+  "book": 1,
+  "topic": "machine",
+  "title": {
+    "ko": "기계와 작업",
+    "vi": "Máy móc và thao tác"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L15-V001",
+      "group": 1,
+      "ko": "전원",
+      "pos": "Danh từ",
+      "viPhonetic": "chon-uôn",
+      "meaning": "Nguồn điện",
+      "field": "manufacturing",
+      "example": {
+        "ko": "기계 전원을 끄세요.",
+        "vi": "Hãy tắt nguồn máy."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V002",
+      "group": 1,
+      "ko": "켜다",
+      "pos": "Động từ",
+      "viPhonetic": "khyo-tà",
+      "meaning": "Bật",
+      "field": "manufacturing",
+      "example": {
+        "ko": "기계를 켜기 전에 확인하세요.",
+        "vi": "Hãy kiểm tra trước khi bật máy."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V003",
+      "group": 1,
+      "ko": "끄다",
+      "pos": "Động từ",
+      "viPhonetic": "kư-tà",
+      "meaning": "Tắt",
+      "field": "manufacturing",
+      "example": {
+        "ko": "작업이 끝나면 기계를 끄세요.",
+        "vi": "Làm xong hãy tắt máy."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V004",
+      "group": 1,
+      "ko": "고장",
+      "pos": "Danh từ",
+      "viPhonetic": "kô-chang",
+      "meaning": "Hỏng, sự cố",
+      "field": "manufacturing",
+      "example": {
+        "ko": "기계가 고장 났어요.",
+        "vi": "Máy bị hỏng."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V005",
+      "group": 1,
+      "ko": "수리",
+      "pos": "Danh từ",
+      "viPhonetic": "xu-ri",
+      "meaning": "Sửa chữa",
+      "field": "manufacturing",
+      "example": {
+        "ko": "수리 기사가 오고 있습니다.",
+        "vi": "Thợ sửa chữa đang đến."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V006",
+      "group": 2,
+      "ko": "부품",
+      "pos": "Danh từ",
+      "viPhonetic": "bu-phum",
+      "meaning": "Linh kiện",
+      "field": "manufacturing",
+      "example": {
+        "ko": "부품을 교체해야 합니다.",
+        "vi": "Phải thay linh kiện."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V007",
+      "group": 2,
+      "ko": "스위치",
+      "pos": "Danh từ",
+      "viPhonetic": "xư-uy-chi",
+      "meaning": "Công tắc",
+      "field": "manufacturing",
+      "example": {
+        "ko": "빨간 스위치를 누르세요.",
+        "vi": "Hãy bấm công tắc đỏ."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V008",
+      "group": 2,
+      "ko": "누르다",
+      "pos": "Động từ",
+      "viPhonetic": "nu-rư-tà",
+      "meaning": "Bấm, nhấn",
+      "field": "manufacturing",
+      "example": {
+        "ko": "비상 버튼을 누르세요.",
+        "vi": "Hãy bấm nút khẩn cấp."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V009",
+      "group": 2,
+      "ko": "돌리다",
+      "pos": "Động từ",
+      "viPhonetic": "tôl-li-tà",
+      "meaning": "Xoay, quay",
+      "field": "manufacturing",
+      "example": {
+        "ko": "손잡이를 오른쪽으로 돌리세요.",
+        "vi": "Hãy xoay tay cầm sang phải."
+      },
+      "tags": [
+        "machine"
+      ]
+    },
+    {
+      "id": "L15-V010",
+      "group": 2,
+      "ko": "기름",
+      "pos": "Danh từ",
+      "viPhonetic": "ki-rưm",
+      "meaning": "Dầu",
+      "field": "manufacturing",
+      "example": {
+        "ko": "기계에 기름을 넣습니다.",
+        "vi": "Tôi đổ dầu vào máy."
+      },
+      "tags": [
+        "machine"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L15-G001",
+      "pattern": "-기 전에",
+      "meaning": "Trước khi…",
+      "explanation": "Hành động ở vế sau xảy ra trước hành động ở vế trước.",
+      "formation": "Gốc động từ + -기 전에",
+      "examples": [
+        {
+          "ko": "기계를 켜기 전에 확인하세요.",
+          "vi": "Trước khi bật máy hãy kiểm tra."
+        },
+        {
+          "ko": "퇴근하기 전에 청소합니다.",
+          "vi": "Trước khi tan làm tôi dọn dẹp."
+        }
+      ]
+    },
+    {
+      "id": "L15-G002",
+      "pattern": "-(으)ㄴ 후에",
+      "meaning": "Sau khi…",
+      "explanation": "Hành động ở vế sau xảy ra sau vế trước.",
+      "formation": "Có patchim: -은 후에 · Không: -ㄴ 후에",
+      "examples": [
+        {
+          "ko": "작업이 끝난 후에 기계를 끄세요.",
+          "vi": "Sau khi làm xong hãy tắt máy."
+        },
+        {
+          "ko": "점심을 먹은 후에 일합니다.",
+          "vi": "Sau khi ăn trưa tôi làm việc."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L15-D001",
+      "title": "Máy bị hỏng",
+      "situation": "Báo sự cố máy với tổ trưởng.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "반장님, 기계가 고장 났어요.",
+          "vi": "Tổ trưởng, máy bị hỏng rồi."
+        },
+        {
+          "speaker": "반장",
+          "ko": "먼저 전원을 끄세요. 수리 기사를 부를게요.",
+          "vi": "Trước hết hãy tắt nguồn. Tôi sẽ gọi thợ sửa."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "수리한 후에 다시 켜도 돼요?",
+          "vi": "Sau khi sửa xong có được bật lại không?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "네, 하지만 켜기 전에 꼭 확인하세요.",
+          "vi": "Được, nhưng trước khi bật nhất định phải kiểm tra."
+        }
+      ]
+    }
+  ]
+}

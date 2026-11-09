@@ -1,0 +1,162 @@
+[
+  {
+    "id": "L01",
+    "number": 1,
+    "file": "lesson-01.json",
+    "title": "Chào hỏi và giới thiệu",
+    "ko": "인사와 소개",
+    "vocabCount": 20
+  },
+  {
+    "id": "L02",
+    "number": 2,
+    "file": "lesson-02.json",
+    "title": "Quốc tịch và nghề nghiệp",
+    "ko": "국적과 직업",
+    "vocabCount": 20
+  },
+  {
+    "id": "L03",
+    "number": 3,
+    "file": "lesson-03.json",
+    "title": "Địa điểm",
+    "ko": "장소",
+    "vocabCount": 20
+  },
+  {
+    "id": "L04",
+    "number": 4,
+    "file": "lesson-04.json",
+    "title": "Đồ vật",
+    "ko": "사물",
+    "vocabCount": 10
+  },
+  {
+    "id": "L05",
+    "number": 5,
+    "file": "lesson-05.json",
+    "title": "Thời gian",
+    "ko": "시간",
+    "vocabCount": 10
+  },
+  {
+    "id": "L06",
+    "number": 6,
+    "file": "lesson-06.json",
+    "title": "Thứ ngày và lịch làm việc",
+    "ko": "요일과 일정",
+    "vocabCount": 10
+  },
+  {
+    "id": "L07",
+    "number": 7,
+    "file": "lesson-07.json",
+    "title": "Ăn uống",
+    "ko": "음식",
+    "vocabCount": 10
+  },
+  {
+    "id": "L08",
+    "number": 8,
+    "file": "lesson-08.json",
+    "title": "Mua sắm",
+    "ko": "쇼핑",
+    "vocabCount": 10
+  },
+  {
+    "id": "L09",
+    "number": 9,
+    "file": "lesson-09.json",
+    "title": "Giao thông",
+    "ko": "교통",
+    "vocabCount": 10
+  },
+  {
+    "id": "L10",
+    "number": 10,
+    "file": "lesson-10.json",
+    "title": "Nơi làm việc và dụng cụ",
+    "ko": "작업장과 도구",
+    "vocabCount": 10
+  },
+  {
+    "id": "L11",
+    "number": 11,
+    "file": "lesson-11.json",
+    "title": "Cơ thể và sức khỏe",
+    "ko": "신체와 건강",
+    "vocabCount": 10
+  },
+  {
+    "id": "L12",
+    "number": 12,
+    "file": "lesson-12.json",
+    "title": "Thời tiết và mùa",
+    "ko": "날씨와 계절",
+    "vocabCount": 10
+  },
+  {
+    "id": "L13",
+    "number": 13,
+    "file": "lesson-13.json",
+    "title": "Nhà ở và sinh hoạt",
+    "ko": "집과 생활",
+    "vocabCount": 10
+  },
+  {
+    "id": "L14",
+    "number": 14,
+    "file": "lesson-14.json",
+    "title": "An toàn và quy tắc",
+    "ko": "안전과 규칙",
+    "vocabCount": 10
+  },
+  {
+    "id": "L15",
+    "number": 15,
+    "file": "lesson-15.json",
+    "title": "Máy móc và thao tác",
+    "ko": "기계와 작업",
+    "vocabCount": 10
+  },
+  {
+    "id": "L16",
+    "number": 16,
+    "file": "lesson-16.json",
+    "title": "Nông nghiệp",
+    "ko": "농업",
+    "vocabCount": 10
+  },
+  {
+    "id": "L17",
+    "number": 17,
+    "file": "lesson-17.json",
+    "title": "Công trường xây dựng",
+    "ko": "건설 현장",
+    "vocabCount": 10
+  },
+  {
+    "id": "L18",
+    "number": 18,
+    "file": "lesson-18.json",
+    "title": "Sản xuất và may mặc",
+    "ko": "제조와 섬유",
+    "vocabCount": 10
+  },
+  {
+    "id": "L19",
+    "number": 19,
+    "file": "lesson-19.json",
+    "title": "Thủy sản",
+    "ko": "수산업",
+    "vocabCount": 10
+  },
+  {
+    "id": "L20",
+    "number": 20,
+    "file": "lesson-20.json",
+    "title": "Cuộc sống nơi làm việc",
+    "ko": "직장 생활",
+    "vocabCount": 10
+  }
+]

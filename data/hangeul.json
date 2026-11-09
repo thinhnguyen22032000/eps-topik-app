@@ -1,0 +1,67 @@
+{
+  "intro": "Hangeul gồm 14 phụ âm cơ bản, 5 phụ âm đôi, 10 nguyên âm cơ bản và 11 nguyên âm ghép. Mỗi âm tiết là một khối vuông gồm: phụ âm đầu + nguyên âm (+ phụ âm cuối – patchim). Phiên âm Việt chỉ mang tính gần đúng, hãy nghe và bắt chước.",
+  "vowels": [
+    { "c": "ㅏ", "vi": "a", "ex": "아이", "exVi": "đứa trẻ", "group": "basic" },
+    { "c": "ㅓ", "vi": "ơ (o mở)", "ex": "어머니", "exVi": "mẹ", "group": "basic" },
+    { "c": "ㅗ", "vi": "ô", "ex": "오이", "exVi": "dưa chuột", "group": "basic" },
+    { "c": "ㅜ", "vi": "u", "ex": "우유", "exVi": "sữa", "group": "basic" },
+    { "c": "ㅡ", "vi": "ư", "ex": "음식", "exVi": "món ăn", "group": "basic", "note": "Miệng như nói 'i' nhưng môi không kéo ngang, đọc 'ư'" },
+    { "c": "ㅣ", "vi": "i", "ex": "이", "exVi": "số hai / răng", "group": "basic" },
+    { "c": "ㅑ", "vi": "ya", "ex": "야구", "exVi": "bóng chày", "group": "y" },
+    { "c": "ㅕ", "vi": "yơ", "ex": "여자", "exVi": "phụ nữ", "group": "y" },
+    { "c": "ㅛ", "vi": "yô", "ex": "요리", "exVi": "nấu ăn", "group": "y" },
+    { "c": "ㅠ", "vi": "yu", "ex": "유리", "exVi": "kính, thủy tinh", "group": "y" },
+    { "c": "ㅐ", "vi": "e", "ex": "애인", "exVi": "người yêu", "group": "compound" },
+    { "c": "ㅔ", "vi": "ê", "ex": "에어컨", "exVi": "điều hòa", "group": "compound", "note": "ㅐ và ㅔ hiện nay phát âm gần giống nhau" },
+    { "c": "ㅒ", "vi": "ye", "ex": "얘기", "exVi": "câu chuyện", "group": "compound" },
+    { "c": "ㅖ", "vi": "yê", "ex": "예사", "exVi": "bình thường", "group": "compound" },
+    { "c": "ㅘ", "vi": "oa", "ex": "와요", "exVi": "(họ) đến", "group": "compound" },
+    { "c": "ㅙ", "vi": "oe", "ex": "왜", "exVi": "tại sao", "group": "compound" },
+    { "c": "ㅚ", "vi": "uê (oe)", "ex": "외국", "exVi": "nước ngoài", "group": "compound" },
+    { "c": "ㅝ", "vi": "uơ", "ex": "원", "exVi": "won", "group": "compound" },
+    { "c": "ㅞ", "vi": "uê", "ex": "웨이터", "exVi": "bồi bàn", "group": "compound" },
+    { "c": "ㅟ", "vi": "uy", "ex": "위", "exVi": "bên trên", "group": "compound" },
+    { "c": "ㅢ", "vi": "ưi", "ex": "의자", "exVi": "cái ghế", "group": "compound" }
+  ],
+  "consonants": [
+    { "c": "ㄱ", "name": "기역", "vi": "g / k", "ex": "가방", "exVi": "cặp", "group": "basic" },
+    { "c": "ㄴ", "name": "니은", "vi": "n", "ex": "나무", "exVi": "cây", "group": "basic" },
+    { "c": "ㄷ", "name": "디귿", "vi": "đ / t", "ex": "다리", "exVi": "chân, cầu", "group": "basic" },
+    { "c": "ㄹ", "name": "리을", "vi": "r / l", "ex": "라면", "exVi": "mì gói", "group": "basic" },
+    { "c": "ㅁ", "name": "미음", "vi": "m", "ex": "마음", "exVi": "tấm lòng", "group": "basic" },
+    { "c": "ㅂ", "name": "비읍", "vi": "b / p", "ex": "바다", "exVi": "biển", "group": "basic" },
+    { "c": "ㅅ", "name": "시옷", "vi": "x (s)", "ex": "사과", "exVi": "táo", "group": "basic" },
+    { "c": "ㅇ", "name": "이응", "vi": "âm câm đầu âm tiết · ng ở cuối", "ex": "아기", "exVi": "em bé", "group": "basic" },
+    { "c": "ㅈ", "name": "지읒", "vi": "ch (j)", "ex": "자전거", "exVi": "xe đạp", "group": "basic" },
+    { "c": "ㅊ", "name": "치읓", "vi": "ch bật hơi", "ex": "차", "exVi": "trà, xe", "group": "aspirated" },
+    { "c": "ㅋ", "name": "키읔", "vi": "kh", "ex": "카메라", "exVi": "máy ảnh", "group": "aspirated" },
+    { "c": "ㅌ", "name": "티읕", "vi": "th", "ex": "타다", "exVi": "đi (xe)", "group": "aspirated" },
+    { "c": "ㅍ", "name": "피읖", "vi": "ph (p bật hơi)", "ex": "포도", "exVi": "nho", "group": "aspirated" },
+    { "c": "ㅎ", "name": "히읗", "vi": "h", "ex": "하늘", "exVi": "bầu trời", "group": "basic" },
+    { "c": "ㄲ", "name": "쌍기역", "vi": "k căng (gg)", "ex": "까치", "exVi": "chim ác là", "group": "tense" },
+    { "c": "ㄸ", "name": "쌍디귿", "vi": "t căng (dd)", "ex": "딸기", "exVi": "dâu tây", "group": "tense" },
+    { "c": "ㅃ", "name": "쌍비읍", "vi": "p căng (bb)", "ex": "빵", "exVi": "bánh mì", "group": "tense" },
+    { "c": "ㅆ", "name": "쌍시옷", "vi": "s căng (ss)", "ex": "싸다", "exVi": "rẻ", "group": "tense" },
+    { "c": "ㅉ", "name": "쌍지읒", "vi": "ch căng (jj)", "ex": "짜다", "exVi": "mặn", "group": "tense" }
+  ],
+  "groupLabels": {
+    "basic": "Âm cơ bản", "y": "Nguyên âm đôi có 'y'", "compound": "Nguyên âm ghép",
+    "aspirated": "Phụ âm bật hơi (thở mạnh)", "tense": "Phụ âm căng (đôi)"
+  },
+  "patchim": [
+    { "sound": "[ㄱ] (-c / -k)", "letters": "ㄱ ㅋ ㄲ", "vi": "Giống âm cuối 'c' trong 'học'; đóng họng, không bật hơi", "examples": [["책", "chéc", "sách"], ["부엌", "bu-óc", "bếp"], ["밖", "bác", "bên ngoài"]] },
+    { "sound": "[ㄴ] (-n)", "letters": "ㄴ", "vi": "Giống 'n' cuối trong 'sơn'", "examples": [["산", "xan", "núi"], ["돈", "tôn", "tiền"], ["문", "mun", "cửa"]] },
+    { "sound": "[ㄷ] (-t)", "letters": "ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ", "vi": "Giống 't' cuối trong 'hát'; 7 phụ âm cùng đọc là [t]", "examples": [["옷", "ốt", "quần áo"], ["꽃", "cốt", "hoa"], ["낮", "nát", "ban ngày"], ["끝", "kứt", "kết thúc"]] },
+    { "sound": "[ㄹ] (-l)", "letters": "ㄹ", "vi": "Cuốn lưỡi nhẹ, như 'l' cuối trong tiếng Anh 'ball'", "examples": [["물", "mul", "nước"], ["발", "bal", "chân"], ["달", "tal", "mặt trăng, tháng"]] },
+    { "sound": "[ㅁ] (-m)", "letters": "ㅁ", "vi": "Giống 'm' cuối trong 'tâm'", "examples": [["밤", "bam", "đêm"], ["봄", "bôm", "mùa xuân"], ["김", "kim", "rong biển"]] },
+    { "sound": "[ㅂ] (-p)", "letters": "ㅂ ㅍ", "vi": "Giống 'p' cuối trong 'tập'", "examples": [["밥", "báp", "cơm"], ["앞", "áp", "phía trước"], ["집", "chíp", "nhà"]] },
+    { "sound": "[ㅇ] (-ng)", "letters": "ㅇ", "vi": "Giống 'ng' cuối trong 'công'", "examples": [["공", "công", "quả bóng"], ["방", "bang", "phòng"], ["강", "kang", "sông"]] }
+  ],
+  "rules": [
+    { "title": "Quy tắc ghép vần", "body": "Âm tiết = phụ âm đầu + nguyên âm (+ patchim). Nguyên âm đứng dọc (ㅏ ㅣ ㅓ ㅐ…) viết bên PHẢI phụ âm; nguyên âm ngang (ㅗ ㅜ ㅡ) viết bên DƯỚI phụ âm. Nếu không có phụ âm đầu thì viết ㅇ (câm).", "examples": [["ㄱ + ㅏ", "가"], ["ㄱ + ㅗ", "고"], ["ㅂ + ㅏ + ㅂ", "밥"], ["ㅇ + ㅗ + ㅅ", "옷"]] },
+    { "title": "Nối âm (연음)", "body": "Khi patchim gặp âm tiết sau bắt đầu bằng ㅇ (câm), patchim được chuyển sang đọc nối với âm tiết sau.", "examples": [["음악", "[으막]"], ["한국어", "[한구거]"], ["있어요", "[이써요]"], ["집에", "[지베]"]] },
+    { "title": "Âm mũi hóa (비음화)", "body": "Patchim [ㄱ, ㄷ, ㅂ] đứng trước ㄴ, ㅁ thì đọc thành [ㅇ, ㄴ, ㅁ].", "examples": [["감사합니다", "[감사함니다]"], ["국물", "[궁물]"], ["받는", "[반는]"]] },
+    { "title": "Căng hóa (경음화)", "body": "Sau patchim [ㄱ, ㄷ, ㅂ], các phụ âm ㄱ ㄷ ㅂ ㅅ ㅈ ở đầu âm tiết sau thường đọc căng.", "examples": [["학교", "[학꾜]"], ["국밥", "[국빱]"], ["입구", "[입꾸]"]] },
+    { "title": "ㅎ nhẹ đi (ㅎ 탈락)", "body": "Patchim ㅎ gần như không đọc khi nối với nguyên âm sau.", "examples": [["좋아요", "[조아요]"], ["많이", "[마니]"]] }
+  ]
+}

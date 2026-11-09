@@ -1,0 +1,250 @@
+{
+  "id": "L12",
+  "number": 12,
+  "book": 1,
+  "topic": "weather",
+  "title": {
+    "ko": "날씨와 계절",
+    "vi": "Thời tiết và mùa"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L12-V001",
+      "group": 1,
+      "ko": "날씨",
+      "pos": "Danh từ",
+      "viPhonetic": "nal-xi",
+      "meaning": "Thời tiết",
+      "field": "general",
+      "example": {
+        "ko": "오늘 날씨가 좋습니다.",
+        "vi": "Hôm nay thời tiết đẹp."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V002",
+      "group": 1,
+      "ko": "비",
+      "pos": "Danh từ",
+      "viPhonetic": "bi",
+      "meaning": "Mưa",
+      "field": "construction",
+      "example": {
+        "ko": "비가 오면 야외 작업을 쉽니다.",
+        "vi": "Nếu trời mưa thì nghỉ làm ngoài trời."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V003",
+      "group": 1,
+      "ko": "바람",
+      "pos": "Danh từ",
+      "viPhonetic": "ba-ram",
+      "meaning": "Gió",
+      "field": "construction",
+      "example": {
+        "ko": "바람이 강해서 높은 곳에서 일할 수 없어요.",
+        "vi": "Gió mạnh nên không thể làm việc trên cao."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V004",
+      "group": 1,
+      "ko": "덥다",
+      "pos": "Tính từ",
+      "viPhonetic": "top-tà",
+      "meaning": "Nóng",
+      "field": "general",
+      "example": {
+        "ko": "여름에는 날씨가 덥습니다.",
+        "vi": "Mùa hè thời tiết nóng."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V005",
+      "group": 1,
+      "ko": "춥다",
+      "pos": "Tính từ",
+      "viPhonetic": "chup-tà",
+      "meaning": "Lạnh",
+      "field": "general",
+      "example": {
+        "ko": "겨울에는 공장이 춥습니다.",
+        "vi": "Mùa đông nhà máy lạnh."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V006",
+      "group": 2,
+      "ko": "봄",
+      "pos": "Danh từ",
+      "viPhonetic": "bôm",
+      "meaning": "Mùa xuân",
+      "field": "agriculture",
+      "example": {
+        "ko": "봄에 씨앗을 심습니다.",
+        "vi": "Mùa xuân gieo hạt."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V007",
+      "group": 2,
+      "ko": "여름",
+      "pos": "Danh từ",
+      "viPhonetic": "yo-rưm",
+      "meaning": "Mùa hè",
+      "field": "general",
+      "example": {
+        "ko": "여름에는 땀이 많이 납니다.",
+        "vi": "Mùa hè ra nhiều mồ hôi."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V008",
+      "group": 2,
+      "ko": "가을",
+      "pos": "Danh từ",
+      "viPhonetic": "ka-ưl",
+      "meaning": "Mùa thu",
+      "field": "agriculture",
+      "example": {
+        "ko": "가을에 사과를 수확합니다.",
+        "vi": "Mùa thu thu hoạch táo."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V009",
+      "group": 2,
+      "ko": "겨울",
+      "pos": "Danh từ",
+      "viPhonetic": "kyo-ul",
+      "meaning": "Mùa đông",
+      "field": "general",
+      "example": {
+        "ko": "겨울에는 장갑이 필요합니다.",
+        "vi": "Mùa đông cần găng tay."
+      },
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "id": "L12-V010",
+      "group": 2,
+      "ko": "태풍",
+      "pos": "Danh từ",
+      "viPhonetic": "thê-pung",
+      "meaning": "Bão",
+      "field": "general",
+      "example": {
+        "ko": "태풍이 오면 작업을 멈춥니다.",
+        "vi": "Khi bão đến thì dừng làm việc."
+      },
+      "tags": [
+        "weather"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L12-G001",
+      "pattern": "-(으)면",
+      "meaning": "Nếu… thì…",
+      "explanation": "Điều kiện giả định.",
+      "formation": "Có patchim: -으면 · Không: -면",
+      "examples": [
+        {
+          "ko": "비가 오면 일하지 않습니다.",
+          "vi": "Nếu mưa thì không làm việc."
+        },
+        {
+          "ko": "아프면 병원에 가세요.",
+          "vi": "Nếu ốm hãy đi bệnh viện."
+        }
+      ]
+    },
+    {
+      "id": "L12-G002",
+      "pattern": "-(으)ㄹ까요?",
+      "meaning": "…nhé? / …không?",
+      "explanation": "Đề nghị cùng làm hoặc hỏi ý kiến.",
+      "formation": "Có patchim: -을까요? · Không: -ㄹ까요?",
+      "examples": [
+        {
+          "ko": "같이 점심 먹을까요?",
+          "vi": "Cùng ăn trưa nhé?"
+        },
+        {
+          "ko": "몇 시에 만날까요?",
+          "vi": "Mấy giờ chúng ta gặp?"
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L12-D001",
+      "title": "Bão sắp đến",
+      "situation": "Tổ trưởng thông báo kế hoạch khi có bão.",
+      "lines": [
+        {
+          "speaker": "반장",
+          "ko": "내일 태풍이 올 것 같아요.",
+          "vi": "Ngày mai có vẻ bão sẽ đến."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "그러면 야외 작업을 해요?",
+          "vi": "Vậy có làm việc ngoài trời không?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "비가 오면 작업을 쉽니다. 공장 안에서 일할까요?",
+          "vi": "Nếu mưa thì nghỉ. Hay làm trong nhà máy nhé?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네, 좋아요.",
+          "vi": "Vâng, được ạ."
+        }
+      ]
+    }
+  ]
+}

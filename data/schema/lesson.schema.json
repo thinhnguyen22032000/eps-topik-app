@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EPS-TOPIK Lesson",
+  "type": "object",
+  "required": ["id", "number", "title", "vocabulary"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^L\\d{2}$" },
+    "number": { "type": "integer", "minimum": 1, "maximum": 60 },
+    "book": { "enum": [1, 2] },
+    "topic": { "type": "string" },
+    "title": { "type": "object", "required": ["ko", "vi"], "properties": { "ko": {"type":"string"}, "vi": {"type":"string"} } },
+    "vocabulary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "ko", "viPhonetic", "meaning", "example"],
+        "properties": {
+          "id": { "type": "string" },
+          "ko": { "type": "string" },
+          "romanization": { "type": "string" },
+          "viPhonetic": { "type": "string" },
+          "meaning": { "type": "string" },
+          "pos": { "enum": ["noun", "verb", "adj", "adv", "expr"] },
+          "field": { "enum": ["general", "manufacturing", "agriculture", "construction", "textile", "fishery", "safety"] },
+          "example": {
+            "type": "object",
+            "required": ["ko", "vi"],
+            "properties": { "ko": {"type":"string"}, "viPhonetic": {"type":"string"}, "vi": {"type":"string"} }
+          },
+          "audio": { "type": "string" },
+          "tags": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "grammar": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "pattern", "meaning", "explanation"],
+        "properties": {
+          "id": {"type":"string"}, "pattern": {"type":"string"}, "meaning": {"type":"string"},
+          "explanation": {"type":"string"}, "formation": {"type":"string"},
+          "examples": { "type": "array", "items": { "type": "object", "properties": { "ko": {"type":"string"}, "vi": {"type":"string"} } } },
+          "confusablePairs": { "type": "array", "items": { "type": "object", "properties": { "with": {"type":"string"}, "difference": {"type":"string"}, "tip": {"type":"string"} } } }
+        }
+      }
+    },
+    "safetySigns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "ko", "meaning", "category"],
+        "properties": {
+          "id": {"type":"string"}, "ko": {"type":"string"}, "viPhonetic": {"type":"string"}, "meaning": {"type":"string"},
+          "category": { "enum": ["prohibition", "warning", "mandatory", "safe-condition"] },
+          "image": {"type":"string"}, "explanation": {"type":"string"},
+          "relatedVocab": { "type": "array", "items": {"type":"string"} }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "skill", "stem", "choices", "answer"],
+        "properties": {
+          "id": {"type":"string"},
+          "skill": { "enum": ["reading", "listening"] },
+          "type": {"type":"string"},
+          "stem": {"type":"string"},
+          "image": { "type": ["string", "null"] },
+          "audio": { "type": ["string", "null"] },
+          "transcript": {"type":"string"},
+          "choices": { "type": "array", "minItems": 4, "maxItems": 4, "items": {"type":"string"} },
+          "answer": { "type": "integer", "minimum": 0, "maximum": 3 },
+          "explanation": {"type":"string"},
+          "points": {"type":"number"},
+          "level": { "enum": ["easy", "medium", "hard"] }
+        }
+      }
+    }
+  }
+}

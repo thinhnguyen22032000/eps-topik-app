@@ -1,0 +1,54 @@
+.scene { perspective: 1200px; }
+#card-inner { transition: transform .5s; transform-style: preserve-3d; position: relative; min-height: 380px; }
+#card-inner.flipped { transform: rotateY(180deg); }
+.face { backface-visibility: hidden; position: absolute; inset: 0; }
+.back { transform: rotateY(180deg); }
+
+.tab-btn { padding: .6rem 1rem; border-radius: .75rem; font-weight: 600; color: #64748b; white-space: nowrap; }
+.tab-btn:hover { background: #e2e8f0; }
+.tab-btn.active { background: #1d4ed8; color: #fff; }
+
+/* Sidebar trái cố định (desktop >= 1024px); drawer trượt ra từ trái trên mobile */
+#sidebar {
+  position: fixed; top: 0; bottom: 0; left: 0; width: 17rem; max-width: 85vw; z-index: 40;
+  display: flex; flex-direction: column; background: #fff; border-right: 1px solid #e2e8f0;
+  transform: translateX(-100%); transition: transform .25s ease;
+}
+#sidebar.open { transform: none; box-shadow: 8px 0 24px rgba(15, 23, 42, .2); }
+@media (min-width: 1024px) {
+  #sidebar { transform: none; width: 16rem; z-index: 20; }
+  #content { margin-left: 16rem; }
+}
+.mascot { width: 3rem; height: 3rem; flex-shrink: 0; display: grid; place-items: center; font-size: 2rem; border-radius: 1rem; background: #ffedd5; box-shadow: inset 0 -3px 0 #fdba74; }
+.side-btn { display: flex; align-items: center; gap: .75rem; width: 100%; padding: .65rem .85rem; border-radius: .85rem; border: 2px solid transparent; font-weight: 700; color: #475569; text-align: left; }
+.side-btn .ico { width: 1.6rem; text-align: center; font-size: 1.25rem; }
+.side-btn:hover { background: #f1f5f9; }
+.side-btn.active { background: #dbeafe; border-color: #93c5fd; color: #1d4ed8; }
+.stat-pill { flex: 1; text-align: center; background: #f1f5f9; border-radius: .75rem; padding: .35rem .25rem; font-weight: 600; color: #475569; white-space: nowrap; }
+
+/* Biển báo: 4 nhóm theo màu chuẩn */
+.sign-prohibition { --c: #dc2626; --bg: #fef2f2; }
+.sign-warning { --c: #d97706; --bg: #fffbeb; }
+.sign-mandatory { --c: #2563eb; --bg: #eff6ff; }
+.sign-safe { --c: #16a34a; --bg: #f0fdf4; }
+.sign-card { background: var(--bg); border: 2px solid var(--c); border-radius: 1rem; padding: 1rem; cursor: pointer; }
+.sign-img { width: 4.5rem; height: 4.5rem; flex-shrink: 0; }
+.passage { background: #f8fafc; border-left: 4px solid #1d4ed8; padding: .9rem 1rem; border-radius: .5rem; white-space: pre-line; line-height: 1.8; }
+.sign-card .reveal { display: none; }
+.sign-card.open .reveal, body.show-all .sign-card .reveal { display: block; }
+.sign-card .hidden-until { filter: blur(6px); }
+.sign-card.open .hidden-until, body.show-all .sign-card .hidden-until { filter: none; }
+
+/* Phòng thi CBT */
+.exam-bar { background: #0f2a5c; color: #fff; }
+.q-num { width: 2.2rem; height: 2.2rem; border-radius: .4rem; border: 1px solid #94a3b8; background: #fff; font-size: .85rem; }
+.q-num.answered { background: #1d4ed8; color: #fff; border-color: #1d4ed8; }
+.q-num.flagged { outline: 3px solid #f59e0b; }
+.q-num.current { box-shadow: 0 0 0 3px #0f2a5c; }
+.choice { display: flex; gap: .75rem; align-items: center; width: 100%; text-align: left; padding: .8rem 1rem; border: 2px solid #cbd5e1; border-radius: .75rem; background: #fff; }
+.choice:hover { border-color: #60a5fa; }
+.choice.sel { border-color: #1d4ed8; background: #eff6ff; }
+.choice.ok { border-color: #16a34a; background: #f0fdf4; }
+.choice.bad { border-color: #dc2626; background: #fef2f2; }
+.timer-low { color: #fca5a5; animation: blink 1s infinite; }
+@keyframes blink { 50% { opacity: .4; } }

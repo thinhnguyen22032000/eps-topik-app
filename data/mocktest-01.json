@@ -1,0 +1,63 @@
+{
+  "id": "MT01",
+  "title": "Đề thi thử EPS-TOPIK số 1",
+  "durationMin": 50,
+  "passScore": 80,
+  "maxScore": 200,
+  "pointsPerQuestion": 5,
+  "note": "Đề tự soạn mô phỏng cấu trúc đề thật (20 Đọc + 20 Nghe). Dạng: nhìn hình, biển báo, điền từ, đọc đoạn văn.",
+  "sections": [
+    {
+      "skill": "reading",
+      "title": "Đọc hiểu (읽기)",
+      "questions": [
+        { "id": "R01", "type": "picture", "stem": "이것은 무엇입니까?", "icon": "🔨", "choices": ["망치", "가위", "칼", "톱"], "answer": 0, "explanation": "🔨 = 망치 (cái búa)." },
+        { "id": "R02", "type": "picture", "stem": "이것은 무엇입니까?", "icon": "⛑️", "choices": ["안전모", "장갑", "신발", "마스크"], "answer": 0, "explanation": "⛑️ = 안전모 (mũ bảo hộ)." },
+        { "id": "R03", "type": "picture", "stem": "이것은 무엇입니까?", "icon": "🧤", "choices": ["장갑", "모자", "양말", "우산"], "answer": 0, "explanation": "🧤 = 장갑 (găng tay)." },
+        { "id": "R04", "type": "picture", "stem": "이것은 무엇입니까?", "icon": "🧯", "choices": ["소화기", "청소기", "냉장고", "세탁기"], "answer": 0, "explanation": "🧯 = 소화기 (bình chữa cháy)." },
+        { "id": "R05", "type": "picture", "stem": "이 기계의 이름은 무엇입니까?", "icon": "🚜", "choices": ["트랙터", "자동차", "자전거", "비행기"], "answer": 0, "explanation": "🚜 = 트랙터 (máy kéo), thường gặp ở nông nghiệp." },
+        { "id": "R06", "type": "sign", "stem": "표지판의 뜻은 무엇입니까?", "image": "img/signs/no-smoking.svg", "choices": ["담배를 피우지 마십시오", "문을 닫으십시오", "물을 마시십시오", "빨리 가십시오"], "answer": 0, "explanation": "금연 = cấm hút thuốc." },
+        { "id": "R07", "type": "sign", "stem": "표지판의 뜻은 무엇입니까?", "image": "img/signs/emergency-exit.svg", "choices": ["밖으로 나가는 문입니다", "화장실입니다", "식당입니다", "사무실입니다"], "answer": 0, "explanation": "비상구 = lối thoát hiểm." },
+        { "id": "R08", "type": "sign", "stem": "표지판의 뜻은 무엇입니까?", "image": "img/signs/high-voltage.svg", "choices": ["전기를 조심하십시오", "물을 쓰십시오", "소리를 내십시오", "신발을 벗으십시오"], "answer": 0, "explanation": "고압전기 = điện cao áp, phải cẩn thận." },
+        { "id": "R09", "type": "blank", "stem": "( )에 알맞은 것을 고르십시오.\n저는 한국 회사( ) 일합니다.", "choices": ["에서", "에", "을", "가"], "answer": 0, "explanation": "일하다 là hành động diễn ra tại nơi nào → -에서." },
+        { "id": "R10", "type": "blank", "stem": "( )에 알맞은 것을 고르십시오.\n아침 일곱 시( ) 출근합니다.", "choices": ["에", "에서", "을", "가"], "answer": 0, "explanation": "Thời điểm cụ thể (7 giờ) → -에." },
+        { "id": "R11", "type": "blank", "stem": "( )에 알맞은 것을 고르십시오.\n이 기계는 위험하니까 ( ) 마세요.", "choices": ["만지지", "만지고", "만져서", "만졌어"], "answer": 0, "explanation": "Cấu trúc 'đừng làm' = -지 마세요." },
+        { "id": "R12", "type": "blank", "stem": "( )에 알맞은 것을 고르십시오.\n어제 아파서 일을 ( ) 했습니다.", "choices": ["못", "또", "잘", "빨리"], "answer": 0, "explanation": "Ốm nên không thể làm → 못 (phủ định khả năng)." },
+        { "id": "R13", "type": "blank", "stem": "( )에 알맞은 것을 고르십시오.\n점심시간에 식당에서 ( )을 먹습니다.", "choices": ["밥", "옷", "차", "집"], "answer": 0, "explanation": "먹다 đi với đồ ăn: 밥 (cơm)." },
+        { "id": "R14", "type": "blank", "stem": "( )에 알맞은 것을 고르십시오.\n기계가 고장 났습니다. 빨리 사장님께 ( ).", "choices": ["말하세요", "말하지만", "말해도", "말하면서"], "answer": 0, "explanation": "Câu dặn dò, yêu cầu → -(으)세요." },
+        { "id": "R15", "type": "passage", "passage": "저는 응우옌입니다. 베트남 사람입니다. 한국 공장에서 일합니다. 월요일부터 금요일까지 일합니다. 토요일에는 친구를 만납니다.", "stem": "응우옌 씨는 어디에서 일합니까?", "choices": ["공장", "학교", "병원", "식당"], "answer": 0, "explanation": "'한국 공장에서 일합니다' → nhà máy." },
+        { "id": "R16", "type": "passage", "passage": "저는 응우옌입니다. 베트남 사람입니다. 한국 공장에서 일합니다. 월요일부터 금요일까지 일합니다. 토요일에는 친구를 만납니다.", "stem": "응우옌 씨는 토요일에 무엇을 합니까?", "choices": ["친구를 만납니다", "일합니다", "병원에 갑니다", "공부합니다"], "answer": 0, "explanation": "'토요일에는 친구를 만납니다'." },
+        { "id": "R17", "type": "passage", "passage": "[알림]\n내일은 안전 교육이 있습니다. 오전 9시까지 교육실에 오십시오. 안전모와 안전화를 가지고 오십시오.\n사장님", "stem": "몇 시까지 교육실에 갑니까?", "choices": ["오전 9시", "오전 10시", "오후 1시", "오후 3시"], "answer": 0, "explanation": "'오전 9시까지' (đến 9 giờ sáng)." },
+        { "id": "R18", "type": "passage", "passage": "[알림]\n내일은 안전 교육이 있습니다. 오전 9시까지 교육실에 오십시오. 안전모와 안전화를 가지고 오십시오.\n사장님", "stem": "가지고 가야 하는 것은 무엇입니까?", "choices": ["안전모와 안전화", "책과 공책", "밥과 물", "옷과 모자"], "answer": 0, "explanation": "'안전모와 안전화를 가지고 오십시오'." },
+        { "id": "R19", "type": "passage", "passage": "오늘은 비가 많이 옵니다. 바닥이 미끄럽습니다. 그래서 천천히 걸으십시오. 그리고 기계 옆에서 뛰지 마십시오.", "stem": "왜 천천히 걸어야 합니까?", "choices": ["바닥이 미끄럽습니다", "일이 많습니다", "기계가 비쌉니다", "사장님이 계십니다"], "answer": 0, "explanation": "'바닥이 미끄럽습니다. 그래서 천천히…' → sàn trơn nên đi chậm." },
+        { "id": "R20", "type": "passage", "passage": "오늘은 비가 많이 옵니다. 바닥이 미끄럽습니다. 그래서 천천히 걸으십시오. 그리고 기계 옆에서 뛰지 마십시오.", "stem": "기계 옆에서 무엇을 하면 안 됩니까?", "choices": ["뛰는 것", "앉는 것", "일하는 것", "먹는 것"], "answer": 0, "explanation": "'뛰지 마십시오' = đừng chạy." }
+      ]
+    },
+    {
+      "skill": "listening",
+      "title": "Nghe hiểu (듣기)",
+      "questions": [
+        { "id": "L01", "type": "dialog", "stem": "남자는 무엇을 합니까?", "audio": "안녕하세요? 처음 뵙겠습니다. 저는 민수입니다.", "choices": ["자기소개를 합니다", "물건을 삽니다", "길을 묻습니다", "병원에 갑니다"], "answer": 0, "explanation": "Chào và nói tên → tự giới thiệu." },
+        { "id": "L02", "type": "dialog", "stem": "지금 몇 시입니까?", "audio": "지금 몇 시예요? 세 시 삼십 분이에요.", "choices": ["두 시 삼십 분", "세 시", "세 시 삼십 분", "네 시 삼십 분"], "answer": 2, "explanation": "세 시 삼십 분 = 3 giờ 30." },
+        { "id": "L03", "type": "dialog", "stem": "남자는 무엇을 하라고 합니까?", "audio": "안전모를 쓰세요.", "choices": ["신발을 신습니다", "안전모를 씁니다", "장갑을 삽니다", "기계를 만집니다"], "answer": 1, "explanation": "안전모를 쓰세요 = hãy đội mũ bảo hộ." },
+        { "id": "L04", "type": "dialog", "stem": "이것은 얼마입니까?", "audio": "이것은 얼마예요? 만 이천 원이에요.", "choices": ["이천 원", "만 이천 원", "십이만 원", "이만 원"], "answer": 1, "explanation": "만 이천 원 = 12.000 won." },
+        { "id": "L05", "type": "dialog", "stem": "내일 몇 시에 출근합니까?", "audio": "내일 몇 시에 출근해요? 일곱 시 반에 출근해요.", "choices": ["일곱 시", "일곱 시 반", "여덟 시", "여덟 시 반"], "answer": 1, "explanation": "일곱 시 반 = 7 giờ rưỡi." },
+        { "id": "L06", "type": "dialog", "stem": "오늘은 무슨 요일입니까?", "audio": "오늘은 무슨 요일이에요? 수요일이에요.", "choices": ["월요일", "화요일", "수요일", "목요일"], "answer": 2, "explanation": "수요일 = thứ tư." },
+        { "id": "L07", "type": "dialog", "stem": "왜 기계를 만지지 않습니까?", "audio": "기계를 만지지 마세요. 위험해요.", "choices": ["위험합니다", "비쌉니다", "무겁습니다", "작습니다"], "answer": 0, "explanation": "위험해요 = nguy hiểm." },
+        { "id": "L08", "type": "dialog", "stem": "남자는 어디에 갑니까?", "audio": "오늘 몸이 아파서 병원에 가요.", "choices": ["공장", "병원", "은행", "학교"], "answer": 1, "explanation": "병원 = bệnh viện." },
+        { "id": "L09", "type": "dialog", "stem": "남자는 점심을 먹었습니까?", "audio": "점심 먹었어요? 아니요, 아직 안 먹었어요.", "choices": ["네, 먹었습니다", "아니요, 안 먹었습니다", "지금 먹고 있습니다", "내일 먹을 겁니다"], "answer": 1, "explanation": "아직 안 먹었어요 = vẫn chưa ăn." },
+        { "id": "L10", "type": "dialog", "stem": "남자는 토요일에 무엇을 합니까?", "audio": "토요일에 뭐 해요? 친구를 만나요.", "choices": ["일합니다", "친구를 만납니다", "잡니다", "쇼핑합니다"], "answer": 1, "explanation": "친구를 만나요 = gặp bạn." },
+        { "id": "L11", "type": "dialog", "stem": "은행은 어디에 있습니까?", "audio": "은행이 어디예요? 저기 우체국 옆에 있어요.", "choices": ["우체국 옆", "병원 앞", "공장 뒤", "학교 위"], "answer": 0, "explanation": "우체국 옆 = cạnh bưu điện." },
+        { "id": "L12", "type": "dialog", "stem": "여자는 왜 피곤합니까?", "audio": "저는 어제 한국어를 공부했어요. 그래서 오늘 피곤해요.", "choices": ["한국어를 공부했습니다", "일이 많았습니다", "잠을 많이 잤습니다", "운동했습니다"], "answer": 0, "explanation": "Hôm qua học tiếng Hàn nên hôm nay mệt." },
+        { "id": "L13", "type": "dialog", "stem": "용접할 때 무엇을 꼭 씁니까?", "audio": "용접할 때는 보안경을 꼭 쓰세요.", "choices": ["안전모", "보안경", "장갑", "마스크"], "answer": 1, "explanation": "보안경 = kính bảo hộ." },
+        { "id": "L14", "type": "dialog", "stem": "어디로 나갑니까?", "audio": "화재가 났습니다. 비상구로 나가세요.", "choices": ["사무실", "비상구", "기숙사", "식당"], "answer": 1, "explanation": "Có cháy → ra lối thoát hiểm (비상구)." },
+        { "id": "L15", "type": "dialog", "stem": "남자는 내일 무엇을 합니까?", "audio": "사장님, 내일 몸이 아파서 일할 수 없어요. 쉬어도 돼요? 네, 쉬세요.", "choices": ["일합니다", "쉽니다", "출장을 갑니다", "교육을 받습니다"], "answer": 1, "explanation": "Được giám đốc cho nghỉ (쉬세요)." },
+        { "id": "L16", "type": "dialog", "stem": "오늘 어디에서 일합니까?", "audio": "비가 와서 오늘 야외 작업은 안 합니다. 공장 안에서 일하세요.", "choices": ["공장 안", "공장 밖", "집", "학교"], "answer": 0, "explanation": "Trời mưa → làm trong nhà máy (공장 안)." },
+        { "id": "L17", "type": "dialog", "stem": "월급은 언제 받습니까?", "audio": "월급은 언제 받아요? 매달 이십오 일에 받아요.", "choices": ["오 일", "십오 일", "이십오 일", "삼십 일"], "answer": 2, "explanation": "이십오 일 = ngày 25." },
+        { "id": "L18", "type": "dialog", "stem": "공장까지 얼마나 걸립니까?", "audio": "버스를 타고 공장에 가요. 삼십 분 걸려요.", "choices": ["십 분", "이십 분", "삼십 분", "한 시간"], "answer": 2, "explanation": "삼십 분 = 30 phút." },
+        { "id": "L19", "type": "dialog", "stem": "먼저 무엇을 해야 합니까?", "audio": "이 기계는 사용하기 전에 사장님께 물어보세요.", "choices": ["사장님께 물어봅니다", "기계를 켭니다", "청소합니다", "퇴근합니다"], "answer": 0, "explanation": "사용하기 전에 = trước khi dùng → hỏi giám đốc." },
+        { "id": "L20", "type": "dialog", "stem": "두 사람은 몇 시에 만납니까?", "audio": "오늘 저녁에 같이 밥 먹을까요? 좋아요. 몇 시에 만날까요? 여섯 시에 만나요.", "choices": ["다섯 시", "여섯 시", "일곱 시", "여덟 시"], "answer": 1, "explanation": "여섯 시 = 6 giờ." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "groups": [
+    {
+      "id": "prohibition",
+      "css": "sign-prohibition",
+      "title": "Biển cấm",
+      "ko": "금지 표지",
+      "hint": "Hình tròn, viền đỏ, gạch chéo. Tuyệt đối KHÔNG được làm.",
+      "signs": [
+        {
+          "ko": "출입금지",
+          "icon": "🚫",
+          "vi": "Cấm ra vào",
+          "scene": "Khu vực máy ép, kho hóa chất: người không phận sự không được vào.",
+          "slug": "no-entry",
+          "image": "img/signs/no-entry.svg"
+        },
+        {
+          "ko": "금연",
+          "icon": "🚭",
+          "vi": "Cấm hút thuốc",
+          "scene": "Kho xăng dầu, xưởng sơn, nhà kính: hút thuốc có thể gây cháy nổ.",
+          "slug": "no-smoking",
+          "image": "img/signs/no-smoking.svg"
+        },
+        {
+          "ko": "화기엄금",
+          "icon": "🔥",
+          "vi": "Nghiêm cấm lửa",
+          "scene": "Gần bình gas, kho vật liệu dễ cháy; không hàn cắt, bật lửa.",
+          "slug": "no-fire",
+          "image": "img/signs/no-fire.svg"
+        },
+        {
+          "ko": "손대지 마시오",
+          "icon": "✋",
+          "vi": "Cấm chạm vào",
+          "scene": "Máy đang chạy, tủ điện: chạm vào có thể bị cuốn tay, điện giật.",
+          "slug": "no-touch",
+          "image": "img/signs/no-touch.svg"
+        },
+        {
+          "ko": "통행금지",
+          "icon": "⛔",
+          "vi": "Cấm đi lại",
+          "scene": "Khu vực cần cẩu đang nâng hàng, đường đang thi công.",
+          "slug": "no-passage",
+          "image": "img/signs/no-passage.svg"
+        }
+      ],
+      "color": "#D3202B",
+      "sourceHint": "Mẫu chuẩn: biển P*** theo ISO 7010 (nền trắng, viền + gạch chéo đỏ). Tìm: 'ISO 7010 prohibition signs' trên Wikimedia Commons (kiểm tra giấy phép từng file)."
+    },
+    {
+      "id": "warning",
+      "css": "sign-warning",
+      "title": "Biển cảnh báo",
+      "ko": "경고 표지",
+      "hint": "Hình tam giác/vàng. Cẩn thận, có nguy hiểm phía trước.",
+      "signs": [
+        {
+          "ko": "고압전기",
+          "icon": "⚡",
+          "vi": "Điện cao áp",
+          "scene": "Tủ điện, trạm biến áp: không chạm, chỉ thợ điện được mở.",
+          "slug": "high-voltage",
+          "image": "img/signs/high-voltage.svg"
+        },
+        {
+          "ko": "낙하물 주의",
+          "icon": "⬇️",
+          "vi": "Cẩn thận vật rơi",
+          "scene": "Công trường xây dựng, dưới giàn giáo: phải đội mũ bảo hộ.",
+          "slug": "falling-objects",
+          "image": "img/signs/falling-objects.svg"
+        },
+        {
+          "ko": "미끄럼 주의",
+          "icon": "💦",
+          "vi": "Cẩn thận trơn trượt",
+          "scene": "Sàn chế biến thủy sản, nhà vệ sinh ướt, sàn dính dầu.",
+          "slug": "slippery",
+          "image": "img/signs/slippery.svg"
+        },
+        {
+          "ko": "고온 주의",
+          "icon": "♨️",
+          "vi": "Cẩn thận nhiệt độ cao",
+          "scene": "Lò hơi, máy ép nhựa nóng, nồi hấp: dễ bị bỏng.",
+          "slug": "high-temperature",
+          "image": "img/signs/high-temperature.svg"
+        },
+        {
+          "ko": "지게차 주의",
+          "icon": "🚜",
+          "vi": "Cẩn thận xe nâng",
+          "scene": "Kho hàng, khu bốc xếp: tránh đứng trước/sau xe nâng.",
+          "slug": "forklift",
+          "image": "img/signs/forklift.svg"
+        },
+        {
+          "ko": "유해물질 경고",
+          "icon": "☠️",
+          "vi": "Cảnh báo chất độc hại",
+          "scene": "Kho thuốc trừ sâu nông nghiệp, hóa chất sơn: đeo mặt nạ, găng tay.",
+          "slug": "toxic",
+          "image": "img/signs/toxic.svg"
+        }
+      ],
+      "color": "#F9C400",
+      "sourceHint": "Mẫu chuẩn: biển W*** theo ISO 7010 (tam giác vàng viền đen). Tìm: 'ISO 7010 warning signs' trên Wikimedia Commons."
+    },
+    {
+      "id": "mandatory",
+      "css": "sign-mandatory",
+      "title": "Biển bắt buộc",
+      "ko": "지시 표지",
+      "hint": "Hình tròn, nền xanh dương. BẮT BUỘC phải làm.",
+      "signs": [
+        {
+          "ko": "안전모 착용",
+          "icon": "⛑️",
+          "vi": "Bắt buộc đội mũ bảo hộ",
+          "scene": "Công trường, nhà máy có cần cẩu: bảo vệ đầu khỏi vật rơi.",
+          "slug": "helmet",
+          "image": "img/signs/helmet.svg"
+        },
+        {
+          "ko": "보안경 착용",
+          "icon": "🥽",
+          "vi": "Bắt buộc đeo kính bảo hộ",
+          "scene": "Khi hàn, mài, cắt: tia lửa và mảnh vụn bắn vào mắt.",
+          "slug": "goggles",
+          "image": "img/signs/goggles.svg"
+        },
+        {
+          "ko": "안전화 착용",
+          "icon": "👢",
+          "vi": "Bắt buộc đi giày bảo hộ",
+          "scene": "Xưởng cơ khí, công trường: tránh vật nặng rơi vào chân, đinh đâm.",
+          "slug": "safety-boots",
+          "image": "img/signs/safety-boots.svg"
+        },
+        {
+          "ko": "보호장갑 착용",
+          "icon": "🧤",
+          "vi": "Bắt buộc đeo găng tay bảo hộ",
+          "scene": "Cầm vật sắc, hóa chất, đồ nóng.",
+          "slug": "gloves",
+          "image": "img/signs/gloves.svg"
+        },
+        {
+          "ko": "방진마스크 착용",
+          "icon": "😷",
+          "vi": "Bắt buộc đeo khẩu trang chống bụi",
+          "scene": "Xưởng may (bụi vải), xưởng mài, phun sơn.",
+          "slug": "dust-mask",
+          "image": "img/signs/dust-mask.svg"
+        },
+        {
+          "ko": "귀마개 착용",
+          "icon": "🎧",
+          "vi": "Bắt buộc đeo nút/chụp tai",
+          "scene": "Nơi máy móc ồn lớn: tránh giảm thính lực.",
+          "slug": "ear-protection",
+          "image": "img/signs/ear-protection.svg"
+        }
+      ],
+      "color": "#0A57A6",
+      "sourceHint": "Mẫu chuẩn: biển M*** theo ISO 7010 (tròn xanh dương, hình trắng). Tìm: 'ISO 7010 mandatory signs' trên Wikimedia Commons."
+    },
+    {
+      "id": "safe",
+      "css": "sign-safe",
+      "title": "Biển chỉ dẫn an toàn",
+      "ko": "안내 표지",
+      "hint": "Hình vuông, nền xanh lá. Chỉ nơi an toàn, lối thoát, sơ cứu.",
+      "signs": [
+        {
+          "ko": "비상구",
+          "icon": "🚪",
+          "vi": "Lối thoát hiểm",
+          "scene": "Khi có cháy hoặc sự cố: chạy theo biển 비상구, không dùng thang máy.",
+          "slug": "emergency-exit",
+          "image": "img/signs/emergency-exit.svg"
+        },
+        {
+          "ko": "응급처치",
+          "icon": "➕",
+          "vi": "Nơi sơ cứu",
+          "scene": "Tủ thuốc, phòng y tế trong nhà máy.",
+          "slug": "first-aid",
+          "image": "img/signs/first-aid.svg"
+        },
+        {
+          "ko": "소화기",
+          "icon": "🧯",
+          "vi": "Bình chữa cháy",
+          "scene": "Treo ở hành lang, gần máy; biết vị trí trước khi làm việc.",
+          "slug": "extinguisher",
+          "image": "img/signs/extinguisher.svg"
+        },
+        {
+          "ko": "세안 설비",
+          "icon": "🚿",
+          "vi": "Vòi rửa mắt khẩn cấp",
+          "scene": "Khi hóa chất bắn vào mắt: rửa ngay bằng nước sạch.",
+          "slug": "eye-wash",
+          "image": "img/signs/eye-wash.svg"
+        },
+        {
+          "ko": "대피소",
+          "icon": "🏠",
+          "vi": "Nơi lánh nạn",
+          "scene": "Điểm tập trung khi có sự cố hoặc thiên tai.",
+          "slug": "shelter",
+          "image": "img/signs/shelter.svg"
+        }
+      ],
+      "color": "#00913F",
+      "sourceHint": "Mẫu chuẩn: biển E*** / F*** theo ISO 7010 (vuông xanh lá, hình trắng). Tìm: 'ISO 7010 safe condition signs' trên Wikimedia Commons."
+    }
+  ],
+  "imageGuide": {
+    "howToReplace": "Chép file ảnh (svg/png) vào img/signs/ rồi sửa trường 'image' của biển tương ứng nếu đổi đuôi file. Không cần sửa code.",
+    "koreaSource": "Biển báo hàn quốc: tra '안전보건표지' trên trang Cơ quan An toàn Sức khỏe Hàn Quốc (KOSHA, kosha.or.kr) và giáo trình EPS-TOPIK của HRD Korea. Cần kiểm tra bản quyền trước khi dùng thương mại."
+  }
+}

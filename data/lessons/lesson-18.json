@@ -1,0 +1,250 @@
+{
+  "id": "L18",
+  "number": 18,
+  "book": 1,
+  "topic": "manufacturing",
+  "title": {
+    "ko": "제조와 섬유",
+    "vi": "Sản xuất và may mặc"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L18-V001",
+      "group": 1,
+      "ko": "재봉틀",
+      "pos": "Danh từ",
+      "viPhonetic": "chê-bông-thưl",
+      "meaning": "Máy may",
+      "field": "textile",
+      "example": {
+        "ko": "재봉틀로 옷을 만듭니다.",
+        "vi": "Tôi may quần áo bằng máy may."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V002",
+      "group": 1,
+      "ko": "실",
+      "pos": "Danh từ",
+      "viPhonetic": "xil",
+      "meaning": "Chỉ",
+      "field": "textile",
+      "example": {
+        "ko": "바늘에 실을 끼웁니다.",
+        "vi": "Xỏ chỉ vào kim."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V003",
+      "group": 1,
+      "ko": "바늘",
+      "pos": "Danh từ",
+      "viPhonetic": "ba-nưl",
+      "meaning": "Kim",
+      "field": "textile",
+      "example": {
+        "ko": "바늘에 손을 다치지 마세요.",
+        "vi": "Đừng để kim đâm vào tay."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V004",
+      "group": 1,
+      "ko": "천",
+      "pos": "Danh từ",
+      "viPhonetic": "chon",
+      "meaning": "Vải",
+      "field": "textile",
+      "example": {
+        "ko": "천을 자릅니다.",
+        "vi": "Cắt vải."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V005",
+      "group": 1,
+      "ko": "옷",
+      "pos": "Danh từ",
+      "viPhonetic": "ot",
+      "meaning": "Quần áo",
+      "field": "textile",
+      "example": {
+        "ko": "이 공장은 옷을 만듭니다.",
+        "vi": "Nhà máy này sản xuất quần áo."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V006",
+      "group": 2,
+      "ko": "가위",
+      "pos": "Danh từ",
+      "viPhonetic": "ka-uy",
+      "meaning": "Cái kéo",
+      "field": "textile",
+      "example": {
+        "ko": "가위로 실을 자릅니다.",
+        "vi": "Cắt chỉ bằng kéo."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V007",
+      "group": 2,
+      "ko": "포장",
+      "pos": "Danh từ",
+      "viPhonetic": "phô-chang",
+      "meaning": "Đóng gói",
+      "field": "manufacturing",
+      "example": {
+        "ko": "상자에 제품을 포장합니다.",
+        "vi": "Đóng gói sản phẩm vào thùng."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V008",
+      "group": 2,
+      "ko": "제품",
+      "pos": "Danh từ",
+      "viPhonetic": "chê-phum",
+      "meaning": "Sản phẩm",
+      "field": "manufacturing",
+      "example": {
+        "ko": "완성된 제품을 검사합니다.",
+        "vi": "Kiểm tra sản phẩm đã hoàn thành."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V009",
+      "group": 2,
+      "ko": "검사",
+      "pos": "Danh từ",
+      "viPhonetic": "kom-xa",
+      "meaning": "Kiểm tra",
+      "field": "manufacturing",
+      "example": {
+        "ko": "출하 전에 제품을 검사합니다.",
+        "vi": "Kiểm tra sản phẩm trước khi xuất xưởng."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    },
+    {
+      "id": "L18-V010",
+      "group": 2,
+      "ko": "불량",
+      "pos": "Danh từ",
+      "viPhonetic": "bul-ryang",
+      "meaning": "Hàng lỗi",
+      "field": "manufacturing",
+      "example": {
+        "ko": "불량이 있으면 따로 놓으세요.",
+        "vi": "Nếu có hàng lỗi hãy để riêng."
+      },
+      "tags": [
+        "manufacturing"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L18-G001",
+      "pattern": "-아/어 보다",
+      "meaning": "Thử làm…",
+      "explanation": "Thử trải nghiệm một việc.",
+      "formation": "Gốc động từ + 아/어 보다",
+      "examples": [
+        {
+          "ko": "이 기계를 사용해 보세요.",
+          "vi": "Hãy thử dùng máy này."
+        },
+        {
+          "ko": "한국 음식을 먹어 봤어요.",
+          "vi": "Tôi đã thử ăn món Hàn."
+        }
+      ]
+    },
+    {
+      "id": "L18-G002",
+      "pattern": "-(으)ㄹ 것 같다",
+      "meaning": "Có vẻ sẽ… / chắc là…",
+      "explanation": "Suy đoán của người nói.",
+      "formation": "Có patchim: -을 것 같다 · Không: -ㄹ 것 같다",
+      "examples": [
+        {
+          "ko": "내일 비가 올 것 같아요.",
+          "vi": "Có vẻ ngày mai sẽ mưa."
+        },
+        {
+          "ko": "오늘 일이 늦게 끝날 것 같아요.",
+          "vi": "Hôm nay có vẻ sẽ xong muộn."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L18-D001",
+      "title": "Kiểm tra hàng lỗi",
+      "situation": "Ở xưởng may, tổ trưởng yêu cầu kiểm tra sản phẩm.",
+      "lines": [
+        {
+          "speaker": "반장",
+          "ko": "이 제품은 불량이 있어요. 다시 검사해 보세요.",
+          "vi": "Sản phẩm này có lỗi. Hãy thử kiểm tra lại."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "불량은 어디에 놓을까요?",
+          "vi": "Hàng lỗi để ở đâu ạ?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "저 상자에 따로 놓으세요.",
+          "vi": "Hãy để riêng vào cái thùng kia."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네. 오늘 포장은 늦게 끝날 것 같아요.",
+          "vi": "Vâng. Hôm nay đóng gói có vẻ sẽ xong muộn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_note": "Nhãn nguồn hiển thị ở đầu và chân mỗi bài. Chỉ đặt 'verified': true trong file lesson-XX.json (trường source) SAU KHI nội dung bài đã được đối chiếu với giáo trình chính thức của HRD Korea.",
+  "badgeDraft": "📝 Biên soạn theo chủ đề và trình độ chương trình EPS-TOPIK",
+  "badgeVerified": "📚 Theo chuẩn giáo trình EPS-TOPIK (HRD Korea)",
+  "footerDraft": "Nội dung do nhóm phát triển tự biên soạn để luyện tập, bám theo chủ đề và dạng đề EPS-TOPIK. Chưa phải bản sao của giáo trình chính thức (HRD Korea): hãy đối chiếu giáo trình và nhờ giáo viên kiểm tra trước khi thi.",
+  "footerVerified": "Nội dung đã được đối chiếu với giáo trình EPS-TOPIK của HRD Korea. Luật lệ lao động có thể thay đổi, hãy xác nhận với hợp đồng lao động và cơ quan có thẩm quyền."
+}

@@ -1,0 +1,250 @@
+{
+  "id": "L05",
+  "number": 5,
+  "book": 1,
+  "topic": "time",
+  "title": {
+    "ko": "시간",
+    "vi": "Thời gian"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L05-V001",
+      "group": 1,
+      "ko": "시",
+      "pos": "Danh từ",
+      "viPhonetic": "xi",
+      "meaning": "Giờ",
+      "field": "general",
+      "example": {
+        "ko": "지금 두 시입니다.",
+        "vi": "Bây giờ là hai giờ."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V002",
+      "group": 1,
+      "ko": "분",
+      "pos": "Danh từ",
+      "viPhonetic": "bun",
+      "meaning": "Phút",
+      "field": "general",
+      "example": {
+        "ko": "십 분 후에 시작합니다.",
+        "vi": "Mười phút nữa bắt đầu."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V003",
+      "group": 1,
+      "ko": "오늘",
+      "pos": "Danh từ",
+      "viPhonetic": "ô-nưl",
+      "meaning": "Hôm nay",
+      "field": "general",
+      "example": {
+        "ko": "오늘은 일이 많습니다.",
+        "vi": "Hôm nay nhiều việc."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V004",
+      "group": 1,
+      "ko": "내일",
+      "pos": "Danh từ",
+      "viPhonetic": "nê-il",
+      "meaning": "Ngày mai",
+      "field": "general",
+      "example": {
+        "ko": "내일 아침에 출근합니다.",
+        "vi": "Sáng mai tôi đi làm."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V005",
+      "group": 1,
+      "ko": "어제",
+      "pos": "Danh từ",
+      "viPhonetic": "o-chê",
+      "meaning": "Hôm qua",
+      "field": "general",
+      "example": {
+        "ko": "어제 야근했습니다.",
+        "vi": "Hôm qua tôi làm thêm."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V006",
+      "group": 2,
+      "ko": "아침",
+      "pos": "Danh từ",
+      "viPhonetic": "a-chim",
+      "meaning": "Buổi sáng",
+      "field": "general",
+      "example": {
+        "ko": "아침 여덟 시에 일을 시작합니다.",
+        "vi": "Tám giờ sáng bắt đầu làm việc."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V007",
+      "group": 2,
+      "ko": "저녁",
+      "pos": "Danh từ",
+      "viPhonetic": "chơ-nyok",
+      "meaning": "Buổi tối",
+      "field": "general",
+      "example": {
+        "ko": "저녁에 기숙사에서 쉽니다.",
+        "vi": "Buổi tối tôi nghỉ ở ký túc xá."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V008",
+      "group": 2,
+      "ko": "출근",
+      "pos": "Danh từ",
+      "viPhonetic": "chul-kưn",
+      "meaning": "Đi làm",
+      "field": "general",
+      "example": {
+        "ko": "저는 일곱 시에 출근합니다.",
+        "vi": "Tôi đi làm lúc bảy giờ."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V009",
+      "group": 2,
+      "ko": "퇴근",
+      "pos": "Danh từ",
+      "viPhonetic": "thuê-kưn",
+      "meaning": "Tan làm",
+      "field": "general",
+      "example": {
+        "ko": "여섯 시에 퇴근합니다.",
+        "vi": "Sáu giờ tôi tan làm."
+      },
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "L05-V010",
+      "group": 2,
+      "ko": "점심시간",
+      "pos": "Danh từ",
+      "viPhonetic": "chom-xim-xi-gan",
+      "meaning": "Giờ nghỉ trưa",
+      "field": "general",
+      "example": {
+        "ko": "점심시간은 열두 시부터입니다.",
+        "vi": "Giờ nghỉ trưa bắt đầu từ mười hai giờ."
+      },
+      "tags": [
+        "time"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L05-G001",
+      "pattern": "-에 (thời gian)",
+      "meaning": "Vào lúc…",
+      "explanation": "Gắn sau từ chỉ thời điểm cụ thể (giờ, thứ). Không gắn với 오늘, 내일, 어제.",
+      "formation": "Giờ/thứ + 에",
+      "examples": [
+        {
+          "ko": "일곱 시에 출근합니다.",
+          "vi": "Tôi đi làm lúc bảy giờ."
+        },
+        {
+          "ko": "내일 출근합니다.",
+          "vi": "Ngày mai tôi đi làm. (không dùng 에)"
+        }
+      ]
+    },
+    {
+      "id": "L05-G002",
+      "pattern": "-부터 -까지",
+      "meaning": "Từ… đến…",
+      "explanation": "Chỉ điểm bắt đầu và kết thúc của thời gian hoặc nơi chốn.",
+      "formation": "A + 부터 B + 까지",
+      "examples": [
+        {
+          "ko": "아침 여덟 시부터 저녁 여섯 시까지 일합니다.",
+          "vi": "Tôi làm từ 8 giờ sáng đến 6 giờ tối."
+        },
+        {
+          "ko": "월요일부터 금요일까지 일합니다.",
+          "vi": "Tôi làm từ thứ hai đến thứ sáu."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L05-D001",
+      "title": "Hỏi giờ làm việc",
+      "situation": "Đồng nghiệp hỏi về giờ đi làm, tan làm.",
+      "lines": [
+        {
+          "speaker": "직원",
+          "ko": "몇 시에 출근해요?",
+          "vi": "Anh đi làm lúc mấy giờ?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "아침 여덟 시에 출근해요.",
+          "vi": "Tôi đi làm lúc 8 giờ sáng."
+        },
+        {
+          "speaker": "직원",
+          "ko": "퇴근은 몇 시예요?",
+          "vi": "Mấy giờ tan làm?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "저녁 여섯 시에 퇴근합니다. 점심시간은 열두 시부터 한 시까지예요.",
+          "vi": "Tôi tan làm lúc 6 giờ tối. Nghỉ trưa từ 12 giờ đến 1 giờ."
+        }
+      ]
+    }
+  ]
+}

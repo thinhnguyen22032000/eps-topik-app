@@ -1,0 +1,250 @@
+{
+  "id": "L07",
+  "number": 7,
+  "book": 1,
+  "topic": "food",
+  "title": {
+    "ko": "음식",
+    "vi": "Ăn uống"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L07-V001",
+      "group": 1,
+      "ko": "밥",
+      "pos": "Danh từ",
+      "viPhonetic": "bap",
+      "meaning": "Cơm",
+      "field": "general",
+      "example": {
+        "ko": "점심에 밥을 먹습니다.",
+        "vi": "Buổi trưa tôi ăn cơm."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V002",
+      "group": 1,
+      "ko": "물",
+      "pos": "Danh từ",
+      "viPhonetic": "mul",
+      "meaning": "Nước",
+      "field": "general",
+      "example": {
+        "ko": "일할 때 물을 많이 마십니다.",
+        "vi": "Khi làm việc tôi uống nhiều nước."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V003",
+      "group": 1,
+      "ko": "김치",
+      "pos": "Danh từ",
+      "viPhonetic": "kim-chi",
+      "meaning": "Kim chi",
+      "field": "general",
+      "example": {
+        "ko": "한국 사람은 김치를 자주 먹습니다.",
+        "vi": "Người Hàn hay ăn kim chi."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V004",
+      "group": 1,
+      "ko": "고기",
+      "pos": "Danh từ",
+      "viPhonetic": "ko-ki",
+      "meaning": "Thịt",
+      "field": "general",
+      "example": {
+        "ko": "저녁에 고기를 먹습니다.",
+        "vi": "Buổi tối tôi ăn thịt."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V005",
+      "group": 1,
+      "ko": "국",
+      "pos": "Danh từ",
+      "viPhonetic": "kuk",
+      "meaning": "Canh",
+      "field": "general",
+      "example": {
+        "ko": "국이 뜨겁습니다.",
+        "vi": "Canh nóng."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V006",
+      "group": 2,
+      "ko": "커피",
+      "pos": "Danh từ",
+      "viPhonetic": "kho-pi",
+      "meaning": "Cà phê",
+      "field": "general",
+      "example": {
+        "ko": "커피 한 잔 주세요.",
+        "vi": "Cho tôi một ly cà phê."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V007",
+      "group": 2,
+      "ko": "빵",
+      "pos": "Danh từ",
+      "viPhonetic": "bang",
+      "meaning": "Bánh mì",
+      "field": "general",
+      "example": {
+        "ko": "아침에 빵을 먹습니다.",
+        "vi": "Buổi sáng tôi ăn bánh mì."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V008",
+      "group": 2,
+      "ko": "과일",
+      "pos": "Danh từ",
+      "viPhonetic": "koa-il",
+      "meaning": "Hoa quả",
+      "field": "agriculture",
+      "example": {
+        "ko": "과일 농장에서 일합니다.",
+        "vi": "Tôi làm ở nông trại trái cây."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V009",
+      "group": 2,
+      "ko": "먹다",
+      "pos": "Động từ",
+      "viPhonetic": "mok-tà",
+      "meaning": "Ăn",
+      "field": "general",
+      "example": {
+        "ko": "식당에서 점심을 먹어요.",
+        "vi": "Tôi ăn trưa ở nhà ăn."
+      },
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "L07-V010",
+      "group": 2,
+      "ko": "맛있다",
+      "pos": "Tính từ",
+      "viPhonetic": "ma-xít-tà",
+      "meaning": "Ngon",
+      "field": "general",
+      "example": {
+        "ko": "김치찌개가 맛있어요.",
+        "vi": "Canh kim chi ngon."
+      },
+      "tags": [
+        "food"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L07-G001",
+      "pattern": "-을/를",
+      "meaning": "Trợ từ tân ngữ",
+      "explanation": "Gắn sau danh từ là đối tượng của hành động.",
+      "formation": "Có patchim: 을 · Không patchim: 를",
+      "examples": [
+        {
+          "ko": "저는 밥을 먹습니다.",
+          "vi": "Tôi ăn cơm."
+        },
+        {
+          "ko": "커피를 마십니다.",
+          "vi": "Tôi uống cà phê."
+        }
+      ]
+    },
+    {
+      "id": "L07-G002",
+      "pattern": "-고 싶다",
+      "meaning": "Muốn…",
+      "explanation": "Diễn tả mong muốn của người nói (ngôi 1) hoặc hỏi người nghe (ngôi 2).",
+      "formation": "Gốc động từ + -고 싶다",
+      "examples": [
+        {
+          "ko": "한국 음식을 먹고 싶어요.",
+          "vi": "Tôi muốn ăn món Hàn."
+        },
+        {
+          "ko": "쉬고 싶어요.",
+          "vi": "Tôi muốn nghỉ ngơi."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L07-D001",
+      "title": "Ăn trưa ở nhà ăn",
+      "situation": "Hai đồng nghiệp rủ nhau đi ăn trưa.",
+      "lines": [
+        {
+          "speaker": "동료",
+          "ko": "점심에 뭐 먹고 싶어요?",
+          "vi": "Trưa nay muốn ăn gì?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "김치찌개를 먹고 싶어요. 맛있어요.",
+          "vi": "Tôi muốn ăn canh kim chi. Ngon lắm."
+        },
+        {
+          "speaker": "동료",
+          "ko": "좋아요. 같이 식당에 갈까요?",
+          "vi": "Được. Cùng đến nhà ăn nhé?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네, 물도 마시고 싶어요.",
+          "vi": "Vâng, tôi cũng muốn uống nước."
+        }
+      ]
+    }
+  ]
+}

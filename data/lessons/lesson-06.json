@@ -1,0 +1,250 @@
+{
+  "id": "L06",
+  "number": 6,
+  "book": 1,
+  "topic": "schedule",
+  "title": {
+    "ko": "요일과 일정",
+    "vi": "Thứ ngày và lịch làm việc"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L06-V001",
+      "group": 1,
+      "ko": "월요일",
+      "pos": "Danh từ",
+      "viPhonetic": "uô-ryô-il",
+      "meaning": "Thứ hai",
+      "field": "general",
+      "example": {
+        "ko": "월요일에 회의가 있습니다.",
+        "vi": "Thứ hai có cuộc họp."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V002",
+      "group": 1,
+      "ko": "금요일",
+      "pos": "Danh từ",
+      "viPhonetic": "kưm-yô-il",
+      "meaning": "Thứ sáu",
+      "field": "general",
+      "example": {
+        "ko": "금요일에 일찍 퇴근합니다.",
+        "vi": "Thứ sáu tôi tan làm sớm."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V003",
+      "group": 1,
+      "ko": "토요일",
+      "pos": "Danh từ",
+      "viPhonetic": "thô-yô-il",
+      "meaning": "Thứ bảy",
+      "field": "general",
+      "example": {
+        "ko": "토요일에 쉽니다.",
+        "vi": "Thứ bảy tôi nghỉ."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V004",
+      "group": 1,
+      "ko": "일요일",
+      "pos": "Danh từ",
+      "viPhonetic": "i-ryô-il",
+      "meaning": "Chủ nhật",
+      "field": "general",
+      "example": {
+        "ko": "일요일에는 공장이 쉽니다.",
+        "vi": "Chủ nhật nhà máy nghỉ."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V005",
+      "group": 1,
+      "ko": "주말",
+      "pos": "Danh từ",
+      "viPhonetic": "chu-mal",
+      "meaning": "Cuối tuần",
+      "field": "general",
+      "example": {
+        "ko": "주말에 친구를 만납니다.",
+        "vi": "Cuối tuần tôi gặp bạn."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V006",
+      "group": 2,
+      "ko": "휴일",
+      "pos": "Danh từ",
+      "viPhonetic": "hyu-il",
+      "meaning": "Ngày nghỉ",
+      "field": "general",
+      "example": {
+        "ko": "휴일에는 일하지 않습니다.",
+        "vi": "Ngày nghỉ tôi không làm việc."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V007",
+      "group": 2,
+      "ko": "월급",
+      "pos": "Danh từ",
+      "viPhonetic": "uôl-kưp",
+      "meaning": "Tiền lương tháng",
+      "field": "general",
+      "example": {
+        "ko": "월급은 이십오 일에 받습니다.",
+        "vi": "Lương nhận vào ngày 25."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V008",
+      "group": 2,
+      "ko": "야근",
+      "pos": "Danh từ",
+      "viPhonetic": "ya-kưn",
+      "meaning": "Làm thêm ban đêm",
+      "field": "general",
+      "example": {
+        "ko": "오늘 야근이 있습니다.",
+        "vi": "Hôm nay có tăng ca."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V009",
+      "group": 2,
+      "ko": "휴가",
+      "pos": "Danh từ",
+      "viPhonetic": "hyu-ga",
+      "meaning": "Nghỉ phép",
+      "field": "general",
+      "example": {
+        "ko": "다음 달에 휴가를 갑니다.",
+        "vi": "Tháng sau tôi nghỉ phép."
+      },
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "id": "L06-V010",
+      "group": 2,
+      "ko": "약속",
+      "pos": "Danh từ",
+      "viPhonetic": "yak-xôk",
+      "meaning": "Cuộc hẹn",
+      "field": "general",
+      "example": {
+        "ko": "친구와 약속이 있습니다.",
+        "vi": "Tôi có hẹn với bạn."
+      },
+      "tags": [
+        "schedule"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L06-G001",
+      "pattern": "-았/었습니다",
+      "meaning": "Quá khứ",
+      "explanation": "Thêm vào gốc động từ/tính từ để nói việc đã xảy ra.",
+      "formation": "ㅏ,ㅗ + 았 · còn lại + 었 · 하다 → 했",
+      "examples": [
+        {
+          "ko": "어제 야근했습니다.",
+          "vi": "Hôm qua tôi làm thêm."
+        },
+        {
+          "ko": "주말에 친구를 만났습니다.",
+          "vi": "Cuối tuần tôi đã gặp bạn."
+        }
+      ]
+    },
+    {
+      "id": "L06-G002",
+      "pattern": "-(으)ㄹ 거예요",
+      "meaning": "Sẽ… (tương lai/dự định)",
+      "explanation": "Nói dự định hoặc suy đoán.",
+      "formation": "Có patchim: -을 거예요 · Không: -ㄹ 거예요",
+      "examples": [
+        {
+          "ko": "내일 병원에 갈 거예요.",
+          "vi": "Ngày mai tôi sẽ đi bệnh viện."
+        },
+        {
+          "ko": "일요일에 쉴 거예요.",
+          "vi": "Chủ nhật tôi sẽ nghỉ."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L06-D001",
+      "title": "Lịch làm việc và lương",
+      "situation": "Giám đốc thông báo lịch tăng ca và ngày nhận lương.",
+      "lines": [
+        {
+          "speaker": "사장님",
+          "ko": "이번 주 토요일에 일해요?",
+          "vi": "Thứ bảy tuần này anh có làm không?"
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네, 야근이 있어서 일해요. 일요일에는 쉬어요.",
+          "vi": "Có, vì có tăng ca nên tôi làm. Chủ nhật tôi nghỉ."
+        },
+        {
+          "speaker": "사장님",
+          "ko": "월급은 이십오 일에 받습니다.",
+          "vi": "Lương nhận vào ngày 25."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "알겠습니다. 감사합니다.",
+          "vi": "Tôi hiểu rồi, cảm ơn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "L17",
+  "number": 17,
+  "book": 1,
+  "topic": "construction",
+  "title": {
+    "ko": "건설 현장",
+    "vi": "Công trường xây dựng"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L17-V001",
+      "group": 1,
+      "ko": "건설",
+      "pos": "Danh từ",
+      "viPhonetic": "kon-xol",
+      "meaning": "Xây dựng",
+      "field": "construction",
+      "example": {
+        "ko": "건설 현장에서 일합니다.",
+        "vi": "Tôi làm ở công trường xây dựng."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V002",
+      "group": 1,
+      "ko": "현장",
+      "pos": "Danh từ",
+      "viPhonetic": "hyon-chang",
+      "meaning": "Hiện trường, công trường",
+      "field": "construction",
+      "example": {
+        "ko": "현장에서는 안전모를 쓰세요.",
+        "vi": "Ở công trường hãy đội mũ bảo hộ."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V003",
+      "group": 1,
+      "ko": "시멘트",
+      "pos": "Danh từ",
+      "viPhonetic": "xi-men-thư",
+      "meaning": "Xi măng",
+      "field": "construction",
+      "example": {
+        "ko": "시멘트를 물과 섞습니다.",
+        "vi": "Trộn xi măng với nước."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V004",
+      "group": 1,
+      "ko": "벽돌",
+      "pos": "Danh từ",
+      "viPhonetic": "byok-tôl",
+      "meaning": "Gạch",
+      "field": "construction",
+      "example": {
+        "ko": "벽돌을 쌓습니다.",
+        "vi": "Xây (chồng) gạch."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V005",
+      "group": 1,
+      "ko": "철근",
+      "pos": "Danh từ",
+      "viPhonetic": "chol-kưn",
+      "meaning": "Thép xây dựng",
+      "field": "construction",
+      "example": {
+        "ko": "철근을 옮깁니다.",
+        "vi": "Tôi vận chuyển thép."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V006",
+      "group": 2,
+      "ko": "비계",
+      "pos": "Danh từ",
+      "viPhonetic": "bi-ghê",
+      "meaning": "Giàn giáo",
+      "field": "construction",
+      "example": {
+        "ko": "비계 위에서는 조심하세요.",
+        "vi": "Hãy cẩn thận khi ở trên giàn giáo."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V007",
+      "group": 2,
+      "ko": "크레인",
+      "pos": "Danh từ",
+      "viPhonetic": "khư-rê-in",
+      "meaning": "Cần cẩu",
+      "field": "construction",
+      "example": {
+        "ko": "크레인 아래로 가지 마세요.",
+        "vi": "Đừng đi dưới cần cẩu."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V008",
+      "group": 2,
+      "ko": "높다",
+      "pos": "Tính từ",
+      "viPhonetic": "nốp-tà",
+      "meaning": "Cao",
+      "field": "construction",
+      "example": {
+        "ko": "높은 곳에서는 안전벨트를 매세요.",
+        "vi": "Ở trên cao hãy thắt dây an toàn."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V009",
+      "group": 2,
+      "ko": "쌓다",
+      "pos": "Động từ",
+      "viPhonetic": "ssa-tà",
+      "meaning": "Chất, xếp chồng",
+      "field": "construction",
+      "example": {
+        "ko": "물건을 높이 쌓지 마세요.",
+        "vi": "Đừng xếp đồ quá cao."
+      },
+      "tags": [
+        "construction"
+      ]
+    },
+    {
+      "id": "L17-V010",
+      "group": 2,
+      "ko": "옮기다",
+      "pos": "Động từ",
+      "viPhonetic": "ôm-ki-tà",
+      "meaning": "Chuyển, di chuyển",
+      "field": "construction",
+      "example": {
+        "ko": "벽돌을 트럭으로 옮깁니다.",
+        "vi": "Chuyển gạch bằng xe tải."
+      },
+      "tags": [
+        "construction"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L17-G001",
+      "pattern": "-(으)ㄴ + danh từ",
+      "meaning": "Định ngữ cho tính từ",
+      "explanation": "Tính từ đứng trước danh từ để bổ nghĩa.",
+      "formation": "Có patchim: -은 · Không: -ㄴ",
+      "examples": [
+        {
+          "ko": "높은 곳에서는 조심하세요.",
+          "vi": "Ở nơi cao hãy cẩn thận."
+        },
+        {
+          "ko": "무거운 물건을 들지 마세요.",
+          "vi": "Đừng nâng đồ nặng."
+        }
+      ]
+    },
+    {
+      "id": "L17-G002",
+      "pattern": "-(으)면서",
+      "meaning": "Vừa… vừa…",
+      "explanation": "Hai hành động cùng lúc.",
+      "formation": "Có patchim: -으면서 · Không: -면서",
+      "examples": [
+        {
+          "ko": "음악을 들으면서 일합니다.",
+          "vi": "Tôi vừa nghe nhạc vừa làm việc."
+        },
+        {
+          "ko": "걸으면서 전화하지 마세요.",
+          "vi": "Đừng vừa đi vừa nghe điện thoại."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L17-D001",
+      "title": "Làm việc trên cao",
+      "situation": "Tổ trưởng dặn dò ở công trường.",
+      "lines": [
+        {
+          "speaker": "반장",
+          "ko": "높은 곳에서는 안전벨트를 매세요.",
+          "vi": "Ở nơi cao hãy thắt dây an toàn."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "벽돌은 어디로 옮겨요?",
+          "vi": "Gạch chuyển đi đâu ạ?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "2층으로 옮기세요. 크레인 아래로 가지 마세요.",
+          "vi": "Hãy chuyển lên tầng 2. Đừng đi dưới cần cẩu."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네, 조심하면서 일하겠습니다.",
+          "vi": "Vâng, tôi sẽ vừa cẩn thận vừa làm."
+        }
+      ]
+    }
+  ]
+}

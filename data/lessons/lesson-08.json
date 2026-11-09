@@ -1,0 +1,250 @@
+{
+  "id": "L08",
+  "number": 8,
+  "book": 1,
+  "topic": "shopping",
+  "title": {
+    "ko": "쇼핑",
+    "vi": "Mua sắm"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L08-V001",
+      "group": 1,
+      "ko": "가게",
+      "pos": "Danh từ",
+      "viPhonetic": "ka-ghê",
+      "meaning": "Cửa hàng",
+      "field": "general",
+      "example": {
+        "ko": "가게에서 장갑을 샀습니다.",
+        "vi": "Tôi mua găng tay ở cửa hàng."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V002",
+      "group": 1,
+      "ko": "얼마",
+      "pos": "Danh từ",
+      "viPhonetic": "ol-ma",
+      "meaning": "Bao nhiêu (giá)",
+      "field": "general",
+      "example": {
+        "ko": "이것은 얼마예요?",
+        "vi": "Cái này bao nhiêu tiền?"
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V003",
+      "group": 1,
+      "ko": "비싸다",
+      "pos": "Tính từ",
+      "viPhonetic": "bi-xa-tà",
+      "meaning": "Đắt",
+      "field": "general",
+      "example": {
+        "ko": "이 신발은 비쌉니다.",
+        "vi": "Đôi giày này đắt."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V004",
+      "group": 1,
+      "ko": "싸다",
+      "pos": "Tính từ",
+      "viPhonetic": "xa-tà",
+      "meaning": "Rẻ",
+      "field": "general",
+      "example": {
+        "ko": "시장 과일은 쌉니다.",
+        "vi": "Hoa quả ở chợ rẻ."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V005",
+      "group": 1,
+      "ko": "돈",
+      "pos": "Danh từ",
+      "viPhonetic": "tôn",
+      "meaning": "Tiền",
+      "field": "general",
+      "example": {
+        "ko": "돈을 은행에 보냅니다.",
+        "vi": "Tôi gửi tiền ở ngân hàng."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V006",
+      "group": 2,
+      "ko": "원",
+      "pos": "Danh từ",
+      "viPhonetic": "uôn",
+      "meaning": "Won (tiền Hàn)",
+      "field": "general",
+      "example": {
+        "ko": "오천 원입니다.",
+        "vi": "Năm nghìn won."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V007",
+      "group": 2,
+      "ko": "사다",
+      "pos": "Động từ",
+      "viPhonetic": "xa-tà",
+      "meaning": "Mua",
+      "field": "general",
+      "example": {
+        "ko": "시장에서 야채를 사요.",
+        "vi": "Tôi mua rau ở chợ."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V008",
+      "group": 2,
+      "ko": "팔다",
+      "pos": "Động từ",
+      "viPhonetic": "pal-tà",
+      "meaning": "Bán",
+      "field": "general",
+      "example": {
+        "ko": "이 가게는 작업복을 팝니다.",
+        "vi": "Cửa hàng này bán quần áo bảo hộ."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V009",
+      "group": 2,
+      "ko": "많다",
+      "pos": "Tính từ",
+      "viPhonetic": "man-tà",
+      "meaning": "Nhiều",
+      "field": "general",
+      "example": {
+        "ko": "오늘 일이 많아요.",
+        "vi": "Hôm nay nhiều việc."
+      },
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "L08-V010",
+      "group": 2,
+      "ko": "적다",
+      "pos": "Tính từ",
+      "viPhonetic": "chok-tà",
+      "meaning": "Ít",
+      "field": "general",
+      "example": {
+        "ko": "월급이 적어요.",
+        "vi": "Lương ít."
+      },
+      "tags": [
+        "shopping"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L08-G001",
+      "pattern": "얼마예요?",
+      "meaning": "Bao nhiêu tiền?",
+      "explanation": "Hỏi giá. Trả lời bằng số + 원 (số Hán-Hàn: 천, 만…).",
+      "formation": "Danh từ + 얼마예요?",
+      "examples": [
+        {
+          "ko": "이 장갑은 얼마예요?",
+          "vi": "Đôi găng tay này bao nhiêu?"
+        },
+        {
+          "ko": "삼천 원이에요.",
+          "vi": "Ba nghìn won."
+        }
+      ]
+    },
+    {
+      "id": "L08-G002",
+      "pattern": "-(으)세요",
+      "meaning": "Xin hãy… (mời/yêu cầu)",
+      "explanation": "Yêu cầu lịch sự hoặc kính ngữ.",
+      "formation": "Có patchim: -으세요 · Không: -세요",
+      "examples": [
+        {
+          "ko": "이것을 보세요.",
+          "vi": "Xin hãy xem cái này."
+        },
+        {
+          "ko": "여기에 앉으세요.",
+          "vi": "Mời ngồi đây."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L08-D001",
+      "title": "Mua găng tay ở cửa hàng",
+      "situation": "Anh Nguyễn mua đồ bảo hộ ở cửa hàng gần nhà máy.",
+      "lines": [
+        {
+          "speaker": "응우옌",
+          "ko": "이 장갑은 얼마예요?",
+          "vi": "Đôi găng tay này bao nhiêu?"
+        },
+        {
+          "speaker": "주인",
+          "ko": "삼천 원이에요.",
+          "vi": "Ba nghìn won."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "조금 비싸요. 싼 것 있어요?",
+          "vi": "Hơi đắt. Có cái nào rẻ hơn không?"
+        },
+        {
+          "speaker": "주인",
+          "ko": "이것은 이천 원이에요. 보세요.",
+          "vi": "Cái này hai nghìn won. Xin hãy xem."
+        }
+      ]
+    }
+  ]
+}

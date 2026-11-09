@@ -1,0 +1,250 @@
+{
+  "id": "L10",
+  "number": 10,
+  "book": 1,
+  "topic": "workplace",
+  "title": {
+    "ko": "작업장과 도구",
+    "vi": "Nơi làm việc và dụng cụ"
+  },
+  "vocabGroups": [
+    {
+      "group": 1,
+      "title": "Từ vựng 1"
+    },
+    {
+      "group": 2,
+      "title": "Từ vựng 2"
+    }
+  ],
+  "source": {
+    "verified": false
+  },
+  "vocabulary": [
+    {
+      "id": "L10-V001",
+      "group": 1,
+      "ko": "망치",
+      "pos": "Danh từ",
+      "viPhonetic": "mang-chi",
+      "meaning": "Cái búa",
+      "field": "construction",
+      "example": {
+        "ko": "망치로 못을 박습니다.",
+        "vi": "Dùng búa đóng đinh."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V002",
+      "group": 1,
+      "ko": "못",
+      "pos": "Danh từ",
+      "viPhonetic": "mốt",
+      "meaning": "Cái đinh",
+      "field": "construction",
+      "example": {
+        "ko": "못이 위험합니다.",
+        "vi": "Cái đinh nguy hiểm."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V003",
+      "group": 1,
+      "ko": "톱",
+      "pos": "Danh từ",
+      "viPhonetic": "thôp",
+      "meaning": "Cái cưa",
+      "field": "construction",
+      "example": {
+        "ko": "톱으로 나무를 자릅니다.",
+        "vi": "Dùng cưa cắt gỗ."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V004",
+      "group": 1,
+      "ko": "삽",
+      "pos": "Danh từ",
+      "viPhonetic": "xáp",
+      "meaning": "Cái xẻng",
+      "field": "agriculture",
+      "example": {
+        "ko": "삽으로 땅을 팝니다.",
+        "vi": "Dùng xẻng đào đất."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V005",
+      "group": 1,
+      "ko": "장갑",
+      "pos": "Danh từ",
+      "viPhonetic": "chang-gáp",
+      "meaning": "Găng tay",
+      "field": "safety",
+      "example": {
+        "ko": "장갑을 끼고 일하세요.",
+        "vi": "Hãy đeo găng tay khi làm việc."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V006",
+      "group": 2,
+      "ko": "사다리",
+      "pos": "Danh từ",
+      "viPhonetic": "xa-đa-ri",
+      "meaning": "Cái thang",
+      "field": "construction",
+      "example": {
+        "ko": "사다리를 조심하세요.",
+        "vi": "Hãy cẩn thận với cái thang."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V007",
+      "group": 2,
+      "ko": "도구",
+      "pos": "Danh từ",
+      "viPhonetic": "tô-gu",
+      "meaning": "Dụng cụ",
+      "field": "manufacturing",
+      "example": {
+        "ko": "작업 후에 도구를 정리하세요.",
+        "vi": "Sau khi làm xong hãy dọn dụng cụ."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V008",
+      "group": 2,
+      "ko": "기술",
+      "pos": "Danh từ",
+      "viPhonetic": "ki-xul",
+      "meaning": "Kỹ thuật",
+      "field": "manufacturing",
+      "example": {
+        "ko": "기술을 배우고 싶어요.",
+        "vi": "Tôi muốn học kỹ thuật."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V009",
+      "group": 2,
+      "ko": "작업",
+      "pos": "Danh từ",
+      "viPhonetic": "chak-op",
+      "meaning": "Công việc, thao tác",
+      "field": "general",
+      "example": {
+        "ko": "작업이 끝났습니다.",
+        "vi": "Công việc đã xong."
+      },
+      "tags": [
+        "workplace"
+      ]
+    },
+    {
+      "id": "L10-V010",
+      "group": 2,
+      "ko": "청소",
+      "pos": "Danh từ",
+      "viPhonetic": "chong-xô",
+      "meaning": "Dọn dẹp",
+      "field": "general",
+      "example": {
+        "ko": "퇴근 전에 청소합니다.",
+        "vi": "Trước khi tan làm tôi dọn dẹp."
+      },
+      "tags": [
+        "workplace"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "L10-G001",
+      "pattern": "-지 마세요",
+      "meaning": "Xin đừng…",
+      "explanation": "Yêu cầu không làm gì; rất hay gặp trong lời dặn an toàn.",
+      "formation": "Gốc động từ + -지 마세요",
+      "examples": [
+        {
+          "ko": "기계를 만지지 마세요.",
+          "vi": "Đừng chạm vào máy."
+        },
+        {
+          "ko": "여기에서 담배를 피우지 마세요.",
+          "vi": "Đừng hút thuốc ở đây."
+        }
+      ]
+    },
+    {
+      "id": "L10-G002",
+      "pattern": "-(으)ㄹ 때",
+      "meaning": "Khi… / lúc…",
+      "explanation": "Chỉ thời điểm xảy ra hành động hoặc trạng thái.",
+      "formation": "Có patchim: -을 때 · Không: -ㄹ 때",
+      "examples": [
+        {
+          "ko": "용접할 때 보안경을 쓰세요.",
+          "vi": "Khi hàn hãy đeo kính bảo hộ."
+        },
+        {
+          "ko": "일할 때 장갑을 끼세요.",
+          "vi": "Khi làm việc hãy đeo găng tay."
+        }
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "L10-D001",
+      "title": "Tổ trưởng giao việc",
+      "situation": "Tổ trưởng yêu cầu chuẩn bị dụng cụ.",
+      "lines": [
+        {
+          "speaker": "반장",
+          "ko": "망치와 못을 가져오세요.",
+          "vi": "Hãy mang búa và đinh đến."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "네. 장갑도 껴야 해요?",
+          "vi": "Vâng. Có phải đeo găng tay không?"
+        },
+        {
+          "speaker": "반장",
+          "ko": "네, 일할 때 장갑을 끼세요. 못을 만지지 마세요.",
+          "vi": "Có, khi làm việc hãy đeo găng tay. Đừng chạm tay vào đinh."
+        },
+        {
+          "speaker": "응우옌",
+          "ko": "알겠습니다. 작업 후에 청소할게요.",
+          "vi": "Tôi hiểu rồi. Làm xong tôi sẽ dọn dẹp."
+        }
+      ]
+    }
+  ]
+}
