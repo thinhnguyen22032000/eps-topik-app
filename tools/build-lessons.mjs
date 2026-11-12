@@ -305,7 +305,7 @@ L.forEach((l, i) => {
   const ex = EXP[n] || {};
   // Từ vựng 1 = 5 từ đầu + more1 · Từ vựng 2 = 5 từ sau + more2 (mở rộng ở tools/expansions.mjs)
   const base = l.words.split("\n");
-  const lines = [...base.slice(0, 5).concat(ex.more1 || []).map((s) => [s, 1]), ...base.slice(5).concat(ex.more2 || []).map((s) => [s, 2])];
+  const lines = [...base.slice(0, 5).concat(ex.more1 || []).map((s) => [s, 1]), ...base.slice(5).concat(ex.more2 || []).map((s) => [s, 2]), ...(ex.topic?.words || []).map((s) => [s, 3])];
   const vocabulary = lines.map(([line, group], j) => {
     const [ko, viPhonetic, meaning, field, exKo, exVi, posOverride] = line.split("|");
     if (!exVi) throw new Error(`Dòng thiếu cột: ${id} #${j + 1}`);
@@ -319,7 +319,7 @@ L.forEach((l, i) => {
     id: `${id}-G${String(j + 1).padStart(3, "0")}`, pattern: g[0], meaning: g[1], explanation: g[2], formation: g[3],
     examples: [{ ko: g[4], vi: g[5] }, { ko: g[6], vi: g[7] }],
   }));
-  fs.writeFileSync(`data/lessons/lesson-${nn}.json`, JSON.stringify({ id, number: n, book: 1, topic: l.topic, title: { ko: l.ko, vi: l.vi }, vocabGroups: [{ group: 1, title: "Từ vựng 1" }, { group: 2, title: "Từ vựng 2" }], source: { verified: false }, vocabulary, grammar, dialogues, ...(ex.culture ? { culture: ex.culture } : {}) }, null, 2));
+  fs.writeFileSync(`data/lessons/lesson-${nn}.json`, JSON.stringify({ id, number: n, book: 1, topic: l.topic, title: { ko: l.ko, vi: l.vi }, vocabGroups: [{ group: 1, title: "Từ vựng 1" }, { group: 2, title: "Từ vựng 2" }, ...(ex.topic ? [{ group: 3, title: ex.topic.title }] : [])], source: { verified: false }, vocabulary, grammar, dialogues, ...(ex.culture ? { culture: ex.culture } : {}) }, null, 2));
   index.push({ id, number: n, file: `lesson-${nn}.json`, title: l.vi, ko: l.ko, vocabCount: vocabulary.length });
 });
 fs.writeFileSync("data/lessons/index.json", JSON.stringify(index, null, 2));

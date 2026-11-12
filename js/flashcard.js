@@ -13,7 +13,7 @@ const LS_LESSON = "eps-last-lesson";
 
 let state = loadState();
 let lesson = null, index = [];
-let queue = [], current = null, flipped = false, total = 0, known = 0, bound = false;
+let queue = [], current = null, flipped = false, total = 0, known = 0, bound = false, wantGroup = 0;
 
 export async function init() {
   index = await loadLessonIndex();
@@ -22,21 +22,34 @@ export async function init() {
     sel.innerHTML = index.map((l) => `<option value="${l.id}">Bài ${l.number}: ${l.title}</option>`).join("");
     let last; try { last = localStorage.getItem(LS_LESSON); } catch {}
     if (last && index.some((l) => l.id === last)) sel.value = last;
-    sel.addEventListener("change", () => { try { localStorage.setItem(LS_LESSON, sel.value); } catch {} load(sel.value); });
+    sel.addEventListener("change", () => { try { localStorage.setItem(LS_LESSON, sel.value); } catch {} wantGroup = 0; load(sel.value); });
   }
   if (!bound) { bind(); bound = true; }
   await load(sel.value);
 }
 
-export function setLesson(id) { const s = $("lesson-select"); s.value = id; s.dispatchEvent(new Event("change")); }
+// group: chỉ ôn một phần từ vựng của bài (1, 2, 3...); 0 = cả bài
+export function setLesson(id, group = 0) {
+  wantGroup = group;
+  $("lesson-select").value = id;
+  try { localStorage.setItem(LS_LESSON, id); } catch {}
+  return load(id);
+}
 
 // all = true: học lại toàn bộ từ của bài; mặc định chỉ các từ chưa thuộc
 async function load(id, all = false) {
   state = loadState();
   lesson = await loadLesson(id);
   $("lesson-sub").textContent = `${lesson.title.ko} · ${lesson.vocabulary.length} từ`;
-  queue = lesson.vocabulary.filter((v) => all || !isKnown(getCard(state, v.id)));
-  total = lesson.vocabulary.length;
+  // Ô chọn phần: "Cả bài" + từng nhóm từ vựng của bài (Từ vựng 1, 2, chủ đề...)
+  const groups = lesson.vocabGroups || [];
+  if (!groups.some((g) => g.group === wantGroup)) wantGroup = 0;
+  const gs = $("group-select");
+  gs.innerHTML = `<option value="0">Cả bài</option>` + groups.map((g) => `<option value="${g.group}">${g.title}</option>`).join("");
+  gs.value = String(wantGroup);
+  const pool = lesson.vocabulary.filter((v) => !wantGroup || v.group === wantGroup);
+  queue = pool.filter((v) => all || !isKnown(getCard(state, v.id)));
+  total = pool.length;
   known = total - queue.length;
   $("finished").classList.add("hidden");
   $("study").classList.remove("hidden");
@@ -44,6 +57,7 @@ async function load(id, all = false) {
 }
 
 function bind() {
+  $("group-select").addEventListener("change", (e) => { wantGroup = Number(e.target.value); load(lesson.id); });
   $("card").addEventListener("click", flip);
   $("flip-btn").addEventListener("click", flip);
   $("speak").addEventListener("click", (e) => { e.stopPropagation(); speak(current.ko); });

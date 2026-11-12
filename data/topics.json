@@ -1,0 +1,26 @@
+{
+  "_note": "Từ vựng theo chủ đề (tách riêng khỏi bài học). Thêm chủ đề mới bằng cách thêm một mục vào 'topics'. Mỗi từ dùng 'emoji' làm hình minh họa; muốn dùng ảnh riêng thì thêm trường 'image' (đường dẫn trong img/topics/) và ảnh sẽ thay emoji.",
+  "topics": [
+    {
+      "id": "jobs",
+      "title": "Nghề nghiệp",
+      "ko": "직업",
+      "emoji": "💼",
+      "lesson": "Bài 1",
+      "words": [
+        { "id": "jobs-01", "ko": "학생", "phonetic": "hak-xeng", "vi": "Học sinh", "emoji": "🧑‍🎓", "example": { "ko": "저는 학생입니다.", "vi": "Tôi là học sinh." } },
+        { "id": "jobs-02", "ko": "회사원", "phonetic": "huê-sa-uôn", "vi": "Nhân viên công ty", "emoji": "🧑‍💼", "example": { "ko": "저는 회사원입니다.", "vi": "Tôi là nhân viên công ty." } },
+        { "id": "jobs-03", "ko": "은행원", "phonetic": "ưn-heng-uôn", "vi": "Nhân viên ngân hàng", "emoji": "🏦", "example": { "ko": "은행원이 돈을 셉니다.", "vi": "Nhân viên ngân hàng đếm tiền." } },
+        { "id": "jobs-04", "ko": "교사", "phonetic": "kyô-sa", "vi": "Giáo viên", "emoji": "🧑‍🏫", "example": { "ko": "교사가 학교에서 가르칩니다.", "vi": "Giáo viên dạy ở trường." } },
+        { "id": "jobs-05", "ko": "선생님", "phonetic": "xon-seng-nim", "vi": "Thầy / cô giáo", "emoji": "👩‍🏫", "example": { "ko": "선생님, 안녕하세요?", "vi": "Chào thầy/cô ạ." } },
+        { "id": "jobs-06", "ko": "의사", "phonetic": "ưi-sa", "vi": "Bác sĩ", "emoji": "🧑‍⚕️", "example": { "ko": "의사가 병원에서 일합니다.", "vi": "Bác sĩ làm việc ở bệnh viện." } },
+        { "id": "jobs-07", "ko": "공무원", "phonetic": "kông-mu-uôn", "vi": "Công chức", "emoji": "🏛️", "example": { "ko": "저는 공무원입니다.", "vi": "Tôi là công chức." } },
+        { "id": "jobs-08", "ko": "관광 가이드", "phonetic": "koan-koang ka-i-đư", "vi": "Hướng dẫn viên du lịch", "emoji": "🚩", "example": { "ko": "관광 가이드가 안내합니다.", "vi": "Hướng dẫn viên du lịch dẫn đường." } },
+        { "id": "jobs-09", "ko": "여행 안내원", "phonetic": "yo-heng an-ne-uôn", "vi": "Hướng dẫn viên du lịch (cách nói khác)", "emoji": "🧳", "example": { "ko": "여행 안내원이 설명합니다.", "vi": "Hướng dẫn viên giải thích." } },
+        { "id": "jobs-10", "ko": "주부", "phonetic": "chu-bu", "vi": "Nội trợ", "emoji": "🧹", "example": { "ko": "어머니는 주부입니다.", "vi": "Mẹ tôi là nội trợ." } },
+        { "id": "jobs-11", "ko": "약사", "phonetic": "yak-sa", "vi": "Dược sĩ", "emoji": "💊", "example": { "ko": "약사가 약을 줍니다.", "vi": "Dược sĩ đưa thuốc." } },
+        { "id": "jobs-12", "ko": "운전기사", "phonetic": "un-chon-ki-sa", "vi": "Lái xe, tài xế", "emoji": "🚌", "example": { "ko": "운전기사가 버스를 운전합니다.", "vi": "Tài xế lái xe buýt." } }
+      ]
+    }
+  ]
+}

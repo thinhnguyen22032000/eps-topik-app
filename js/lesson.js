@@ -4,8 +4,11 @@ import { loadLessonIndex, loadLesson } from "./lessons.js";
 import { loadState, getCard, isDue } from "./srs.js";
 
 const LS_LESSON = "eps-last-lesson";
-const SECTIONS = [
-  ["v1", "📗 Từ vựng 1"], ["v2", "📘 Từ vựng 2"], ["gr", "✏️ Ngữ pháp"], ["dl", "💬 Hội thoại"], ["cu", "🏭 Văn hóa & An toàn"], ["fc", "🃏 Ôn Flashcard"],
+// Các phần của bài; "v3" (từ vựng theo chủ đề) chỉ có ở bài nào có nhóm từ vựng số 3
+const sectionsFor = (lesson) => [
+  ["v1", "📗 Từ vựng 1"], ["v2", "📘 Từ vựng 2"],
+  ...((lesson.vocabGroups || []).some((g) => g.group === 3) ? [["v3", "🧑‍💼 " + lesson.vocabGroups.find((g) => g.group === 3).title.replace("Từ vựng chủ đề: ", "Chủ đề: ")]] : []),
+  ["gr", "✏️ Ngữ pháp"], ["dl", "💬 Hội thoại"], ["cu", "🏭 Văn hóa & An toàn"], ["fc", "🃏 Ôn Flashcard"],
 ];
 const FIELD = { general: "Chung", manufacturing: "Cơ khí", agriculture: "Nông nghiệp", construction: "Xây dựng", textile: "May mặc", fishery: "Thủy sản", safety: "An toàn LĐ" };
 
@@ -33,6 +36,8 @@ export async function initLesson(root, { id, go }) {
   const lid = id || (index.some((l) => l.id === last) ? last : index[0].id);
   try { localStorage.setItem(LS_LESSON, lid); } catch {}
   const lesson = await loadLesson(lid);
+  const SECTIONS = sectionsFor(lesson);
+  if (!SECTIONS.some(([k]) => k === section)) section = "v1";
   const state = loadState();
   const pos = index.findIndex((l) => l.id === lid);
   const vocabOf = (g) => lesson.vocabulary.filter((v) => v.group === g);
@@ -111,7 +116,10 @@ export async function initLesson(root, { id, go }) {
       <p class="text-xs text-slate-400 mt-3">Chỉ ôn từ vựng của bài đang chọn, không trộn với các bài khác.</p>
     </article>`;
 
-  const body = { v1: vocabHtml(1), v2: vocabHtml(2), gr: grammarHtml, dl: dialogHtml, cu: cultureHtml, fc: fcHtml }[section];
+  // Mỗi phần từ vựng có nút ôn flashcard riêng cho đúng phần đó
+  const vocabSection = (g) => `<div class="md:col-span-2 flex justify-end">
+      <button data-go-flash-group="${g}" class="px-4 py-2 rounded-xl border-2 border-blue-600 text-blue-700 text-sm font-semibold hover:bg-blue-50">🃏 Ôn flashcard phần này (${vocabOf(g).length} từ)</button></div>${vocabHtml(g)}`;
+  const body = { v1: vocabSection(1), v2: vocabSection(2), v3: vocabSection(3), gr: grammarHtml, dl: dialogHtml, cu: cultureHtml, fc: fcHtml }[section];
 
   root.innerHTML = `
     <div class="flex items-center gap-2 mb-1">
@@ -123,7 +131,7 @@ export async function initLesson(root, { id, go }) {
     <p class="mb-2"><span class="inline-block text-xs rounded-full px-3 py-1 ${verified ? "bg-green-100 text-green-800" : "bg-amber-100 text-amber-800"}">${esc(badge)}</span></p>
     <p class="text-sm text-slate-500 mb-4">${esc(lesson.title.ko)} · ${lesson.vocabulary.length} từ · ${(lesson.grammar || []).length} ngữ pháp · ${dialogs.length} hội thoại${cu ? " · có phần văn hóa" : ""}</p>
     <div class="flex gap-2 overflow-x-auto mb-4">${SECTIONS.map(([k, t]) => `<button data-sec="${k}" class="tab-btn ${k === section ? "active" : ""}">${t}</button>`).join("")}</div>
-    <div class="grid gap-3 ${section === "v1" || section === "v2" || section === "gr" ? "md:grid-cols-2" : ""}">${body}</div>
+    <div class="grid gap-3 ${["v1", "v2", "v3", "gr"].includes(section) ? "md:grid-cols-2" : ""}">${body}</div>
     <div class="mt-6 flex justify-between">
       <button data-sec-step="-1" class="px-4 py-2 rounded-lg border bg-white disabled:opacity-40" ${section === "v1" ? "disabled" : ""}>← Phần trước</button>
       <button data-sec-step="1" class="px-4 py-2 rounded-lg border bg-white disabled:opacity-40" ${section === "fc" ? "disabled" : ""}>Phần sau →</button>
@@ -141,6 +149,7 @@ export async function initLesson(root, { id, go }) {
   }));
   root.querySelectorAll("[data-say]").forEach((b) => b.addEventListener("click", () => { stopDialog = true; speak(b.dataset.say); }));
   const fc = root.querySelector("[data-go-flash]"); if (fc) fc.addEventListener("click", () => go("flash", lid));
+  root.querySelectorAll("[data-go-flash-group]").forEach((b) => b.addEventListener("click", () => go("flash", lid, Number(b.dataset.goFlashGroup))));
   const tv = root.querySelector("#toggle-vi");
   if (tv) tv.addEventListener("change", () => { showVi = tv.checked; root.querySelectorAll(".dlg-line .vi").forEach((p) => p.classList.toggle("hidden", !showVi)); });
   root.querySelectorAll("[data-play]").forEach((btn) => btn.addEventListener("click", () => {

@@ -1,4 +1,4 @@
-import { esc, speak, loadJSON } from "./util.js";
+import { esc, speak, loadJSON, confirmDialog } from "./util.js";
 import { addMock, bestMock } from "./progress.js";
 
 const MAX_PLAYS = 2; // đề thật: nghe tối đa 2 lần
@@ -131,15 +131,15 @@ function renderExam() {
   root.querySelector("#prev").addEventListener("click", () => go(cur - 1));
   root.querySelector("#next").addEventListener("click", () => go(cur + 1));
   root.querySelector("#flag").addEventListener("click", () => { flagged.has(cur) ? flagged.delete(cur) : flagged.add(cur); renderExam(); });
-  root.querySelector("#submit").addEventListener("click", () => {
+  root.querySelector("#submit").addEventListener("click", async () => {
     const left = answers.filter((a) => a === null).length;
-    if (confirm(left ? `Còn ${left} câu chưa làm. Vẫn nộp bài?` : "Nộp bài ngay?")) submit(false);
+    if (await confirmDialog(left ? `Còn ${left} câu chưa làm. Vẫn nộp bài?` : "Nộp bài ngay?", { okLabel: "Nộp bài" })) submit(false);
   });
   const play = root.querySelector("#play");
   if (play) play.addEventListener("click", () => {
     if (plays[cur] >= MAX_PLAYS) return;
     if (speak(q.audio, 0.75)) { plays[cur]++; renderExam(); }
-    else alert("Trình duyệt không hỗ trợ giọng đọc.");
+    else confirmDialog("Trình duyệt không hỗ trợ giọng đọc.", { okOnly: true });
   });
 }
 

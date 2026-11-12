@@ -26,6 +26,20 @@
 .side-btn.active { background: #dbeafe; border-color: #93c5fd; color: #1d4ed8; }
 .stat-pill { flex: 1; text-align: center; background: #f1f5f9; border-radius: .75rem; padding: .35rem .25rem; font-weight: 600; color: #475569; white-space: nowrap; }
 
+/* Từ vựng chủ đề: hình minh họa, thẻ từ, flashcard riêng */
+.pic { aspect-ratio: 4 / 3; display: grid; place-items: center; border-radius: 1rem; background: #eff6ff; font-size: 3.4rem; overflow: hidden; line-height: 1; }
+.pic > * { grid-area: 1 / 1; }
+.pic img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; background: #eff6ff; }
+.word-card { transition: box-shadow .15s; }
+.word-card:hover { box-shadow: 0 0 0 2px #60a5fa; }
+.word-card .reveal { display: none; }
+.word-card.open .reveal { display: block; }
+.tscene { perspective: 1200px; }
+.tflip { position: relative; min-height: 400px; transition: transform .5s; transform-style: preserve-3d; }
+.tflip.flipped { transform: rotateY(180deg); }
+.tface { position: absolute; inset: 0; backface-visibility: hidden; }
+.tback { transform: rotateY(180deg); }
+
 /* Biển báo: 4 nhóm theo màu chuẩn */
 .sign-prohibition { --c: #dc2626; --bg: #fef2f2; }
 .sign-warning { --c: #d97706; --bg: #fffbeb; }

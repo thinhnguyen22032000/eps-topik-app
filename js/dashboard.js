@@ -1,4 +1,4 @@
-import { esc } from "./util.js";
+import { esc, confirmDialog } from "./util.js";
 import { loadAllLessons } from "./lessons.js";
 import { loadState, isDue, getCard } from "./srs.js";
 import { streak, studiedToday, totalDays, mocks, bestMock, resetAll } from "./progress.js";
@@ -70,7 +70,7 @@ export async function initDashboard(root, { go }) {
 
   root.querySelectorAll("[data-lesson]").forEach((b) => b.addEventListener("click", () => go("lesson", b.dataset.lesson)));
   root.querySelectorAll("[data-go]").forEach((b) => b.addEventListener("click", () => go(b.dataset.go)));
-  root.querySelector("#reset").addEventListener("click", () => {
-    if (confirm("Xóa toàn bộ tiến trình học và điểm thi? Không thể hoàn tác.")) { resetAll(); location.reload(); }
+  root.querySelector("#reset").addEventListener("click", async () => {
+    if (await confirmDialog("Xóa toàn bộ tiến trình học và điểm thi? Không thể hoàn tác.", { okLabel: "Xóa" })) { resetAll(); location.reload(); }
   });
 }
